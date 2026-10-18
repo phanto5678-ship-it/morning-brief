@@ -24,6 +24,8 @@ CNBC_ECON = "https://www.cnbc.com/id/20910258/device/rss/rss.html"
 CNBC_POL = "https://www.cnbc.com/id/10000113/device/rss/rss.html"
 CHINANEWS_ECON = "https://www.chinanews.com.cn/rss/finance.xml"
 CHINANEWS_POL = "https://www.chinanews.com.cn/rss/china.xml"
+YNA_ECON = "https://www.yna.co.kr/rss/economy.xml"
+YNA_POL = "https://www.yna.co.kr/rss/politics.xml"
 
 EDITIONS = {
     "ko": {
@@ -34,8 +36,8 @@ EDITIONS = {
             ("us_politics", "CNBC Politics",       CNBC_POL,                                 "en"),
             ("cn_economy",  "中国新闻网 财经",       CHINANEWS_ECON,                           "zh"),
             ("cn_politics", "中国新闻网 时政",       CHINANEWS_POL,                            "zh"),
-            ("kr_economy",  "연합뉴스 경제",        "https://www.yna.co.kr/rss/economy.xml",  "ko"),
-            ("kr_politics", "연합뉴스 정치",        "https://www.yna.co.kr/rss/politics.xml", "ko"),
+            ("kr_economy",  "연합뉴스 경제",        YNA_ECON,                                 "ko"),
+            ("kr_politics", "연합뉴스 정치",        YNA_POL,                                  "ko"),
         ],
     },
     "zh": {
@@ -45,8 +47,8 @@ EDITIONS = {
             ("us_politics", "CNBC Politics",       CNBC_POL,                                          "en"),
             ("cn_economy",  "中国新闻网 财经",       CHINANEWS_ECON,                                    "zh"),
             ("cn_politics", "中国新闻网 时政",       CHINANEWS_POL,                                     "zh"),
-            ("kr_economy",  "韩联社 经济",          "https://cn.yna.co.kr/RSS/economy.xml",            "zh"),
-            ("kr_politics", "韩联社 政治",          "https://cn.yna.co.kr/RSS/politics.xml",           "zh"),
+            ("kr_economy",  "연합뉴스 경제",        YNA_ECON,                                          "ko"),
+            ("kr_politics", "연합뉴스 정치",        YNA_POL,                                           "ko"),
         ],
     },
 }

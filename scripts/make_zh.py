@@ -22,7 +22,7 @@ REPLACEMENTS = [
     ("--font-display:'Noto Serif KR', 'Apple SD Gothic Neo', Georgia, serif;",
      "--font-display:'Noto Serif SC', 'Songti SC', Georgia, serif;"),
     ("--font-body:'IBM Plex Sans KR', 'Apple SD Gothic Neo', system-ui, sans-serif;",
-     "--font-body:'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;"),
+     "--font-body:'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', 'Apple SD Gothic Neo', 'Malgun Gothic', system-ui, sans-serif;"),
     ('data-t="loading">뉴스를 불러오는 중…</div>', 'data-t="loading">正在加载新闻…</div>'),
     ("navigator.serviceWorker.register('sw.js')", "navigator.serviceWorker.register('../sw.js')"),
 ]
