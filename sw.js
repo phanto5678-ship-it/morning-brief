@@ -1,6 +1,6 @@
 // Keeps the page usable offline: the app shell is cached, and news and weather
 // are fetched fresh when online, falling back to the last copy when not.
-const CACHE = 'morning-brief-v2';
+const CACHE = 'morning-brief-v3';
 const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'zh/', 'zh/index.html', 'zh/manifest.webmanifest',
                'icons/icon-192.png', 'icons/apple-touch-icon.png'];
 
