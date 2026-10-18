@@ -1,10 +1,10 @@
 """Collect the latest economy and politics headlines for the US, China and Korea
 from public RSS feeds and write one JSON file per edition:
 
-  data/news.json     Korean edition  (index.html) — every article in its original language
-  data/news-zh.json  Chinese edition (zh/index.html) — English articles machine-translated to Chinese
+  data/news.json     Korean edition  (index.html)
+  data/news-zh.json  Chinese edition (zh/index.html)
 
-Translation uses free endpoints (Google first, MyMemory as backup); the original stays alongside.
+Every article is kept in its original language; nothing is translated.
 
 Standard library only, so it runs on GitHub Actions (or any Mac) without installs.
 """
@@ -12,8 +12,6 @@ import html
 import json
 import re
 import sys
-import time
-import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
@@ -30,7 +28,6 @@ CHINANEWS_POL = "https://www.chinanews.com.cn/rss/china.xml"
 EDITIONS = {
     "ko": {
         "out": ROOT / "data" / "news.json",
-        "translate": False,  # the user reads each country's news in its own language here
         "feeds": [
             # key,          source name,           RSS URL,                                  language
             ("us_economy",  "CNBC Economy",        CNBC_ECON,                                "en"),
@@ -43,7 +40,6 @@ EDITIONS = {
     },
     "zh": {
         "out": ROOT / "data" / "news-zh.json",
-        "translate": True,
         "feeds": [
             ("us_economy",  "CNBC Economy",        CNBC_ECON,                                         "en"),
             ("us_politics", "CNBC Politics",       CNBC_POL,                                          "en"),
@@ -54,9 +50,7 @@ EDITIONS = {
         ],
     },
 }
-# The free translator has a small daily allowance, so translated categories keep fewer items.
-KEEP_NATIVE, KEEP_TRANSLATED = 8, 6
-TRANSLATE_SUMMARIES = 3    # summaries translated per category (titles are always translated)
+KEEP = 8                   # items stored per category (the page shows 3, the rest behind "더 보기")
 MAX_AGE = timedelta(days=3)  # wide enough to bridge weekends, when some desks go quiet
 
 # Yonhap posts many small notices; skip those so real stories rise to the top.
@@ -73,55 +67,6 @@ def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (MorningBrief RSS reader)"})
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read()
-
-
-# ---------------------------------------------------------------- translation
-_google_blocked = False
-_mymemory_blocked = False
-GOOGLE_LANG = {"ko": "ko", "zh": "zh-CN", "en": "en"}
-MYMEMORY_LANG = {"ko": "ko-KR", "zh": "zh-CN", "en": "en-GB"}
-
-
-def translate(text, src, dst):
-    """Translate with free endpoints; None when both refuse (the page then shows the original)."""
-    global _google_blocked, _mymemory_blocked
-    if not text:
-        return None
-    if not _google_blocked:
-        try:
-            q = urllib.parse.urlencode({"client": "gtx", "sl": GOOGLE_LANG[src], "tl": GOOGLE_LANG[dst], "dt": "t", "q": text})
-            data = json.loads(fetch("https://translate.googleapis.com/translate_a/single?" + q))
-            out = "".join(part[0] for part in data[0] if part and part[0]).strip()
-            if out:
-                return out
-        except Exception:
-            _google_blocked = True  # rate-limited: stop asking for the rest of this run
-    if not _mymemory_blocked:
-        try:
-            q = urllib.parse.urlencode({"q": text[:480], "langpair": f"{MYMEMORY_LANG[src]}|{MYMEMORY_LANG[dst]}"})
-            data = json.loads(fetch("https://api.mymemory.translated.net/get?" + q))
-            out = html.unescape((data.get("responseData") or {}).get("translatedText") or "").strip()
-            if data.get("quotaFinished") or "MYMEMORY WARNING" in out.upper():
-                _mymemory_blocked = True
-            elif out:
-                return out
-        except Exception:
-            pass
-    return None
-
-
-def add_translation(items, src, dst, cache):
-    """Fill title_tr / summary_tr, reusing an earlier translation of the same article."""
-    done = 0
-    for i, x in enumerate(items):
-        old = cache.get(x["url"], {})
-        x["title_tr"] = (old.get("title_tr") if old.get("title") == x["title"] else None) or translate(x["title"], src, dst)
-        if i < TRANSLATE_SUMMARIES and x["summary"]:
-            x["summary_tr"] = (old.get("summary_tr") if old.get("summary") == x["summary"] else None) \
-                or translate(x["summary"], src, dst)
-        done += bool(x["title_tr"])
-        time.sleep(0.3)  # be gentle with the free services
-    return done
 
 
 # ---------------------------------------------------------------- feeds
@@ -184,22 +129,17 @@ def build(edition, cfg, now, raw_cache):
             previous = json.loads(out.read_text(encoding="utf-8")).get("categories", {})
         except Exception:
             previous = {}
-    tr_cache = {x["url"]: x for c in previous.values() for x in c.get("items", [])}
 
     categories, failures = {}, []
     for key, source, url, lang in cfg["feeds"]:
-        native = lang == edition or not cfg["translate"]
         try:
             # Chinese and Korean leads carry more per character, so keep them shorter.
             limit = 220 if lang == "en" else 120
             if url not in raw_cache:
-                raw_cache[url] = collect(url, now, KEEP_NATIVE, limit)
-            items = [dict(x) for x in raw_cache[url][:KEEP_NATIVE if native else KEEP_TRANSLATED]]
+                raw_cache[url] = collect(url, now, KEEP, limit)
+            items = [dict(x) for x in raw_cache[url]]
             if not items:
                 raise ValueError("no recent items")
-            if not native:
-                n = add_translation(items, lang, edition, tr_cache)
-                print(f"[{edition}] {key}: translated {n}/{len(items)} titles")
             categories[key] = {"country": key[:2], "topic": key[3:], "source": source, "lang": lang, "items": items}
         except Exception as e:  # keep the previous items rather than leaving a hole
             failures.append(f"[{edition}] {key}: {e}")
