@@ -1,0 +1,16 @@
+{
+  "name": "Morning Brief",
+  "short_name": "Brief",
+  "description": "미국·중국·한국 경제·정치 뉴스와 서울·상하이·LA 날씨",
+  "lang": "ko",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3F4F1",
+  "theme_color": "#1A1F24",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

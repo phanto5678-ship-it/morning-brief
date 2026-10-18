@@ -1,0 +1,305 @@
+{
+ "updatedAt": "2026-10-18T11:19:39.769129+00:00",
+ "categories": {
+  "us_economy": {
+   "country": "us",
+   "topic": "economy",
+   "source": "CNBC Economy",
+   "items": [
+    {
+     "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
+     "summary": "The Treasury Department published the U.S. budget deficit for the 2026 fiscal year.",
+     "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
+     "published": "2026-10-16T22:34:29+00:00"
+    },
+    {
+     "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+     "summary": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
+     "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+     "published": "2026-10-16T22:33:05+00:00"
+    },
+    {
+     "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
+     "summary": "Investors expect the Fed to pause rate hikes in October, but Kevin Warsh's rejection of traditional communications practices and continued concern about inflation leave the decision uncertain.",
+     "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
+     "published": "2026-10-16T16:27:31+00:00"
+    },
+    {
+     "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
+     "summary": "September producer prices were expected to increase 0.6% month over month and 5.5% annually, according to the consensus estimate by Dow Jones.",
+     "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
+     "published": "2026-10-15T16:15:44+00:00"
+    },
+    {
+     "title": "Economists: Hot PPI shows Fed's work is not done",
+     "summary": "'We see real risks the Fed will deliver another rate hike in two weeks' time,' one Fedwatcher warns",
+     "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
+     "published": "2026-10-15T15:37:59+00:00"
+    },
+    {
+     "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
+     "summary": "The exchange comes as U.S. debt exceeds $40 trillion and 10-year Treasury yields remain above 5%, intensifying scrutiny of the fiscal outlook.",
+     "url": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
+     "published": "2026-10-15T13:42:32+00:00"
+    }
+   ]
+  },
+  "us_politics": {
+   "country": "us",
+   "topic": "politics",
+   "source": "CNBC Politics",
+   "items": [
+    {
+     "title": "Trump's Russia diesel deal may offer Putin more than money — and spell trouble for Ukraine",
+     "summary": "Trump's diesel deal may do little for Russia's finances, but it raises bigger questions about Ukraine's leverage, U.S. support and Putin's next moves.",
+     "url": "https://www.cnbc.com/2026/10/17/trump-diesel-russia-ukraine-war.html",
+     "published": "2026-10-18T07:22:07+00:00"
+    },
+    {
+     "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
+     "summary": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
+     "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+     "published": "2026-10-17T19:35:18+00:00"
+    },
+    {
+     "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
+     "summary": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
+     "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
+     "published": "2026-10-16T21:49:13+00:00"
+    },
+    {
+     "title": "Katie Zacharia out as Trump's White House press secretary",
+     "summary": "Zacharia was on shaky ground from her first White House press conference and over questions about her claims of being a lawyer despite not passing a bar exam.",
+     "url": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+     "published": "2026-10-16T21:26:15+00:00"
+    },
+    {
+     "title": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
+     "summary": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
+     "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
+     "published": "2026-10-16T17:55:05+00:00"
+    },
+    {
+     "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
+     "summary": "The U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.",
+     "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
+     "published": "2026-10-16T16:46:18+00:00"
+    },
+    {
+     "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
+     "summary": "AI \"amplifies\" existing cybersecurity risks toward U.S. digital infrastructure, Clayton said on \"Squawk Box.\"",
+     "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
+     "published": "2026-10-16T16:27:44+00:00"
+    },
+    {
+     "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million",
+     "summary": "Elon Musk gave a record $158 million to the GOP’s Senate Leadership Fund, boosting its war chest as Republicans pour money into Texas to defend Ken Paxton.",
+     "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
+     "published": "2026-10-16T12:17:29+00:00"
+    }
+   ]
+  },
+  "cn_economy": {
+   "country": "cn",
+   "topic": "economy",
+   "source": "SCMP China Economy",
+   "items": [
+    {
+     "title": "Risky business? Chinese firm agrees to build rail tunnels in Qatar amid Iran war",
+     "summary": "A Chinese construction company has reached an agreement to work on tunnel projects in the tiny Middle Eastern nation of Qatar, as China’s global infrastructure push continues to gain momentum after recent railway deals…",
+     "url": "https://www.scmp.com/economy/china-economy/article/3371195/risky-business-chinese-firm-agrees-build-rail-tunnels-qatar-amid-iran-war?utm_source=rss_feed",
+     "published": "2026-10-18T09:00:11+00:00"
+    },
+    {
+     "title": "Germany, France to tighten ‘Made in Europe’ stance, pressuring China’s auto industry",
+     "summary": "France and Germany have unveiled a joint position on Europe’s automotive package, with a tighter geographic definition of “Made in Europe” and a research and development requirement for cars to qualify for subsidies or…",
+     "url": "https://www.scmp.com/economy/global-economy/article/3371261/germany-france-tighten-made-europe-stance-pressuring-chinas-auto-industry?utm_source=rss_feed",
+     "published": "2026-10-18T07:00:07+00:00"
+    },
+    {
+     "title": "‘China haul’: why foreign tourists are shopping up a storm after Beijing policy changes",
+     "summary": "When Grace Andrews, a US content creator, packed for her trip to China, she brought along a completely empty suitcase, dedicated solely to her shopping list. By the time she headed home, that extra luggage was bursting…",
+     "url": "https://www.scmp.com/economy/china-economy/article/3371258/china-haul-why-foreign-tourists-are-shopping-storm-after-beijing-policy-changes?utm_source=rss_feed",
+     "published": "2026-10-18T05:00:09+00:00"
+    },
+    {
+     "title": "AI glasses as travel guides? Cheaper in China, but technical hitches slow adoption",
+     "summary": "Artificial intelligence-powered glasses can act as tour guides, snap photos hands-free and translate foreign languages. The devices also sell at relatively affordable prices in China. But are they the perfect travel…",
+     "url": "https://www.scmp.com/economy/china-economy/article/3370754/ai-glasses-travel-guides-cheaper-china-technical-hitches-slow-adoption?utm_source=rss_feed",
+     "published": "2026-10-17T13:00:06+00:00"
+    },
+    {
+     "title": "China cuts US Treasury holdings to 18-year low in August as American debt fears mount",
+     "summary": "China has further reduced its holdings of US Treasuries to an 18-year low in August, as it continued to diversify its foreign exchange reserves amid rising geopolitical tensions and concerns over Washington’s fiscal…",
+     "url": "https://www.scmp.com/economy/china-economy/article/3371237/china-cuts-us-treasury-holdings-18-year-low-august-american-debt-fears-mount?utm_source=rss_feed",
+     "published": "2026-10-17T06:00:17+00:00"
+    },
+    {
+     "title": "Hong Kong’s skiers flock to mainland as indoor slopes mushroom nationwide",
+     "summary": "A rising number of travellers from Hong Kong and Macau are flocking to indoor ski centres in Guangdong province, as new venues mushroom across the mainland amid a winter sports boom. Chinese indoor ski resort operator…",
+     "url": "https://www.scmp.com/business/china-business/article/3371073/hong-kongs-skiers-flock-mainland-indoor-slopes-mushroom-nationwide?utm_source=rss_feed",
+     "published": "2026-10-17T06:00:14+00:00"
+    },
+    {
+     "title": "Anti-China protectionism backfiring on American carmakers’ EV plans: analyst",
+     "summary": "While Washington’s efforts to block Chinese electric vehicles (EVs) were originally intended to protect its domestic automotive industry, they have sparked concerns the strategy is hurting America’s carmaking…",
+     "url": "https://www.scmp.com/economy/global-economy/article/3371167/anti-china-protectionism-backfiring-american-carmakers-ev-plans-analyst?utm_source=rss_feed",
+     "published": "2026-10-16T13:00:07+00:00"
+    },
+    {
+     "title": "As tariff threats ease, US in fashion again among Chinese exporters",
+     "summary": "With the US set to lower tariffs on US$30 billion worth of shipments from China, Chinese exporters said this week they expected a new wave of orders from American buyers and planned to reactivate idle factory capacity…",
+     "url": "https://www.scmp.com/economy/china-economy/article/3371178/tariff-threats-ease-us-fashion-again-among-chinese-exporters?utm_source=rss_feed",
+     "published": "2026-10-16T12:00:11+00:00"
+    }
+   ]
+  },
+  "cn_politics": {
+   "country": "cn",
+   "topic": "politics",
+   "source": "SCMP China Politics",
+   "items": [
+    {
+     "title": "China’s youth draw upon Long March spirit to navigate modern uncertainties",
+     "summary": "As China marks the 90th anniversary of the Red Army’s victory in the Long March, some young Chinese are looking to the historic journey for guidance as they face uncertainty in their lives and future. For Lyu Leiyiyi, a…",
+     "url": "https://www.scmp.com/news/china/politics/article/3371269/chinas-youth-draw-upon-long-march-spirit-navigate-modern-uncertainties?utm_source=rss_feed",
+     "published": "2026-10-18T04:00:19+00:00"
+    },
+    {
+     "title": "Corrupt officials have nowhere to hide, China’s anti-graft watchdog warns",
+     "summary": "There is “no way out” for corrupt officials no matter how senior they are, China’s top anti-corruption watchdog has warned following the downfall of a former big-city mayor who survived numerous previous scandals. This…",
+     "url": "https://www.scmp.com/news/china/politics/article/3371257/corrupt-officials-have-nowhere-hide-chinas-anti-graft-watchdog-warns?utm_source=rss_feed",
+     "published": "2026-10-17T11:00:06+00:00"
+    },
+    {
+     "title": "Is China’s Shenzhen ready to host Xi, Trump and Putin during Apec summit?",
+     "summary": "In Shenzhen, drones are banned, shiny new hotels have opened their doors and taxi drivers are carrying devices that can translate nearly 150 languages. Since President Xi Jinping announced last year that China’s…",
+     "url": "https://www.scmp.com/news/china/politics/article/3371206/chinas-shenzhen-ready-host-xi-trump-and-putin-during-apec-summit?utm_source=rss_feed",
+     "published": "2026-10-17T10:00:12+00:00"
+    },
+    {
+     "title": "Chinese kindergarten owner given life sentence over lead paint poisoning scandal",
+     "summary": "The owner of a Chinese kindergarten has been jailed for life after more than 200 children were poisoned by lead in the country’s worst food safety scandal for almost two decades. A total of six people were jailed by the…",
+     "url": "https://www.scmp.com/news/china/politics/article/3371229/chinese-kindergarten-owner-given-life-sentence-over-lead-paint-poisoning-scandal?utm_source=rss_feed",
+     "published": "2026-10-17T04:10:18+00:00"
+    },
+    {
+     "title": "Xi’s pledge to ‘uproot sick trees’ aired weeks ahead of Communist Party conclave",
+     "summary": "President Xi Jinping has pledged to “uproot sick trees” in the anti-corruption fight, according to a transcript of a speech published by the Communist Party’s flagship magazine ahead of a major party conclave later this…",
+     "url": "https://www.scmp.com/news/china/politics/article/3371094/xi-pledge-uproot-sick-trees-aired-weeks-ahead-major-party-conclave?utm_source=rss_feed",
+     "published": "2026-10-16T04:05:18+00:00"
+    }
+   ]
+  },
+  "kr_economy": {
+   "country": "kr",
+   "topic": "economy",
+   "source": "연합뉴스 경제",
+   "items": [
+    {
+     "title": "클릭해 예약한 컬러렌즈…안전과 편의 사이 멈춰 선 혁신(종합)",
+     "summary": "스마트폰 화면에서 원하는 도수와 색상의 컬러렌즈를 골라 인근 안경원으로 방문 일정을 잡는다. 매장에 들러 안경...",
+     "url": "https://www.yna.co.kr/view/AKR20261016090451530",
+     "published": "2026-10-17T06:06:35+00:00"
+    },
+    {
+     "title": "국고채 금리 일제히 하락…코스피 반등에도 외인 매수 영향(종합)",
+     "summary": "16일 국고채 금리는 일제히 하락했다.",
+     "url": "https://www.yna.co.kr/view/AKR20261016141851008",
+     "published": "2026-10-16T08:00:18+00:00"
+    },
+    {
+     "title": "삼성바이오 노조 2차 파업 앞두고 21일 단체행동(종합)",
+     "summary": "삼성바이오로직스[207940] 노동조합이 2차 전면 파업을 앞두고 오는 21일 단체행동에 나선다.",
+     "url": "https://www.yna.co.kr/view/AKR20261016114451017",
+     "published": "2026-10-16T07:50:53+00:00"
+    },
+    {
+     "title": "강호동 농협회장 \"외부 감사기구, 독립성 우려\"…사퇴는 선그어(종합)",
+     "summary": "강호동 농협중앙회장은 16일 정부가 농협 외부 감사기구 신설을 추진하는 것과 관련해 \"농협의 자율성과 독립성에...",
+     "url": "https://www.yna.co.kr/view/AKR20261016087151030",
+     "published": "2026-10-16T07:48:56+00:00"
+    },
+    {
+     "title": "삼전 2.6%·하닉 0.8% 상승…8~9거래일만에 반등(종합)",
+     "summary": "삼성전자[005930]와 SK하이닉스[000660]가 16일 연일 이어지던 급락세에서 벗어나 반등에 성공한 채...",
+     "url": "https://www.yna.co.kr/view/AKR20261016036351008",
+     "published": "2026-10-16T07:11:01+00:00"
+    },
+    {
+     "title": "코스피, 급락후 반발매수에 2.1%↑…8거래일만에 반등(종합)",
+     "summary": "최근 폭락장세를 보였던 코스피가 16일 8거래일 만에 반등했다.",
+     "url": "https://www.yna.co.kr/view/AKR20261016121951008",
+     "published": "2026-10-16T07:06:43+00:00"
+    },
+    {
+     "title": "토스증권, 윤리·준법경영 선포식…김규빈 대표가 TF장",
+     "summary": "토스증권은 김규빈 대표이사가 직접 이끄는 '내부통제 점검 태스크포스(TF)'를 운영한다고 18일 밝혔다.",
+     "url": "https://www.yna.co.kr/view/AKR20261018052200008",
+     "published": "2026-10-18T10:20:58+00:00"
+    },
+    {
+     "title": "정부 \"주택 공급·시장동향 지표 개선…중장기 안정화 전망\"",
+     "summary": "정부가 최근 강남2구(서초·강남) 아파트값 하락세 지속과 주택 공급 선행지표 개선 등을 주택시장 안정화의 긍정...",
+     "url": "https://www.yna.co.kr/view/AKR20261018042600003",
+     "published": "2026-10-18T08:05:49+00:00"
+    }
+   ]
+  },
+  "kr_politics": {
+   "country": "kr",
+   "topic": "politics",
+   "source": "연합뉴스 정치",
+   "items": [
+    {
+     "title": "秋 실언 이은 소방대원 순직…與, 성난 여론에 '자숙 또 자숙'(종합)",
+     "summary": "추미애 경기도지사의 '소방 재정 빨대' 발언에 이은 소방대원의 순직으로 더불어민주당 내에선 전체...",
+     "url": "https://www.yna.co.kr/view/AKR20261018021151001",
+     "published": "2026-10-18T07:58:56+00:00"
+    },
+    {
+     "title": "집토끼 결집 노린 與…'조작 특검'에 '曺탄핵 논의' 동시 시동(종합)",
+     "summary": "더불어민주당이 이른바 '윤석열 정부 검찰 조작기소 특검'을 신속히 추진하겠다는 방침을 밝힌 데 이어 조...",
+     "url": "https://www.yna.co.kr/view/AKR20261017043651001",
+     "published": "2026-10-18T07:57:52+00:00"
+    },
+    {
+     "title": "김민석, 지역축제 중 무대인사에 공연 중단…\"불편 끼쳐 죄송\"(종합)",
+     "summary": "더불어민주당 김민석 당 대표가 18일 지역 축제 행사장에서 가수의 공연 도중 무대에 올라 인사말을 한 ...",
+     "url": "https://www.yna.co.kr/view/AKR20261018036251001",
+     "published": "2026-10-18T07:01:35+00:00"
+    },
+    {
+     "title": "野, 추미애 '사과 바라니 사과한다' 발언에 \"사퇴 바란다\" 맹공(종합)",
+     "summary": "야권은 18일 추미애 경기도지사가 전날 부천 공장 화재로 순직한 고(故) 김진석 소방위 빈소 조문 후 '사과를...",
+     "url": "https://www.yna.co.kr/view/AKR20261018021851001",
+     "published": "2026-10-18T05:35:52+00:00"
+    },
+    {
+     "title": "조희대 대법원장 탄핵하겠다는 與…헌재 절차·판단 기준은(종합)",
+     "summary": "더불어민주당이 조희대 대법원장에 대한 탄핵 추진 논의를 공식화하면서 헌법재판소가 공직자의 파면 여부를 ...",
+     "url": "https://www.yna.co.kr/view/AKR20261017045951004",
+     "published": "2026-10-18T05:03:29+00:00"
+    },
+    {
+     "title": "李대통령 \"희생 영원히 기억할 것\"…부천 화재 순직 소방관 조문(종합)",
+     "summary": "이재명 대통령은 17일 부천 공장화재로 순직한 고(故) 김진석 소방위의 빈소를 찾아 조문하고 고인을 추모했다....",
+     "url": "https://www.yna.co.kr/view/AKR20261017045451001",
+     "published": "2026-10-17T11:15:33+00:00"
+    },
+    {
+     "title": "여야, 부천 화재 소방관 순직 애도…'소방 처우 개선'도 약속(종합)",
+     "summary": "여야는 17일 경기도 부천 공장 화재 진압 중 순직한 김진석 소방위를 애도하면서 정부가 소방관의 안전과...",
+     "url": "https://www.yna.co.kr/view/AKR20261017024851001",
+     "published": "2026-10-17T10:08:18+00:00"
+    },
+    {
+     "title": "與김병주 \"주한미군 사령관, 대한민국 영토주권 침해 사과해야\"(종합)",
+     "summary": "대통령 국방정책특보인 더불어민주당 김병주 의원은 17일 '대한민국은 남쪽 철책선에서 시작한다'는 브런슨 주한미...",
+     "url": "https://www.yna.co.kr/view/AKR20261017038951001",
+     "published": "2026-10-17T10:05:01+00:00"
+    }
+   ]
+  }
+ }
+}

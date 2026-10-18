@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Morning Brief</title>
+<meta name="description" content="미국·중국·한국 경제·정치 뉴스와 서울·상하이·LA 날씨">
+<meta name="theme-color" content="#F3F4F1" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121619" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Brief">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@600;800&display=swap">
+<style>
+/* Layout: three-city clock + weather strip on top, then one band per country with economy and politics side by side. */
+:root{
+  --bg:#F3F4F1; --paper:#FFFFFF; --ink:#1A1F24; --muted:#5A646E; --faint:#E4E7E2;
+  --accent:#1E5B8C; --econ:#2F6B4F; --econ-soft:#E2EFE7; --pol:#8A3B2E; --pol-soft:#F4E3DF; --sun:#C98A1B;
+  --font-display:'Noto Serif KR', 'Apple SD Gothic Neo', Georgia, serif;
+  --font-body:'IBM Plex Sans KR', 'Apple SD Gothic Neo', system-ui, sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:#121619; --paper:#1A2025; --ink:#E7EBEE; --muted:#9AA6B0; --faint:#2A3238;
+    --accent:#7FB3E0; --econ:#7CC29E; --econ-soft:#1C2E25; --pol:#E79A8B; --pol-soft:#33211D; --sun:#E8B451;
+    color-scheme:dark;
+  }
+}
+*{box-sizing:border-box;}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:var(--font-body); font-size:15px; line-height:1.6; font-variant-numeric:tabular-nums; -webkit-font-smoothing:antialiased;}
+.wrap{max-width:1120px; margin:0 auto; padding-block:28px 64px; padding-left:max(16px, env(safe-area-inset-left, 0px)); padding-right:max(16px, env(safe-area-inset-right, 0px)); display:flex; flex-direction:column; gap:28px;}
+h1,h2,h3{margin:0; text-wrap:balance;}
+a{color:inherit;}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+
+header.top{display:flex; justify-content:space-between; align-items:flex-end; gap:16px; flex-wrap:wrap;}
+.masthead h1{font-family:var(--font-display); font-weight:800; font-size:clamp(28px, 5vw, 40px); letter-spacing:-0.02em; line-height:1.1;}
+.masthead .date{color:var(--muted); margin-top:6px;}
+.updated{font-size:13px; color:var(--muted); text-align:right;}
+
+.cities{display:grid; grid-template-columns:repeat(3, minmax(0,1fr)); gap:12px;}
+.city{background:var(--paper); border-radius:14px; padding:18px 20px; display:grid; grid-template-columns:1fr auto; gap:4px 12px; align-items:start; min-width:0;}
+.city .name{font-weight:700; font-size:16px;}
+.city .clock{font-size:13px; color:var(--muted);}
+.city .icon{grid-row:1 / span 2; grid-column:2; width:44px; height:44px; color:var(--sun);}
+.city .temp{grid-column:1 / -1; font-family:var(--font-display); font-weight:800; font-size:40px; line-height:1.05; margin-top:8px; letter-spacing:-0.02em;}
+.city .temp small{font-family:var(--font-body); font-size:14px; font-weight:500; color:var(--muted); letter-spacing:0; margin-left:6px;}
+.city .cond{grid-column:1 / -1; font-size:14px;}
+.city .meta{grid-column:1 / -1; color:var(--muted); font-size:13px; display:flex; gap:12px; flex-wrap:wrap;}
+.city .hi::before{content:'최고 ';}
+.city .lo::before{content:' · 최저 ';}
+
+.region{background:var(--paper); border-radius:16px; padding:22px 24px 24px; display:flex; flex-direction:column; gap:16px;}
+.region-head{display:flex; align-items:baseline; gap:12px;}
+.region-head h2{font-family:var(--font-display); font-weight:800; font-size:24px; letter-spacing:-0.01em;}
+.region-head .flag{font-size:13px; color:var(--muted); font-weight:600; letter-spacing:0.06em;}
+.cols{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:20px 28px;}
+.col{min-width:0;}
+.col-head{display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:6px;}
+.col h3{font-size:13px; font-weight:700; padding:3px 10px; border-radius:6px;}
+.col .src{font-size:12px; color:var(--muted);}
+.col.econ h3{color:var(--econ); background:var(--econ-soft);}
+.col.pol h3{color:var(--pol); background:var(--pol-soft);}
+.col ol{list-style:none; margin:0; padding:0;}
+.col li{padding:12px 0; border-top:1px solid var(--faint);}
+.col li:first-child{border-top:0;}
+.col li.extra{display:none;}
+.col.open li.extra{display:block;}
+.item-title{font-weight:700; font-size:15.5px; line-height:1.45; text-decoration:none; display:block;}
+.item-title:hover{color:var(--accent);}
+.item-sum{opacity:0.86; margin-top:4px; font-size:14.5px;}
+.item-meta{margin-top:6px; font-size:12.5px; color:var(--muted); display:flex; align-items:center; gap:12px; flex-wrap:wrap;}
+.item-meta a{color:var(--accent); text-decoration:none;}
+.item-meta a:hover{text-decoration:underline;}
+.more{font:inherit; font-size:13px; margin-top:4px; padding:6px 0; border:0; background:none; color:var(--accent); cursor:pointer;}
+.stale{font-size:12px; color:var(--pol); margin-top:4px;}
+.empty{background:var(--paper); border-radius:16px; padding:32px 24px; text-align:center; color:var(--muted); line-height:1.8;}
+footer{color:var(--muted); font-size:13px; line-height:1.7;}
+html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text-size-adjust:100%;}
+.jump{position:sticky; top:env(safe-area-inset-top, 0px); z-index:5; display:flex; gap:6px; padding:8px 0; margin-block:-14px; background:var(--bg);}
+.jump a{flex:0 0 auto; text-decoration:none; font-weight:700; font-size:14px; padding:8px 18px; border-radius:999px; background:var(--paper); color:var(--ink); border:1px solid var(--faint);}
+.jump a:active{transform:scale(0.97);}
+.offline{font-size:12.5px; color:var(--pol);}
+.wrap{padding-top:max(28px, calc(env(safe-area-inset-top, 0px) + 12px));}
+
+@media (max-width: 820px){
+  .wrap{gap:20px; padding-bottom:calc(40px + env(safe-area-inset-bottom, 0px));}
+  .masthead h1{font-size:28px;}
+  .masthead .date{font-size:14px; margin-top:2px;}
+  header.top{gap:4px;}
+  .updated{text-align:left; font-size:12px;}
+  /* three cities side by side as compact tiles */
+  .cities{gap:8px;}
+  .city{padding:12px 10px 12px; grid-template-columns:1fr; gap:2px; justify-items:start; border-radius:12px;}
+  .city .name{font-size:14px;}
+  .city .clock{font-size:11px; order:5;}
+  .city .icon{grid-row:auto; grid-column:auto; width:28px; height:28px; margin-top:6px;}
+  .city .temp{font-size:28px; margin-top:2px;}
+  .city .temp small{display:block; margin:2px 0 0; font-size:12px; white-space:nowrap;}
+  .city .hi::before{content:'↑';}
+  .city .lo::before{content:'  ↓'; white-space:pre;}
+  .city .cond{font-size:12.5px;}
+  .city .meta{font-size:11px; gap:0 8px;}
+  .city .meta span:nth-child(2){display:none;}
+  .jump{margin-block:-8px;}
+  .jump a{flex:1; text-align:center; padding:9px 0;}
+  .cols{grid-template-columns:1fr;}
+  .region{padding:18px 16px; border-radius:14px;}
+  .region-head h2{font-size:21px;}
+  .item-title{font-size:16px;}
+  .item-sum{font-size:14.5px;}
+  .item-meta{font-size:13px;}
+  .item-meta a, .more{padding:6px 0; min-height:36px; display:inline-flex; align-items:center;}
+  .more{font-size:14px;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <div class="masthead">
+      <h1>Morning Brief</h1>
+      <div class="date" id="today"></div>
+    </div>
+    <div class="updated" id="updated">뉴스를 불러오는 중…</div>
+  </header>
+
+  <section class="cities" id="cities" aria-label="도시별 날씨"></section>
+  <nav class="jump" aria-label="나라 바로가기">
+    <a href="#us">미국</a><a href="#cn">중국</a><a href="#kr">한국</a>
+  </nav>
+  <main id="regions" style="display:flex; flex-direction:column; gap:16px;"></main>
+
+  <footer>
+    날씨는 페이지를 열 때마다 <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>에서 실시간으로 가져옵니다.
+    뉴스는 매일 아침 CNBC·SCMP·연합뉴스의 공개 RSS에서 분야별 최신 기사를 모읍니다(요약은 각 언론사가 제공한 기사 첫머리입니다).
+    영어 기사는 '한국어로 보기'를 누르면 번역된 원문이 열립니다.
+  </footer>
+</div>
+
+<script>
+(function(){
+  const CITIES = [
+    {key:'seoul', name:'서울', tz:'Asia/Seoul', lat:37.5665, lon:126.978},
+    {key:'shanghai', name:'상하이', tz:'Asia/Shanghai', lat:31.2304, lon:121.4737},
+    {key:'la', name:'LA', tz:'America/Los_Angeles', lat:34.0522, lon:-118.2437},
+  ];
+  const REGIONS = [
+    {id:'us', name:'미국', code:'USA'},
+    {id:'cn', name:'중국', code:'CHN'},
+    {id:'kr', name:'한국', code:'KOR'},
+  ];
+  const SHOW = 3;
+
+  const WMO = {0:'맑음',1:'대체로 맑음',2:'구름 조금',3:'흐림',45:'안개',48:'짙은 안개',51:'약한 이슬비',53:'이슬비',55:'강한 이슬비',56:'어는 이슬비',57:'어는 이슬비',61:'약한 비',63:'비',65:'강한 비',66:'어는 비',67:'어는 비',71:'약한 눈',73:'눈',75:'많은 눈',77:'싸락눈',80:'약한 소나기',81:'소나기',82:'강한 소나기',85:'눈 소나기',86:'강한 눈 소나기',95:'뇌우',96:'우박 동반 뇌우',99:'강한 우박 뇌우'};
+  const ICONS = {
+    sun:'<circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+    cloud:'<path d="M17.5 19H8a5 5 0 1 1 1.2-9.86A6 6 0 0 1 20.9 12 3.5 3.5 0 0 1 17.5 19z"/>',
+    partly:'<path d="M12 2v2M4.9 4.9l1.4 1.4M2 12h2M17.7 6.3l1.4-1.4"/><path d="M8.5 9.2A4 4 0 0 1 15.4 7"/><path d="M18 20H9.5a4 4 0 1 1 .9-7.9 5 5 0 0 1 9.4 2.4A2.8 2.8 0 0 1 18 20z"/>',
+    rain:'<path d="M17.5 15H8a5 5 0 1 1 1.2-9.86A6 6 0 0 1 20.9 8 3.5 3.5 0 0 1 17.5 15z"/><path d="M8 18l-1 3M12 18l-1 3M16 18l-1 3"/>',
+    snow:'<path d="M17.5 15H8a5 5 0 1 1 1.2-9.86A6 6 0 0 1 20.9 8 3.5 3.5 0 0 1 17.5 15z"/><path d="M8 19h.01M12 19h.01M16 19h.01M10 22h.01M14 22h.01"/>',
+    storm:'<path d="M17.5 15H8a5 5 0 1 1 1.2-9.86A6 6 0 0 1 20.9 8 3.5 3.5 0 0 1 17.5 15z"/><path d="m13 15-3 4h4l-3 4"/>',
+    fog:'<path d="M4 9h16M3 13h18M5 17h14"/>',
+  };
+  function iconFor(c){
+    c = Number(c);
+    if(c<=1) return 'sun'; if(c===2) return 'partly'; if(c===3) return 'cloud';
+    if(c===45||c===48) return 'fog';
+    if((c>=51&&c<=67)||(c>=80&&c<=82)) return 'rain';
+    if((c>=71&&c<=77)||c===85||c===86) return 'snow';
+    if(c>=95) return 'storm';
+    return 'cloud';
+  }
+  const svg = n => `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[n]||ICONS.cloud}</svg>`;
+  const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const safeUrl = u => { try{ const x=new URL(u); return /^https?:$/.test(x.protocol) ? x.href : ''; }catch(e){ return ''; } };
+  const clock = tz => new Date().toLocaleString('ko-KR',{timeZone:tz, month:'numeric', day:'numeric', weekday:'short', hour:'2-digit', minute:'2-digit', hour12:false});
+  function ago(iso){
+    if(!iso) return '';
+    const m = Math.round((Date.now()-new Date(iso).getTime())/60000);
+    if(m < 60) return `${Math.max(m,1)}분 전`;
+    const h = Math.round(m/60);
+    return h < 48 ? `${h}시간 전` : `${Math.round(h/24)}일 전`;
+  }
+
+  document.getElementById('today').textContent =
+    new Date().toLocaleDateString('ko-KR',{year:'numeric', month:'long', day:'numeric', weekday:'long', timeZone:'Asia/Seoul'});
+
+  /* ---------- weather: live from Open-Meteo on every visit ---------- */
+  const weather = {};
+  function renderCities(){
+    document.getElementById('cities').innerHTML = CITIES.map(c=>{
+      const w = weather[c.key];
+      const ok = w && !w.error;
+      return `<article class="city">
+        <div class="name">${esc(c.name)}</div>
+        <div class="clock" data-tz="${c.tz}">${esc(clock(c.tz))}</div>
+        ${svg(ok ? iconFor(w.code) : 'cloud')}
+        <div class="temp">${ok ? `${Math.round(w.now)}°<small><span class="hi">${Math.round(w.high)}°</span><span class="lo">${Math.round(w.low)}°</span></small>` : '—'}</div>
+        <div class="cond">${ok ? esc(WMO[w.code] || '') : (w && w.error ? '날씨를 불러오지 못했습니다' : '불러오는 중…')}</div>
+        ${ok ? `<div class="meta"><span>강수확률 ${esc(w.precip ?? '-')}%</span><span>체감 ${Math.round(w.feels)}°</span></div>` : ''}
+      </article>`;
+    }).join('');
+  }
+  renderCities();
+  CITIES.forEach(async c=>{
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${c.lat}&longitude=${c.lon}`
+      + `&current=temperature_2m,apparent_temperature,weather_code`
+      + `&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max`
+      + `&timezone=${encodeURIComponent(c.tz)}&forecast_days=1`;
+    try{
+      const d = await (await fetch(url)).json();
+      weather[c.key] = {
+        now:d.current.temperature_2m, feels:d.current.apparent_temperature, code:d.current.weather_code,
+        high:d.daily.temperature_2m_max[0], low:d.daily.temperature_2m_min[0], precip:d.daily.precipitation_probability_max[0],
+      };
+    }catch(e){ weather[c.key] = {error:true}; }
+    renderCities();
+  });
+  setInterval(()=>document.querySelectorAll('.clock[data-tz]').forEach(el=>{ el.textContent = clock(el.dataset.tz); }), 30000);
+
+  if('serviceWorker' in navigator && location.protocol.startsWith('http')){
+    navigator.serviceWorker.register('sw.js').catch(()=>{});
+  }
+  if(!navigator.onLine){
+    document.getElementById('updated').insertAdjacentHTML('afterend','<div class="offline">인터넷 연결이 없어 마지막으로 받은 뉴스를 보여줍니다.</div>');
+  }
+
+  /* ---------- news: data/news.json, refreshed each morning by GitHub Actions ---------- */
+  function renderCol(cat, topic){
+    const label = topic==='economy' ? '경제' : '정치';
+    const cls = topic==='economy' ? 'econ' : 'pol';
+    if(!cat || !cat.items || !cat.items.length){
+      return `<div class="col ${cls}"><div class="col-head"><h3>${label}</h3></div><p class="item-sum">새 기사가 없습니다.</p></div>`;
+    }
+    const english = !/연합/.test(cat.source);
+    const items = cat.items.map((n,i)=>{
+      const url = safeUrl(n.url);
+      const tr = english && url ? `https://translate.google.com/translate?sl=auto&tl=ko&u=${encodeURIComponent(url)}` : '';
+      return `<li class="${i>=SHOW?'extra':''}">
+        <a class="item-title" href="${esc(url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
+        ${n.summary ? `<div class="item-sum">${esc(n.summary)}</div>` : ''}
+        <div class="item-meta"><span>${esc(ago(n.published))}</span>${tr ? `<a href="${esc(tr)}" target="_blank" rel="noopener">한국어로 보기 ↗</a>` : ''}</div>
+      </li>`;
+    }).join('');
+    const extra = cat.items.length - SHOW;
+    return `<div class="col ${cls}">
+      <div class="col-head"><h3>${label}</h3><span class="src">${esc(cat.source)}</span></div>
+      ${cat.stale ? '<div class="stale">오늘은 새 기사를 받지 못해 이전 기사를 보여줍니다.</div>' : ''}
+      <ol>${items}</ol>
+      ${extra>0 ? `<button class="more" type="button" aria-expanded="false">${extra}개 더 보기</button>` : ''}
+    </div>`;
+  }
+
+  fetch('data/news.json', {cache:'no-cache'})
+    .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+    .then(data=>{
+      const t = new Date(data.updatedAt);
+      document.getElementById('updated').textContent = '뉴스 업데이트 ' +
+        t.toLocaleString('ko-KR',{month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit', timeZone:'Asia/Seoul'}) + ' (한국 시간)';
+      const C = data.categories || {};
+      document.getElementById('regions').innerHTML = REGIONS.map(r=>`
+        <section class="region" id="${r.id}" aria-label="${esc(r.name)}">
+          <div class="region-head"><h2>${esc(r.name)}</h2><span class="flag">${esc(r.code)}</span></div>
+          <div class="cols">${renderCol(C[r.id+'_economy'],'economy')}${renderCol(C[r.id+'_politics'],'politics')}</div>
+        </section>`).join('');
+      document.querySelectorAll('.more').forEach(btn=>{
+        btn.onclick = ()=>{
+          const col = btn.closest('.col'); const open = col.classList.toggle('open');
+          btn.setAttribute('aria-expanded', open);
+          btn.textContent = open ? '접기' : `${col.querySelectorAll('li.extra').length}개 더 보기`;
+        };
+      });
+    })
+    .catch(()=>{
+      document.getElementById('updated').textContent = '';
+      document.getElementById('regions').innerHTML = '<div class="empty">뉴스 파일(data/news.json)을 불러오지 못했습니다.<br>잠시 후 새로고침하세요.</div>';
+    });
+})();
+</script>
+</body>
+</html>
