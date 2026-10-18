@@ -1,11 +1,10 @@
 """Collect the latest economy and politics headlines for the US, China and Korea
 from public RSS feeds and write one JSON file per edition:
 
-  data/news.json     Korean edition  (index.html)
-  data/news-zh.json  Chinese edition (zh/index.html)
+  data/news.json     Korean edition  (index.html) — every article in its original language
+  data/news-zh.json  Chinese edition (zh/index.html) — English articles machine-translated to Chinese
 
-Articles that are not in the edition's language get a machine translation from
-free endpoints (Google first, MyMemory as backup). The original stays alongside.
+Translation uses free endpoints (Google first, MyMemory as backup); the original stays alongside.
 
 Standard library only, so it runs on GitHub Actions (or any Mac) without installs.
 """
@@ -25,27 +24,31 @@ ROOT = Path(__file__).resolve().parent.parent
 
 CNBC_ECON = "https://www.cnbc.com/id/20910258/device/rss/rss.html"
 CNBC_POL = "https://www.cnbc.com/id/10000113/device/rss/rss.html"
+CHINANEWS_ECON = "https://www.chinanews.com.cn/rss/finance.xml"
+CHINANEWS_POL = "https://www.chinanews.com.cn/rss/china.xml"
 
 EDITIONS = {
     "ko": {
         "out": ROOT / "data" / "news.json",
+        "translate": False,  # the user reads each country's news in its own language here
         "feeds": [
             # key,          source name,           RSS URL,                                  language
             ("us_economy",  "CNBC Economy",        CNBC_ECON,                                "en"),
             ("us_politics", "CNBC Politics",       CNBC_POL,                                 "en"),
-            ("cn_economy",  "SCMP China Economy",  "https://www.scmp.com/rss/318421/feed",   "en"),
-            ("cn_politics", "SCMP China Politics", "https://www.scmp.com/rss/318198/feed",   "en"),
+            ("cn_economy",  "中国新闻网 财经",       CHINANEWS_ECON,                           "zh"),
+            ("cn_politics", "中国新闻网 时政",       CHINANEWS_POL,                            "zh"),
             ("kr_economy",  "연합뉴스 경제",        "https://www.yna.co.kr/rss/economy.xml",  "ko"),
             ("kr_politics", "연합뉴스 정치",        "https://www.yna.co.kr/rss/politics.xml", "ko"),
         ],
     },
     "zh": {
         "out": ROOT / "data" / "news-zh.json",
+        "translate": True,
         "feeds": [
             ("us_economy",  "CNBC Economy",        CNBC_ECON,                                         "en"),
             ("us_politics", "CNBC Politics",       CNBC_POL,                                          "en"),
-            ("cn_economy",  "中国新闻网 财经",       "https://www.chinanews.com.cn/rss/finance.xml",    "zh"),
-            ("cn_politics", "中国新闻网 时政",       "https://www.chinanews.com.cn/rss/china.xml",      "zh"),
+            ("cn_economy",  "中国新闻网 财经",       CHINANEWS_ECON,                                    "zh"),
+            ("cn_politics", "中国新闻网 时政",       CHINANEWS_POL,                                     "zh"),
             ("kr_economy",  "韩联社 经济",          "https://cn.yna.co.kr/RSS/economy.xml",            "zh"),
             ("kr_politics", "韩联社 政治",          "https://cn.yna.co.kr/RSS/politics.xml",           "zh"),
         ],
@@ -185,7 +188,7 @@ def build(edition, cfg, now, raw_cache):
 
     categories, failures = {}, []
     for key, source, url, lang in cfg["feeds"]:
-        native = lang == edition
+        native = lang == edition or not cfg["translate"]
         try:
             # Chinese and Korean leads carry more per character, so keep them shorter.
             limit = 220 if lang == "en" else 120

@@ -158,7 +158,7 @@ html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text
       offline:'인터넷 연결이 없어 마지막으로 받은 뉴스를 보여줍니다.',
       updated:t=>`뉴스 업데이트 ${t} (한국 시간)`, newsFail:'뉴스를 불러오지 못했습니다.<br>잠시 후 새로고침하세요.',
       other:{href:'zh/', label:'中文版'},
-      foot:'날씨는 페이지를 열 때마다 <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>에서 실시간으로 가져옵니다. 뉴스는 매일 아침 CNBC·SCMP·연합뉴스의 공개 RSS에서 분야별 최신 기사를 모읍니다. 요약은 각 언론사가 제공한 기사 첫머리이고, 영어 기사는 무료 번역기로 옮긴 것이라 어색할 수 있습니다. 정확한 내용은 원문을 확인하세요.',
+      foot:'날씨는 페이지를 열 때마다 <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>에서 실시간으로 가져옵니다. 뉴스는 매일 아침 미국은 CNBC(영어), 중국은 중국신문사(중국어), 한국은 연합뉴스의 공개 RSS에서 분야별 최신 기사를 원문 그대로 모읍니다. 요약은 각 언론사가 제공한 기사 첫머리입니다. 영어·중국어 기사는 '번역해서 보기'를 누르면 한국어로 번역된 원문이 열립니다.',
       wmo:{0:'맑음',1:'대체로 맑음',2:'구름 조금',3:'흐림',45:'안개',48:'짙은 안개',51:'약한 이슬비',53:'이슬비',55:'강한 이슬비',56:'어는 이슬비',57:'어는 이슬비',61:'약한 비',63:'비',65:'강한 비',66:'어는 비',67:'어는 비',71:'약한 눈',73:'눈',75:'많은 눈',77:'싸락눈',80:'약한 소나기',81:'소나기',82:'강한 소나기',85:'눈 소나기',86:'강한 눈 소나기',95:'뇌우',96:'우박 동반 뇌우',99:'강한 우박 뇌우'},
     },
     zh: {
@@ -287,7 +287,7 @@ html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text
       const title = n.title_tr || n.title_ko || n.title;
       const summary = n.summary_tr || n.summary_ko || n.summary;
       const showOriginal = foreign && title !== n.title;
-      return `<li class="${i>=SHOW?'extra':''}">
+      return `<li class="${i>=SHOW?'extra':''}" lang="${esc(showOriginal ? ED : (cat.lang || ED))}">
         <a class="item-title" href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a>
         ${showOriginal ? `<div class="item-orig" lang="${esc(cat.lang||'en')}">${T.original} · ${esc(n.title)}</div>` : ''}
         ${summary ? `<div class="item-sum">${esc(summary)}</div>` : ''}
