@@ -1,46 +1,56 @@
 {
- "updatedAt": "2026-10-18T11:20:20.901325+00:00",
+ "updatedAt": "2026-10-18T11:34:09.979250+00:00",
  "categories": {
   "us_economy": {
    "country": "us",
    "topic": "economy",
    "source": "CNBC Economy",
+   "lang": "en",
    "items": [
     {
      "title": "U.S. budget deficit swells to almost $2 trillion for fiscal 2026, up 12% in a single year",
      "summary": "The Treasury Department published the U.S. budget deficit for the 2026 fiscal year.",
      "url": "https://www.cnbc.com/2026/10/16/us-budget-deficit-2026.html",
-     "published": "2026-10-16T22:34:29+00:00"
+     "published": "2026-10-16T22:34:29+00:00",
+     "title_tr": "2026 회계연도에 미국 예산 적자 규모가 거의 2조 $ 로 확대되어 한 해 동안 12% 증가",
+     "summary_tr": "재무부는 2026 회계 연도의 미국 예산 적자를 발표했습니다."
     },
     {
      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
      "summary": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-     "published": "2026-10-16T22:33:05+00:00"
+     "published": "2026-10-16T22:33:05+00:00",
+     "title_tr": "분석: 2조 달러의 적자와 5% 의 국채 수익률이 미국의 최대 경제 과제가 되는 이유",
+     "summary_tr": "5% 이상의 국채 수익률은 가계와 연방 정부의 차입 비용을 증가시키고 있으며, $ 2 조 적자 자금 조달의 어려움을 강조하고 있습니다."
     },
     {
      "title": "Analysis: Everyone expects the Fed to hold rates in October. Kevin Warsh could surprise us all",
      "summary": "Investors expect the Fed to pause rate hikes in October, but Kevin Warsh's rejection of traditional communications practices and continued concern about inflation leave the decision uncertain.",
      "url": "https://www.cnbc.com/2026/10/16/kevin-warsh-fed-october-rate-hike-interest-rates-markets.html",
-     "published": "2026-10-16T16:27:31+00:00"
+     "published": "2026-10-16T16:27:31+00:00",
+     "title_tr": "분석: 모든 사람들은 10월에 연준이 금리를 유지할 것으로 예상합니다. 케빈 워시 (Kevin Warsh) 는 우리 모두를 놀라게 할 수 있습니다.",
+     "summary_tr": "투자자들은 연준이 10월에 금리 인상을 일시 중단할 것으로 예상하지만 케빈 워시의 전통적인 커뮤니케이션 관행에 대한 거부와 인플레이션에 대한 지속적인 우려로 인해 결정은 불확실하다."
     },
     {
      "title": "Wholesale prices jumped 6.3% annually in September, biggest gain since 2022",
      "summary": "September producer prices were expected to increase 0.6% month over month and 5.5% annually, according to the consensus estimate by Dow Jones.",
      "url": "https://www.cnbc.com/2026/10/15/september-producer-price-index-retail-sales-data.html",
-     "published": "2026-10-15T16:15:44+00:00"
+     "published": "2026-10-15T16:15:44+00:00",
+     "title_tr": "9월 도매가격 연평균 6.3% 급등, 2022년 이후 최대 상승"
     },
     {
      "title": "Economists: Hot PPI shows Fed's work is not done",
      "summary": "'We see real risks the Fed will deliver another rate hike in two weeks' time,' one Fedwatcher warns",
      "url": "https://www.cnbc.com/2026/10/15/pce-ppi-september-fed-reserve-rate-hike.html",
-     "published": "2026-10-15T15:37:59+00:00"
+     "published": "2026-10-15T15:37:59+00:00",
+     "title_tr": "이코노미스트: Hot PPI는 Fed의 작업이 완료되지 않았음을 보여줍니다."
     },
     {
      "title": "U.S. Treasury dismisses IMF debt warning and 'messy' forecasting",
      "summary": "The exchange comes as U.S. debt exceeds $40 trillion and 10-year Treasury yields remain above 5%, intensifying scrutiny of the fiscal outlook.",
      "url": "https://www.cnbc.com/2026/10/15/zervos-imf-us-debt-warning.html",
-     "published": "2026-10-15T13:42:32+00:00"
+     "published": "2026-10-15T13:42:32+00:00",
+     "title_tr": "미국 재무부, IMF 채무 경고 및 '지저분한' 예측 기각"
     }
    ]
   },
@@ -48,54 +58,52 @@
    "country": "us",
    "topic": "politics",
    "source": "CNBC Politics",
+   "lang": "en",
    "items": [
     {
      "title": "Trump's Russia diesel deal may offer Putin more than money — and spell trouble for Ukraine",
      "summary": "Trump's diesel deal may do little for Russia's finances, but it raises bigger questions about Ukraine's leverage, U.S. support and Putin's next moves.",
      "url": "https://www.cnbc.com/2026/10/17/trump-diesel-russia-ukraine-war.html",
-     "published": "2026-10-18T07:22:07+00:00"
+     "published": "2026-10-18T07:22:07+00:00",
+     "title_tr": "트럼프의 러시아 디젤 거래는 푸틴에게 돈 이상의 것을 제공 할 수 있으며 우크라이나에게는 철자 문제가 될 수 있습니다.",
+     "summary_tr": "트럼프의 디젤 거래는 러시아의 재정에 거의 도움이 되지 않을 수 있지만, 우크라이나의 레버리지, 미국의 지원 및 푸틴의 다음 움직임에 대해 더 큰 의문을 제기한다."
     },
     {
      "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
      "summary": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
      "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
-     "published": "2026-10-17T19:35:18+00:00"
+     "published": "2026-10-17T19:35:18+00:00",
+     "title_tr": "트럼프는 광범위한 새로운 러시아 제재를 포기하고, 젤렌스키는 '틀렸다' 고 비난한다.",
+     "summary_tr": "트럼프 대통령은 지난 9월 러시아의 우크라이나 침공을 겨냥한 그레이엄 법안에 서명했다."
     },
     {
      "title": "5 midterm money takeaways: Democrats have candidate cash. Republicans have Elon Musk",
      "summary": "Democrats outraise Republicans in key Congress races as Elon Musk funds Ken Paxton in Texas and GOP groups aligned with Trump.",
      "url": "https://www.cnbc.com/2026/10/16/midterm-election-fundraising-elon-musk.html",
-     "published": "2026-10-16T21:49:13+00:00"
+     "published": "2026-10-16T21:49:13+00:00",
+     "title_tr": "5가지 중간 자금 테이크아웃: 민주당은 후보 현금이 있습니다. 공화당에는 일론 머스크가 있습니다",
+     "summary_tr": "민주당은 텍사스의 일론 머스크 (Elon Musk) 기금 켄 팩스턴 (Ken Paxton) 과 GOP 그룹이 트럼프와 일치함에 따라 주요 의회 경선에서 공화당을 능가한다."
     },
     {
      "title": "Katie Zacharia out as Trump's White House press secretary",
      "summary": "Zacharia was on shaky ground from her first White House press conference and over questions about her claims of being a lawyer despite not passing a bar exam.",
      "url": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
-     "published": "2026-10-16T21:26:15+00:00"
+     "published": "2026-10-16T21:26:15+00:00",
+     "title_tr": "케이티 자카리아 (Katie Zacharia), 트럼프 백악관 대변인 역임"
     },
     {
      "title": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
      "summary": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
      "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
-     "published": "2026-10-16T17:55:05+00:00"
+     "published": "2026-10-16T17:55:05+00:00",
+     "title_tr": "트럼프와 GOP의 수십억 달러짜리 중간 블리츠가 작동하지 않는 이유"
     },
     {
      "title": "U.S. presses China on Mastercard, Citigroup market access in bilateral Bangkok talks, official says",
      "summary": "The U.S. raised market access issues for Mastercard and Citigroup in China during bilateral meetings in Bangkok this week, a U.S. Treasury official says.",
      "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html",
-     "published": "2026-10-16T16:46:18+00:00"
-    },
-    {
-     "title": "OpenAI Saudi national bugging case shows threat to U.S. leadership in AI: DNI Clayton",
-     "summary": "AI \"amplifies\" existing cybersecurity risks toward U.S. digital infrastructure, Clayton said on \"Squawk Box.\"",
-     "url": "https://www.cnbc.com/2026/10/16/ai-espionage-openai-jay-clayton.html",
-     "published": "2026-10-16T16:27:44+00:00"
-    },
-    {
-     "title": "Elon Musk cash infusion helps GOP Senate super PAC raise record $273 million",
-     "summary": "Elon Musk gave a record $158 million to the GOP’s Senate Leadership Fund, boosting its war chest as Republicans pour money into Texas to defend Ken Paxton.",
-     "url": "https://www.cnbc.com/2026/10/15/elon-musk-senate-leadership-fund-fundraising.html",
-     "published": "2026-10-16T12:17:29+00:00"
+     "published": "2026-10-16T16:46:18+00:00",
+     "title_tr": "미국, 마스터카드에 중국 압박, 씨티그룹, 양자 방콕 회담에서 시장 진출"
     }
    ]
   },
@@ -103,54 +111,52 @@
    "country": "cn",
    "topic": "economy",
    "source": "SCMP China Economy",
+   "lang": "en",
    "items": [
     {
      "title": "Risky business? Chinese firm agrees to build rail tunnels in Qatar amid Iran war",
      "summary": "A Chinese construction company has reached an agreement to work on tunnel projects in the tiny Middle Eastern nation of Qatar, as China’s global infrastructure push continues to gain momentum after recent railway deals…",
      "url": "https://www.scmp.com/economy/china-economy/article/3371195/risky-business-chinese-firm-agrees-build-rail-tunnels-qatar-amid-iran-war?utm_source=rss_feed",
-     "published": "2026-10-18T09:00:11+00:00"
+     "published": "2026-10-18T09:00:11+00:00",
+     "title_tr": "위험한 사업입니까? 중국 회사는 이란 전쟁 중에 카타르에 철도 터널을 건설하는 데 동의합니다.",
+     "summary_tr": "최근 철도 거래 이후 중국의 글로벌 인프라 추진이 계속 추진됨에 따라 중국 건설 회사가 카타르의 작은 중동 국가에서 터널 프로젝트를 수행하기로 합의했습니다..."
     },
     {
      "title": "Germany, France to tighten ‘Made in Europe’ stance, pressuring China’s auto industry",
      "summary": "France and Germany have unveiled a joint position on Europe’s automotive package, with a tighter geographic definition of “Made in Europe” and a research and development requirement for cars to qualify for subsidies or…",
      "url": "https://www.scmp.com/economy/global-economy/article/3371261/germany-france-tighten-made-europe-stance-pressuring-chinas-auto-industry?utm_source=rss_feed",
-     "published": "2026-10-18T07:00:07+00:00"
+     "published": "2026-10-18T07:00:07+00:00",
+     "title_tr": "독일, 프랑스, ‘메이드 인 유럽’ 입장 굳히며 중국 자동차업계 압박",
+     "summary_tr": "프랑스와 독일은 유럽의 자동차 패키지에 대한 공동 입지를 공개했으며, \"Made in Europe\" 에 대한 더 엄격한 지리적 정의와 보조금 또는..."
     },
     {
      "title": "‘China haul’: why foreign tourists are shopping up a storm after Beijing policy changes",
      "summary": "When Grace Andrews, a US content creator, packed for her trip to China, she brought along a completely empty suitcase, dedicated solely to her shopping list. By the time she headed home, that extra luggage was bursting…",
      "url": "https://www.scmp.com/economy/china-economy/article/3371258/china-haul-why-foreign-tourists-are-shopping-storm-after-beijing-policy-changes?utm_source=rss_feed",
-     "published": "2026-10-18T05:00:09+00:00"
+     "published": "2026-10-18T05:00:09+00:00",
+     "title_tr": "‘CHINA HAUL’: 베이징 정책 변경 후 외국인 관광객이 폭풍 쇼핑을 하는 이유",
+     "summary_tr": "미국 콘텐츠 크리에이터인 그레이스 앤드루스 (Grace Andrews) 는 중국 여행을 위해 짐을 꾸렸을 때, 쇼핑 목록에만 전념하는 완전히 텅 빈 여행 가방을 들고 왔습니다. 그녀가 집으로 돌아갈 무렵, 여분의 짐이 터지고 있었다…"
     },
     {
      "title": "AI glasses as travel guides? Cheaper in China, but technical hitches slow adoption",
      "summary": "Artificial intelligence-powered glasses can act as tour guides, snap photos hands-free and translate foreign languages. The devices also sell at relatively affordable prices in China. But are they the perfect travel…",
      "url": "https://www.scmp.com/economy/china-economy/article/3370754/ai-glasses-travel-guides-cheaper-china-technical-hitches-slow-adoption?utm_source=rss_feed",
-     "published": "2026-10-17T13:00:06+00:00"
+     "published": "2026-10-17T13:00:06+00:00",
+     "title_tr": "인공지능 안경을 여행 가이드로 사용하시나요? 중국에서는 저렴하지만 기술적 타격으로 인해 채택 속도가 느려집니다."
     },
     {
      "title": "China cuts US Treasury holdings to 18-year low in August as American debt fears mount",
      "summary": "China has further reduced its holdings of US Treasuries to an 18-year low in August, as it continued to diversify its foreign exchange reserves amid rising geopolitical tensions and concerns over Washington’s fiscal…",
      "url": "https://www.scmp.com/economy/china-economy/article/3371237/china-cuts-us-treasury-holdings-18-year-low-august-american-debt-fears-mount?utm_source=rss_feed",
-     "published": "2026-10-17T06:00:17+00:00"
+     "published": "2026-10-17T06:00:17+00:00",
+     "title_tr": "중국, 미국 부채 공포가 고조됨에 따라 8월 미국 국채 보유량을 18년 만에 최저 수준으로 낮추다"
     },
     {
      "title": "Hong Kong’s skiers flock to mainland as indoor slopes mushroom nationwide",
      "summary": "A rising number of travellers from Hong Kong and Macau are flocking to indoor ski centres in Guangdong province, as new venues mushroom across the mainland amid a winter sports boom. Chinese indoor ski resort operator…",
      "url": "https://www.scmp.com/business/china-business/article/3371073/hong-kongs-skiers-flock-mainland-indoor-slopes-mushroom-nationwide?utm_source=rss_feed",
-     "published": "2026-10-17T06:00:14+00:00"
-    },
-    {
-     "title": "Anti-China protectionism backfiring on American carmakers’ EV plans: analyst",
-     "summary": "While Washington’s efforts to block Chinese electric vehicles (EVs) were originally intended to protect its domestic automotive industry, they have sparked concerns the strategy is hurting America’s carmaking…",
-     "url": "https://www.scmp.com/economy/global-economy/article/3371167/anti-china-protectionism-backfiring-american-carmakers-ev-plans-analyst?utm_source=rss_feed",
-     "published": "2026-10-16T13:00:07+00:00"
-    },
-    {
-     "title": "As tariff threats ease, US in fashion again among Chinese exporters",
-     "summary": "With the US set to lower tariffs on US$30 billion worth of shipments from China, Chinese exporters said this week they expected a new wave of orders from American buyers and planned to reactivate idle factory capacity…",
-     "url": "https://www.scmp.com/economy/china-economy/article/3371178/tariff-threats-ease-us-fashion-again-among-chinese-exporters?utm_source=rss_feed",
-     "published": "2026-10-16T12:00:11+00:00"
+     "published": "2026-10-17T06:00:14+00:00",
+     "title_tr": "전국의 실내 슬로프 버섯으로 홍콩의 스키어들이 본토로 몰려듭니다."
     }
    ]
   },
@@ -158,36 +164,45 @@
    "country": "cn",
    "topic": "politics",
    "source": "SCMP China Politics",
+   "lang": "en",
    "items": [
     {
      "title": "China’s youth draw upon Long March spirit to navigate modern uncertainties",
      "summary": "As China marks the 90th anniversary of the Red Army’s victory in the Long March, some young Chinese are looking to the historic journey for guidance as they face uncertainty in their lives and future. For Lyu Leiyiyi, a…",
      "url": "https://www.scmp.com/news/china/politics/article/3371269/chinas-youth-draw-upon-long-march-spirit-navigate-modern-uncertainties?utm_source=rss_feed",
-     "published": "2026-10-18T04:00:19+00:00"
+     "published": "2026-10-18T04:00:19+00:00",
+     "title_tr": "중국의 청소년들은 현대의 불확실성을 헤쳐나가기 위해 긴 행군 정신을 활용합니다.",
+     "summary_tr": "중국은 붉은 군대가 긴 행진에서 승리한 지 90주년이 되면서 일부 젊은 중국인들은 그들의 삶과 미래에 불확실성에 직면하면서 역사적인 여정을 모색하고 있다. 류레이이 (Lyu Leiyiyi) 에게…"
     },
     {
      "title": "Corrupt officials have nowhere to hide, China’s anti-graft watchdog warns",
      "summary": "There is “no way out” for corrupt officials no matter how senior they are, China’s top anti-corruption watchdog has warned following the downfall of a former big-city mayor who survived numerous previous scandals. This…",
      "url": "https://www.scmp.com/news/china/politics/article/3371257/corrupt-officials-have-nowhere-hide-chinas-anti-graft-watchdog-warns?utm_source=rss_feed",
-     "published": "2026-10-17T11:00:06+00:00"
+     "published": "2026-10-17T11:00:06+00:00",
+     "title_tr": "중국의 반이식 감시견은 부패한 관리들이 숨을 곳이 없다고 경고한다.",
+     "summary_tr": "부패한 관료들이 아무리 고위 관료라 할지라도 \"빠져나갈 길은 없다\" 고 중국 최고의 반부패 감시단은 이전의 수많은 스캔들에서 살아남은 전직 대도시 시장의 몰락에 따라 경고했다. 이것은..."
     },
     {
      "title": "Is China’s Shenzhen ready to host Xi, Trump and Putin during Apec summit?",
      "summary": "In Shenzhen, drones are banned, shiny new hotels have opened their doors and taxi drivers are carrying devices that can translate nearly 150 languages. Since President Xi Jinping announced last year that China’s…",
      "url": "https://www.scmp.com/news/china/politics/article/3371206/chinas-shenzhen-ready-host-xi-trump-and-putin-during-apec-summit?utm_source=rss_feed",
-     "published": "2026-10-17T10:00:12+00:00"
+     "published": "2026-10-17T10:00:12+00:00",
+     "title_tr": "중국의 선전은 APEC 정상 회담에서 시진핑, 트럼프, 푸틴을 맞이할 준비가 되어 있습니까?",
+     "summary_tr": "선전에서는 드론이 금지되고, 반짝이는 새 호텔이 문을 열었으며, 택시 기사들은 거의 150개 언어를 번역할 수 있는 장치를 운반하고 있습니다. 시진핑 (習 近 平) 국가주석이 작년에 발표한 이래 중국의..."
     },
     {
      "title": "Chinese kindergarten owner given life sentence over lead paint poisoning scandal",
      "summary": "The owner of a Chinese kindergarten has been jailed for life after more than 200 children were poisoned by lead in the country’s worst food safety scandal for almost two decades. A total of six people were jailed by the…",
      "url": "https://www.scmp.com/news/china/politics/article/3371229/chinese-kindergarten-owner-given-life-sentence-over-lead-paint-poisoning-scandal?utm_source=rss_feed",
-     "published": "2026-10-17T04:10:18+00:00"
+     "published": "2026-10-17T04:10:18+00:00",
+     "title_tr": "납 페인트 중독 스캔들에 대해 종신형을 선고받은 중국 유치원 주인"
     },
     {
      "title": "Xi’s pledge to ‘uproot sick trees’ aired weeks ahead of Communist Party conclave",
      "summary": "President Xi Jinping has pledged to “uproot sick trees” in the anti-corruption fight, according to a transcript of a speech published by the Communist Party’s flagship magazine ahead of a major party conclave later this…",
      "url": "https://www.scmp.com/news/china/politics/article/3371094/xi-pledge-uproot-sick-trees-aired-weeks-ahead-major-party-conclave?utm_source=rss_feed",
-     "published": "2026-10-16T04:05:18+00:00"
+     "published": "2026-10-16T04:05:18+00:00",
+     "title_tr": "시 주석의 ‘병든 나무 뿌리 뽑기’ 서약은 공산당 콘클라베를 몇 주 앞두고 방송되었다."
     }
    ]
   },
@@ -195,6 +210,7 @@
    "country": "kr",
    "topic": "economy",
    "source": "연합뉴스 경제",
+   "lang": "ko",
    "items": [
     {
      "title": "클릭해 예약한 컬러렌즈…안전과 편의 사이 멈춰 선 혁신(종합)",
@@ -250,6 +266,7 @@
    "country": "kr",
    "topic": "politics",
    "source": "연합뉴스 정치",
+   "lang": "ko",
    "items": [
     {
      "title": "秋 실언 이은 소방대원 순직…與, 성난 여론에 '자숙 또 자숙'(종합)",

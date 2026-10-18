@@ -53,8 +53,8 @@ header.top{display:flex; justify-content:space-between; align-items:flex-end; ga
 .city .temp small{font-family:var(--font-body); font-size:14px; font-weight:500; color:var(--muted); letter-spacing:0; margin-left:6px;}
 .city .cond{grid-column:1 / -1; font-size:14px;}
 .city .meta{grid-column:1 / -1; color:var(--muted); font-size:13px; display:flex; gap:12px; flex-wrap:wrap;}
-.city .hi::before{content:'최고 ';}
-.city .lo::before{content:' · 최저 ';}
+.city .hi::before{content:attr(data-l);}
+.city .lo::before{content:attr(data-l); white-space:pre;}
 
 .region{background:var(--paper); border-radius:16px; padding:22px 24px 24px; display:flex; flex-direction:column; gap:16px;}
 .region-head{display:flex; align-items:baseline; gap:12px;}
@@ -75,6 +75,8 @@ header.top{display:flex; justify-content:space-between; align-items:flex-end; ga
 .item-title{font-weight:700; font-size:15.5px; line-height:1.45; text-decoration:none; display:block;}
 .item-title:hover{color:var(--accent);}
 .item-sum{opacity:0.86; margin-top:4px; font-size:14.5px;}
+.item-orig{margin-top:3px; font-size:12.5px; color:var(--muted); line-height:1.45;}
+.jump a.lang{margin-left:auto; font-weight:600; color:var(--muted);}
 .item-meta{margin-top:6px; font-size:12.5px; color:var(--muted); display:flex; align-items:center; gap:12px; flex-wrap:wrap;}
 .item-meta a{color:var(--accent); text-decoration:none;}
 .item-meta a:hover{text-decoration:underline;}
@@ -110,6 +112,7 @@ html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text
   .city .meta span:nth-child(2){display:none;}
   .jump{margin-block:-8px;}
   .jump a{flex:1; text-align:center; padding:9px 0;}
+  .jump a.lang{flex:0 0 auto; padding:9px 12px; font-size:13px;}
   .cols{grid-template-columns:1fr;}
   .region{padding:18px 16px; border-radius:14px;}
   .region-head h2{font-size:21px;}
@@ -128,37 +131,75 @@ html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text
       <h1>Morning Brief</h1>
       <div class="date" id="today"></div>
     </div>
-    <div class="updated" id="updated">뉴스를 불러오는 중…</div>
+    <div class="updated" id="updated" data-t="loading">뉴스를 불러오는 중…</div>
   </header>
 
-  <section class="cities" id="cities" aria-label="도시별 날씨"></section>
-  <nav class="jump" aria-label="나라 바로가기">
-    <a href="#us">미국</a><a href="#cn">중국</a><a href="#kr">한국</a>
-  </nav>
+  <section class="cities" id="cities"></section>
+  <nav class="jump" id="jump"></nav>
   <main id="regions" style="display:flex; flex-direction:column; gap:16px;"></main>
 
-  <footer>
-    날씨는 페이지를 열 때마다 <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>에서 실시간으로 가져옵니다.
-    뉴스는 매일 아침 CNBC·SCMP·연합뉴스의 공개 RSS에서 분야별 최신 기사를 모읍니다(요약은 각 언론사가 제공한 기사 첫머리입니다).
-    영어 기사는 '한국어로 보기'를 누르면 번역된 원문이 열립니다.
-  </footer>
+  <footer id="foot"></footer>
 </div>
 
 <script>
 (function(){
-  const CITIES = [
-    {key:'seoul', name:'서울', tz:'Asia/Seoul', lat:37.5665, lon:126.978},
-    {key:'shanghai', name:'상하이', tz:'Asia/Shanghai', lat:31.2304, lon:121.4737},
-    {key:'la', name:'LA', tz:'America/Los_Angeles', lat:34.0522, lon:-118.2437},
-  ];
-  const REGIONS = [
-    {id:'us', name:'미국', code:'USA'},
-    {id:'cn', name:'중국', code:'CHN'},
-    {id:'kr', name:'한국', code:'KOR'},
-  ];
-  const SHOW = 3;
+  // Every visible string, per edition. <html lang> picks the edition; zh/index.html is the Chinese one.
+  const STRINGS = {
+    ko: {
+      locale:'ko-KR', tl:'ko', data:'data/news.json',
+      cities:{seoul:'서울', shanghai:'상하이', la:'LA'},
+      regions:{us:'미국', cn:'중국', kr:'한국'},
+      economy:'경제', politics:'정치', weatherLabel:'도시별 날씨', jumpLabel:'나라 바로가기',
+      loading:'뉴스를 불러오는 중…', weatherFail:'날씨를 불러오지 못했습니다', weatherLoading:'불러오는 중…',
+      precip:'강수확률', feels:'체감', hi:'최고 ', lo:' · 최저 ',
+      min:m=>`${m}분 전`, hour:h=>`${h}시간 전`, day:d=>`${d}일 전`,
+      noItems:'새 기사가 없습니다.', stale:'오늘은 새 기사를 받지 못해 이전 기사를 보여줍니다.',
+      more:n=>`${n}개 더 보기`, less:'접기', original:'원문', viewTranslated:'번역해서 보기 ↗',
+      offline:'인터넷 연결이 없어 마지막으로 받은 뉴스를 보여줍니다.',
+      updated:t=>`뉴스 업데이트 ${t} (한국 시간)`, newsFail:'뉴스를 불러오지 못했습니다.<br>잠시 후 새로고침하세요.',
+      other:{href:'zh/', label:'中文版'},
+      foot:'날씨는 페이지를 열 때마다 <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a>에서 실시간으로 가져옵니다. 뉴스는 매일 아침 CNBC·SCMP·연합뉴스의 공개 RSS에서 분야별 최신 기사를 모읍니다. 요약은 각 언론사가 제공한 기사 첫머리이고, 영어 기사는 무료 번역기로 옮긴 것이라 어색할 수 있습니다. 정확한 내용은 원문을 확인하세요.',
+      wmo:{0:'맑음',1:'대체로 맑음',2:'구름 조금',3:'흐림',45:'안개',48:'짙은 안개',51:'약한 이슬비',53:'이슬비',55:'강한 이슬비',56:'어는 이슬비',57:'어는 이슬비',61:'약한 비',63:'비',65:'강한 비',66:'어는 비',67:'어는 비',71:'약한 눈',73:'눈',75:'많은 눈',77:'싸락눈',80:'약한 소나기',81:'소나기',82:'강한 소나기',85:'눈 소나기',86:'강한 눈 소나기',95:'뇌우',96:'우박 동반 뇌우',99:'강한 우박 뇌우'},
+    },
+    zh: {
+      locale:'zh-CN', tl:'zh-CN', data:'../data/news-zh.json',
+      cities:{seoul:'首尔', shanghai:'上海', la:'洛杉矶'},
+      regions:{us:'美国', cn:'中国', kr:'韩国'},
+      economy:'经济', politics:'政治', weatherLabel:'城市天气', jumpLabel:'按国家跳转',
+      loading:'正在加载新闻…', weatherFail:'无法获取天气', weatherLoading:'加载中…',
+      precip:'降水概率', feels:'体感', hi:'最高 ', lo:' · 最低 ',
+      min:m=>`${m}分钟前`, hour:h=>`${h}小时前`, day:d=>`${d}天前`,
+      noItems:'暂无新文章。', stale:'今天未能获取新文章，显示的是之前的内容。',
+      more:n=>`展开其余 ${n} 条`, less:'收起', original:'原文', viewTranslated:'查看译文 ↗',
+      offline:'当前没有网络连接，显示的是最后一次获取的新闻。',
+      updated:t=>`新闻更新于 ${t}（北京时间）`, newsFail:'无法加载新闻。<br>请稍后刷新页面。',
+      other:{href:'../', label:'한국어판'},
+      foot:'天气数据在每次打开页面时从 <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a> 实时获取。新闻每天早上从中国新闻网、韩联社中文版和 CNBC 的公开 RSS 中收集各领域最新文章。摘要为各媒体提供的导语；美国新闻由免费机器翻译译成中文，可能不够准确，请以原文为准。',
+      wmo:{0:'晴',1:'晴间多云',2:'少云',3:'阴',45:'雾',48:'浓雾',51:'小毛毛雨',53:'毛毛雨',55:'大毛毛雨',56:'冻毛毛雨',57:'冻毛毛雨',61:'小雨',63:'中雨',65:'大雨',66:'冻雨',67:'冻雨',71:'小雪',73:'中雪',75:'大雪',77:'雪粒',80:'小阵雨',81:'阵雨',82:'强阵雨',85:'阵雪',86:'强阵雪',95:'雷暴',96:'雷暴伴冰雹',99:'强雷暴伴冰雹'},
+    },
+  };
+  const ED = document.documentElement.lang.startsWith('zh') ? 'zh' : 'ko';
+  const T = STRINGS[ED];
+  const NEWS_TZ = ED==='zh' ? 'Asia/Shanghai' : 'Asia/Seoul';
 
-  const WMO = {0:'맑음',1:'대체로 맑음',2:'구름 조금',3:'흐림',45:'안개',48:'짙은 안개',51:'약한 이슬비',53:'이슬비',55:'강한 이슬비',56:'어는 이슬비',57:'어는 이슬비',61:'약한 비',63:'비',65:'강한 비',66:'어는 비',67:'어는 비',71:'약한 눈',73:'눈',75:'많은 눈',77:'싸락눈',80:'약한 소나기',81:'소나기',82:'강한 소나기',85:'눈 소나기',86:'강한 눈 소나기',95:'뇌우',96:'우박 동반 뇌우',99:'강한 우박 뇌우'};
+  const CITIES = [
+    {key:'seoul', tz:'Asia/Seoul', lat:37.5665, lon:126.978},
+    {key:'shanghai', tz:'Asia/Shanghai', lat:31.2304, lon:121.4737},
+    {key:'la', tz:'America/Los_Angeles', lat:34.0522, lon:-118.2437},
+  ].map(c=>({...c, name:T.cities[c.key]}));
+  // Each edition leads with its own country.
+  const REGIONS = (ED==='zh' ? ['cn','us','kr'] : ['us','cn','kr'])
+    .map(id=>({id, name:T.regions[id], code:{us:'USA', cn:'CHN', kr:'KOR'}[id]}));
+  const SHOW = 3;
+  const WMO = T.wmo;
+
+  document.getElementById('cities').setAttribute('aria-label', T.weatherLabel);
+  const jump = document.getElementById('jump');
+  jump.setAttribute('aria-label', T.jumpLabel);
+  jump.innerHTML = REGIONS.map(r=>`<a href="#${r.id}">${r.name}</a>`).join('')
+    + `<a class="lang" href="${T.other.href}" lang="${ED==='zh'?'ko':'zh-CN'}">${T.other.label}</a>`;
+  document.getElementById('foot').innerHTML = T.foot;
+  document.getElementById('updated').textContent = T.loading;
   const ICONS = {
     sun:'<circle cx="12" cy="12" r="4.5"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
     cloud:'<path d="M17.5 19H8a5 5 0 1 1 1.2-9.86A6 6 0 0 1 20.9 12 3.5 3.5 0 0 1 17.5 19z"/>',
@@ -180,17 +221,17 @@ html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text
   const svg = n => `<svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[n]||ICONS.cloud}</svg>`;
   const esc = s => String(s==null?'':s).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeUrl = u => { try{ const x=new URL(u); return /^https?:$/.test(x.protocol) ? x.href : ''; }catch(e){ return ''; } };
-  const clock = tz => new Date().toLocaleString('ko-KR',{timeZone:tz, month:'numeric', day:'numeric', weekday:'short', hour:'2-digit', minute:'2-digit', hour12:false});
+  const clock = tz => new Date().toLocaleString(T.locale,{timeZone:tz, month:'numeric', day:'numeric', weekday:'short', hour:'2-digit', minute:'2-digit', hour12:false});
   function ago(iso){
     if(!iso) return '';
     const m = Math.round((Date.now()-new Date(iso).getTime())/60000);
-    if(m < 60) return `${Math.max(m,1)}분 전`;
+    if(m < 60) return T.min(Math.max(m,1));
     const h = Math.round(m/60);
-    return h < 48 ? `${h}시간 전` : `${Math.round(h/24)}일 전`;
+    return h < 48 ? T.hour(h) : T.day(Math.round(h/24));
   }
 
   document.getElementById('today').textContent =
-    new Date().toLocaleDateString('ko-KR',{year:'numeric', month:'long', day:'numeric', weekday:'long', timeZone:'Asia/Seoul'});
+    new Date().toLocaleDateString(T.locale,{year:'numeric', month:'long', day:'numeric', weekday:'long', timeZone:NEWS_TZ});
 
   /* ---------- weather: live from Open-Meteo on every visit ---------- */
   const weather = {};
@@ -202,9 +243,9 @@ html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text
         <div class="name">${esc(c.name)}</div>
         <div class="clock" data-tz="${c.tz}">${esc(clock(c.tz))}</div>
         ${svg(ok ? iconFor(w.code) : 'cloud')}
-        <div class="temp">${ok ? `${Math.round(w.now)}°<small><span class="hi">${Math.round(w.high)}°</span><span class="lo">${Math.round(w.low)}°</span></small>` : '—'}</div>
-        <div class="cond">${ok ? esc(WMO[w.code] || '') : (w && w.error ? '날씨를 불러오지 못했습니다' : '불러오는 중…')}</div>
-        ${ok ? `<div class="meta"><span>강수확률 ${esc(w.precip ?? '-')}%</span><span>체감 ${Math.round(w.feels)}°</span></div>` : ''}
+        <div class="temp">${ok ? `${Math.round(w.now)}°<small><span class="hi" data-l="${T.hi}">${Math.round(w.high)}°</span><span class="lo" data-l="${T.lo}">${Math.round(w.low)}°</span></small>` : '—'}</div>
+        <div class="cond">${ok ? esc(WMO[w.code] || '') : (w && w.error ? T.weatherFail : T.weatherLoading)}</div>
+        ${ok ? `<div class="meta"><span>${T.precip} ${esc(w.precip ?? '-')}%</span><span>${T.feels} ${Math.round(w.feels)}°</span></div>` : ''}
       </article>`;
     }).join('');
   }
@@ -229,41 +270,45 @@ html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text
     navigator.serviceWorker.register('sw.js').catch(()=>{});
   }
   if(!navigator.onLine){
-    document.getElementById('updated').insertAdjacentHTML('afterend','<div class="offline">인터넷 연결이 없어 마지막으로 받은 뉴스를 보여줍니다.</div>');
+    document.getElementById('updated').insertAdjacentHTML('afterend',`<div class="offline">${T.offline}</div>`);
   }
 
   /* ---------- news: data/news.json, refreshed each morning by GitHub Actions ---------- */
   function renderCol(cat, topic){
-    const label = topic==='economy' ? '경제' : '정치';
+    const label = topic==='economy' ? T.economy : T.politics;
     const cls = topic==='economy' ? 'econ' : 'pol';
     if(!cat || !cat.items || !cat.items.length){
-      return `<div class="col ${cls}"><div class="col-head"><h3>${label}</h3></div><p class="item-sum">새 기사가 없습니다.</p></div>`;
+      return `<div class="col ${cls}"><div class="col-head"><h3>${label}</h3></div><p class="item-sum">${T.noItems}</p></div>`;
     }
-    const english = !/연합/.test(cat.source);
+    const foreign = cat.lang ? cat.lang !== ED : !/연합/.test(cat.source);
     const items = cat.items.map((n,i)=>{
       const url = safeUrl(n.url);
-      const tr = english && url ? `https://translate.google.com/translate?sl=auto&tl=ko&u=${encodeURIComponent(url)}` : '';
+      const tr = foreign && url ? `https://translate.google.com/translate?sl=auto&tl=${T.tl}&u=${encodeURIComponent(url)}` : '';
+      const title = n.title_tr || n.title_ko || n.title;
+      const summary = n.summary_tr || n.summary_ko || n.summary;
+      const showOriginal = foreign && title !== n.title;
       return `<li class="${i>=SHOW?'extra':''}">
-        <a class="item-title" href="${esc(url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
-        ${n.summary ? `<div class="item-sum">${esc(n.summary)}</div>` : ''}
-        <div class="item-meta"><span>${esc(ago(n.published))}</span>${tr ? `<a href="${esc(tr)}" target="_blank" rel="noopener">한국어로 보기 ↗</a>` : ''}</div>
+        <a class="item-title" href="${esc(url)}" target="_blank" rel="noopener">${esc(title)}</a>
+        ${showOriginal ? `<div class="item-orig" lang="${esc(cat.lang||'en')}">${T.original} · ${esc(n.title)}</div>` : ''}
+        ${summary ? `<div class="item-sum">${esc(summary)}</div>` : ''}
+        <div class="item-meta"><span>${esc(ago(n.published))}</span>${tr ? `<a href="${esc(tr)}" target="_blank" rel="noopener">${T.viewTranslated}</a>` : ''}</div>
       </li>`;
     }).join('');
     const extra = cat.items.length - SHOW;
     return `<div class="col ${cls}">
       <div class="col-head"><h3>${label}</h3><span class="src">${esc(cat.source)}</span></div>
-      ${cat.stale ? '<div class="stale">오늘은 새 기사를 받지 못해 이전 기사를 보여줍니다.</div>' : ''}
+      ${cat.stale ? `<div class="stale">${T.stale}</div>` : ''}
       <ol>${items}</ol>
-      ${extra>0 ? `<button class="more" type="button" aria-expanded="false">${extra}개 더 보기</button>` : ''}
+      ${extra>0 ? `<button class="more" type="button" aria-expanded="false">${T.more(extra)}</button>` : ''}
     </div>`;
   }
 
-  fetch('data/news.json', {cache:'no-cache'})
+  fetch(T.data, {cache:'no-cache'})
     .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
     .then(data=>{
       const t = new Date(data.updatedAt);
-      document.getElementById('updated').textContent = '뉴스 업데이트 ' +
-        t.toLocaleString('ko-KR',{month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit', timeZone:'Asia/Seoul'}) + ' (한국 시간)';
+      document.getElementById('updated').textContent =
+        T.updated(t.toLocaleString(T.locale,{month:'numeric', day:'numeric', hour:'2-digit', minute:'2-digit', timeZone:NEWS_TZ}));
       const C = data.categories || {};
       document.getElementById('regions').innerHTML = REGIONS.map(r=>`
         <section class="region" id="${r.id}" aria-label="${esc(r.name)}">
@@ -274,13 +319,13 @@ html{scroll-padding-top:calc(env(safe-area-inset-top, 0px) + 64px); -webkit-text
         btn.onclick = ()=>{
           const col = btn.closest('.col'); const open = col.classList.toggle('open');
           btn.setAttribute('aria-expanded', open);
-          btn.textContent = open ? '접기' : `${col.querySelectorAll('li.extra').length}개 더 보기`;
+          btn.textContent = open ? T.less : T.more(col.querySelectorAll('li.extra').length);
         };
       });
     })
     .catch(()=>{
       document.getElementById('updated').textContent = '';
-      document.getElementById('regions').innerHTML = '<div class="empty">뉴스 파일(data/news.json)을 불러오지 못했습니다.<br>잠시 후 새로고침하세요.</div>';
+      document.getElementById('regions').innerHTML = `<div class="empty">${T.newsFail}</div>`;
     });
 })();
 </script>

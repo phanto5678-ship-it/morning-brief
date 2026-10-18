@@ -1,7 +1,8 @@
 // Keeps the page usable offline: the app shell is cached, and news and weather
 // are fetched fresh when online, falling back to the last copy when not.
-const CACHE = 'morning-brief-v1';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/apple-touch-icon.png'];
+const CACHE = 'morning-brief-v2';
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'zh/', 'zh/index.html', 'zh/manifest.webmanifest',
+               'icons/icon-192.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
