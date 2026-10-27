@@ -1,5 +1,5 @@
 {
- "updatedAt": "2026-10-26T21:20:29.853284+00:00",
+ "updatedAt": "2026-10-27T21:22:01.606895+00:00",
  "categories": {
   "us_economy": {
    "country": "us",
@@ -9,143 +9,164 @@
    "source": "Google News",
    "items": [
     {
-     "title": "Anthropic IPO live updates: Here's when the stock lock-ups expire after the first trade",
+     "title": "Why Anthropic's IPO contrasts the 'cult of Elon Musk' at SpaceX and Tesla",
+     "summary": "Anthropic's much-anticipated IPO is giving potential investors some perspective on the risky business of artificial intelligence.",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaXF4MmxxVU8tVFd0RWFNSkFuNFg3RFFCRlFrY1Q4eHRET21kdlhyV042STlIUnhiaGRFa1hlbHBTeV9qZE5Qbk9MWGZILXEtdC1aazVsc2xLMmw2VzdnVUFkc2t0dkZyZGJaR1VjYVNId3pTakRZazFkcEhaMnQxVnlYUlZhUFVmc0RCLWJidXdwekJJejAzWFNoU0l1MmhJX01QenFGQkJiMFM3WS1lWHphMklxdVVIb282cmNVdHRkOE84U3NxNmtLS2dRVjA?oc=5",
+     "published": "2026-10-27T19:24:24+00:00",
+     "outlet": "Yahoo Finance",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "Axios",
+       "title": "Anthropic's expansion into biotech brings new risks — and opportunities",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMGE2UER0aXdqU0RjSjZWNEgxU1RHQmpXdjgzemN3MHpTZFoycnR6bXNyZEhQdVh0bm9nVlBxc0JPbGpaNW1iamJMV3Q4d2lwMXRTaVd6bFMwTlZyLXo0V2I1RF9xaUwwRGFHZVB0QzlkemlLc2ZHdXcxT1Zwb1h0RkoxTVZxOHV2MEstOXhPd00?oc=5"
+      },
+      {
+       "outlet": "Cassandra Unchained | Michael Burry",
+       "title": "Short Thoughts: Anthropic’s S-1",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1udmF2YnlVM2VLb1RScnlBYWtNMkxJSjFHenpZWFE0NTB6NHZiUEo4S2I2cWFMRHdwaEFhM0hkaVRkWkY4OXpHWTdFS1RyM2loemhJSTR4MTVhZ2huNWJheV9tQy0yVVV1SUk4ZHB5RUNZQ01Z?oc=5"
+      }
+     ],
+     "direct": "https://www.cnbc.com/2026/10/27/anthropic-five-surprising-risks-s1.html"
+    },
+    {
+     "title": "Law firm Weil prepares for possible wind-down as crisis deepens",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZWZMZ2Q4QkpJSThNQ2c1Q18xeTRFZThMTC1VLWFrRFduLU1CblkydnRpaFUzSTRNaFl6VGRDS1J3TlBKWVo0Q1kwMnhVYmdNejg4Zk1pT3lUUVNCdmtmT0pJa3pJR1FrckFHTHRSTDVVaVFsMnlWZXVWMjFmb2l4eUlhRdIBiAFBVV95cUxNYzZaOTF1NUlmTXdqSEVYTXRNd2Yybm8wcTlKUDhMWEJmbXVhcDM0UW0zbDNqbzRyMUdBMGFFMjFIcUFpS0ZwYWpLTE5tQ1hxamg0NGdLWmdncW9yeUJyTWk1dFhjSkpfMHd3bm1DcXJ0RGdfcGItWm5RNHBGS0hjUmtRMGFwVzhN?oc=5",
-     "published": "2026-10-26T19:28:00+00:00",
-     "outlet": "CNBC",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNbE9JX1VEb2x5clNRbGx6alllQUVmNVRFYmdwT25RMU5uT25JSVFhbnd3OUxlcUZuSWtOOVFud0J2T04yQ3ZKZlBJeDZ5bzRBckJvNDAtWDhyTVlmVGZIWnJCZlhROUp0NTBjQVRZWnc2QzN0RldfMmRnN2REdXVvLW1IZGI?oc=5",
+     "published": "2026-10-27T16:51:15+00:00",
+     "outlet": "Financial Times",
      "coverage": 5,
      "related": [
       {
        "outlet": "WSJ",
-       "title": "The Biggest Takeaways From Anthropic’s IPO Prospectus",
-       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1ocFhISXowTzhvOEN4cFBXWDdCdE9XUEkxNzNYd2xhYnhBN2xQaVlnVGtCT3YzSkhMT3dubmxRV041cFl3U1Z5UTJ5RERqRldhdERaM1Zfa1FCMUZMRkxRcGVBWDFLTlRwczFDQkN3MlFJMkZUdVJ1Tmpn?oc=5"
+       "title": "Weil Gotshal Enlists Bankruptcy Lawyer, as Firm’s Situation Worsens",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQjFyeElETGw1WEZsQnJqVzFwZ3BTXzhsYjNYS1doYzZERWJTY1VsVHpCOVdXeUpMQjB2b3YtZTI3OS00TzRRZXB0ME5CanFoWjZZTmUteHd0WTQzMjZrWkZodjhxNlZCRVUzVlljNW5ycWY1Q0s2MER3Y1k2eTVrVEpKQWp5Ym1RSXF4SldJTTJNamRIMHJXT0xlQUM4N0VRNkFLWGVYNzJPdE0tdWc?oc=5"
       },
       {
-       "outlet": "Axios",
-       "title": "Anthropic's move to dedicated data centers pulls it deeper into the energy supply chain",
-       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTmszdXNlZldmTTlVZ0I2ck9LcnBlWEhaQ0daaFFtamhNM3NDM2JRWW9odktfMExxTk9Ud3RDX0hCc29ZQnIzS2ZpTnlaaVFOamVibklxeEVzMnE2WjQ3ZWNjR0FUaUhiOWFWZmJ0TDZlTkdycHF1SUczbzN3UTBZR1dCT0VobjdESDVzcE1Nb2w?oc=5"
+       "outlet": "Reuters",
+       "title": "Law firm Weil hires restructuring counsel amid mounting partner exits",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT1FkYnktbTUyNHZpd1NHcFlmNHdqNzhjSnQ5NFlPU3pvWUpRMV9IR3YtX2pVMnEyUHRyU0h1azA4ek9LMWdmVlRiY3RtOHVnTkZvZG9RRWdZTy1vRE4wREtrSVZmT0Rpc0Z6eVJuS2hIWFNUMm9hT2VsdUhyWUxadWhZdHF2eEtUc1Zrd0VucjJFSDM3Z210N0dHSURQUk9TcTY0U3ZCaHlRUGNibTZBS2pxeWFlTEZNeGRPd2hTNA?oc=5"
       }
      ]
     },
     {
-     "title": "Microsoft offers voluntary buyouts to 60,000 employees as tech giant reshapes its workforce",
-     "summary": "Microsoft is trying to balance a rapid AI infrastructure build-out with capital efficiency.",
-     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPU3NfeHJTVGlyTS0xU2RwM1dGbDNLWFRWMFBDZ1NlYXAyZktTTlFMWHo0RkoyejJhNFlaUm8zRmRpdVpQWS1RNVQ2WlBzbVFxWWlNeUhmUjR5eWRzNm1KN0dmeFRrcmRiUUVCeDZqS2gxc3BPTTNCemVlNkcyLWUyUVduOE81UWFlbHhkVzVualpRNERYakpmMGVkYnU0QVRJdWxPbm8yVm1oYWRlVFk1QmRCYVBuR0d6WFZwadIBwgFBVV95cUxOVjdvbFJWOWkwbHF0REJrazRZRlRNMGYtNWJiQ0NqVHBFY3BCSjdKUURVaVZRajgwYms2ZC1wcUMzek1vdElsNmhEQzg4OHpqZkVUYXR0enJsTXBuT25MYUNuckp6SzMxbjVwR1liVUhpZTk1WWdGc3p0QUd4d3B6OWNRN3pud3VYeGVEV05ibmJkbFhsbURPU3p6OVJfT3U3X0RKLXRZNWFyS3ZJM3NMOGhtVC1zRWhLUjhPZGJ6SndrUQ?oc=5",
-     "published": "2026-10-26T20:03:00+00:00",
-     "outlet": "Fox Business",
+     "title": "US consumer confidence recovers in October as gas prices eased a bit",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMkp3Y2pHeVVWMm1DT1NJUm1veTh6QWNhN0JGVHFjWElMTWw3eklNc0hUVVBhM3ZOdnpkUFRsU01wSjdsbFFjNzlfd1RYTGdXVWpJY055ZV9VczZXSTNKRzVZNktiZlFSTUJtQ3RYay1Qa1BKM3RTQmdBZHhyVVR3TnFORjI4MkpjQzcwU2dGRkZ6TENIeFZKUGlRblF0cHNRWFE0VE5DaTFidw?oc=5",
+     "published": "2026-10-27T17:30:00+00:00",
+     "outlet": "AP News",
      "coverage": 5,
      "related": [
       {
-       "outlet": "KSL News",
-       "title": "Microsoft offers a quarter of its global workforce voluntary buyouts as AI spending accelerates",
-       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZzZ2YzlPdnlEaEVlVWw0bVZXM3RIakFyTlZzWnk5ZnFhaFRoNVdkOGZXcGFxQV9nSVI3TTFwZ0ZuaUZPeWNCbk51bmlUSnc4X3RQVEF4RmdfcFFNYU5FeG5KTVVoellhSFV1WHN5Q1Ezb3R4SG9LVjZ4R3dNbFVDSVE5VDB2cllJTlByOWxjQzBuR09fal84TERlS01NeEFKaDVUQlROSkhnbllIRzU3Sk1uNDNrcEl0NUF6b0V0QTdEZUdYQVNYVVAxUGI?oc=5"
+       "outlet": "Bloomberg.com",
+       "title": "US Consumer Confidence Rises for First Time in Four Months",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUUhyUnBmc0NqTTducnhyamVhTTJWRjlmdV9qY3c5R0p6WFpaNmlZVUdnNDVjOWpZX0Ewd1c0SDNNTFdoMVVQYVRLRlNRR3lhcXlfUDI4NGwybGg2UjhNZTZxRkkyTXVVR2NaM0NNRURCMWRnZl9PVS1xc3RoaVBpUWpaU1NKMUxoTk1zYV9UQnpwaFFRb2FuMm5RUmhIMDdVWWkyRi1ndWw3cVhjVFE2ZmktNA?oc=5"
       },
       {
-       "outlet": "CBS News",
-       "title": "Microsoft offers buyouts to 60,000 workers as it pours money into AI",
-       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMXJHaTJ5V1ZSN0VTUnlTaWg2a01sU21ybHExWjdCVDdEcU1QSUF0ZlVDRnd4NjRHOU1fdFl4SlNMc1hhQnN4ZDNiNi1JV2JJZmZ4S0N0SmdRVklSbjFQMnJqMnZjTy1WVTV4SGFZWnVDai1SaGw3RWJxbXR4NDZ6bTFtVUk4YjVvcFJIaHMwend2R1VoQ0JZeQ?oc=5"
+       "outlet": "WSJ",
+       "title": "U.S. Consumer Confidence Improved in October, Conference Board Says",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYzl0RW1fUXBMNlpmMFFiOEFSenRZRUJ5N2lUcDEyYlc0Zk14QlVwQkRHa3I1NEhwS0h5a2RxNzg5eWIta2ZBRlRmMVFHN0NBeFJuMnNScnB1NE1HTmRscWpqWi1MMFFMMlBHaEQ2Z2p6REZzT0wtcjlLNGZscmpGRW5QSl9odVU3SDJoQlhOZW5MU1hoWnh4dzVqVlJwY0o4SmxaWXpXU2UxMk45UFhUR0l3ZERDd1dMMGc?oc=5"
       }
-     ],
-     "direct": "https://www.cnbc.com/2026/10/26/microsoft-msft-voluntary-buyouts.html"
+     ]
     },
     {
-     "title": "Dollar General overcharged millions at checkout for years, FTC and 20 states allege",
-     "summary": "The Federal Trade Commission and 20 states have filed a lawsuit against Dollar General, claiming the retailer has charged customers more than advertised prices.",
-     "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BbW5qempFcFRFZDRWUmxCRmRRYnZ6c0YwYUpwMDZ5aVNzc3RfYWRneU9HS2dYQUttX0c3Z0hJRm11MHo4VVl5MUVWb3d1TlB2LTBkaHVhV2hUU0stQTdONWJkTm1DM3lqb2VXWVFhYS1oNy14Tm8xQjZ2dUh0dw?oc=5",
-     "published": "2026-10-26T20:28:36+00:00",
-     "outlet": "CBS News",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "Your Ohio News",
-       "title": "Ohio joins FTC lawsuit accusing Dollar General of overcharging customers",
-       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU1djM1dOaEFQbExxZ29WQnJtLUVRZUpKWTF3eEtFeVF6bGZmZ1QtRUZJdWUyMFZJYkxLMjUxZlRJMVFHd3phQVBkeXpydlZMdGg2MS1SV1laTGVZeUYwR3I1RktSMjdyTXV0VjRQQWR1TmxzRFZtblRQWTNRTTB4NzE5M3A4UGhhdEdyRnZ4VEF0VmxJOEFfQ0dUVUw?oc=5"
-      },
-      {
-       "outlet": "TradingView",
-       "title": "US, 20 states sue Dollar General for alleged overcharges",
-       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSlVad2VYeVpsUVA4MFZKMHg4UlVrUThKMTFLQWZ1eU1UMkthVXpjQnpuNUN1aWlRMElOcjNuOU1xbWplYVVxRzlzbVloSjFYUVEzUnJsWW8zNW9nak8zWkE0Ulc1NTk4Y2FrMGhHYjFOOVNXWmFXOTktenpoZEdzZmFEMVVKY3VlUDkxeS1Kb1RUbG5FSktCbE1GNTlMaUZRYXl3T1Y1N2RqVTZUVWFqY1RCN2JudjRfREN0RE5xZFRKbzA?oc=5"
-      }
-     ],
-     "direct": "https://www.cnbc.com/2026/10/26/ftc-dollar-general-lawsuit.html"
-    },
-    {
-     "title": "United flight returns to airport after passenger spotted texting about hijacking aircraft",
+     "title": "Boeing shares sell off on slower-than-expected 737 production, weaker free cash flow outlook",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5wNTFsMm5KMndXMnRnRzYwRFJOVHhHbk55Qk1QcDhueHZudVcwVVZYX2VjNGpUb3dvRXpIOVlPWUJlR1VOZjVIV1NLTjhXT0pyaFJvZFBqZ0ZDVFVQWnQ4?oc=5",
-     "published": "2026-10-26T19:54:56+00:00",
-     "outlet": "The Jerusalem Post",
-     "coverage": 1,
-     "related": []
-    },
-    {
-     "title": "Markets News, Oct. 26, 2026: Stocks Finish Higher to Begin Busy Week of Tech Earnings, Fed Rate Decision; Tech Jumps on Enthusiasm for Anthropic IPO",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWmljNF84dWk1MUdZWVhRaHcyNWpGZmJBZWluYWQyUjNURUw5MG1ZcG5SVkJDWTRyZDdqajJ4QXJTcHdrdVBhVzE4WGFyaXczUzM4ZEJVSG9ibXZoNGVrTFdObUN1Zk4zYVM5WTJwN252Sm9pdllsR1NtZGZmTzdmWUZ3Y29RLXJxbnB3cXg0QS0?oc=5",
-     "published": "2026-10-26T20:05:33+00:00",
-     "outlet": "Investopedia",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNnZ1c1Q5Q2tSYnRpdnppV25UNEpNekRsVGhpbkdLVk95QjBkenF1Ni0tOFJFYThrcXlnYjhRbUJWMlo2WHlkLUIzNlJ5UUpoN1p3VUh3b1p5TlJlZHBpaENqVmY4RDZPVTFsRHhMZXJKQzhseUM1V2U4TjMySHdvNzZ1VE9MbnI4ajV1dklVemhwWFRrZmtYWF9qYUNjUTFLOVRMaGNVUG0wSDhHcEZMbXNjcWpHWGZqeUEzc3puMGZwd2FvVU93?oc=5",
+     "published": "2026-10-27T17:14:05+00:00",
+     "outlet": "Reuters",
      "coverage": 5,
      "related": [
       {
        "outlet": "Yahoo Finance",
-       "title": "Stock market today: Dow, S&P 500, Nasdaq rally as investors parse Anthropic IPO filing, busy week of tech earnings",
-       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTUt1eUE3VDkwZ1ZYYVpPWmxkUS1oR05PZV92a2daYjlualdRaVVjWnB2TG5TSzJsRDNfN0ZyUDhPOXJiTk00ekcwYW1vR0FENlFTX0dnbl9nUU1FQnB6NTVDTEhvRkJJeFMzMUJhb2FYa3JKanV0MDFoelhPWVhTWl9JVHlYSnU2ZXNzRGdGeFBnWG96RURwS0lILTZsdzBWOUpFQWJqdzFKbzd1?oc=5"
+       "title": "Boeing stock has its worst day since 2020 as the 737 ramp slips into 2027",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQl9kcU9lUnlpZmR0S2QyZVR6MHZ1Z213UWRaWXFxMHZnamVEOFd5WDExWGlZZDFMSS1SOGhWb1d6enZaVzI0TTZtd29VcUxvc0h3U01qd2FNNWttZHBYVTJRT2dTRURTMkwzenZybGVsWnhjcEQxczFtNjdIZjJrX2xKVTkzOU5fUGlGZ1BMT0RmSWVwbU5RdUNqQXdSTUV5NVUyME1LbHE0eTd6TVcyMHQtc2hQSHBJN0VOVTBzeC1iVkpKd2hMYjRn?oc=5"
       },
       {
-       "outlet": "WSJ",
-       "title": "U.S. Stocks Rise Ahead of Tech Earnings",
-       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaXhMal94Y045VWxhdVY2WEVfTEZlLTRuUmF4X2VHWE5MZ1hVSVRTRkkxWU9FUVBmeExHYWpSRG9HbHQ2a0d5UU5vQzBnUWpGMi02dlRxeXllbFhqT1JNVjVvaGVmYzBYa2wzYU5KWkYtcm0wRjdPQnlYMC1mc2RMcGx4bXNCTEVPREE?oc=5"
+       "outlet": "CNBC",
+       "title": "Boeing says it won't significantly ramp up 737 Max production until late 2027",
+       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtSHVrTHRkamp0ZWk4ZGFXeTZnbUl0a3AyZFAyWnh3UkRjcHZORHJLN0NKUkxQdE5xOUNhZk9UYnlMQXIyclNvWmFGMUduNS1CODVsemtZaDJaWms0UVpPRkZ6UkJKTkVocjJRNEM1Y2dRd9IBd0FVX3lxTE54endDcUxXNk1haFRVYTNjNTFwUDhXLXVKRDR6NHNsczlGTGVEcGdfeEtKVW1IMU8yLW8tNW14YUprQlJ6SWhZSVVkYzNsdGNoZ2JxSEhBV0FKSWhXVGJpQmJhSlRLTkl1N2RlUzVFVm5NZDB5Umxr?oc=5"
       }
      ]
     },
     {
-     "title": "JetBlue posts bigger loss on fuel costs, but CEO says margins improving",
-     "summary": "JetBlue Airways is in the middle of a plan that aims to cut costs and increase premium revenue.",
-     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtZXM2VzlmNWZXS2VSZTE3Y1NLMmM5cVMyeUpwRm1YU1YxSjZQTzgxX3p4MmNLQXVLbXdpTWJPNHNkVEwtLTMzdUpVbnVrZmVNX2J2UzZNYXlZY3R6ZlBLS2ZqT1R1b3RkZ2hLRmZXUmVzNG9X0gF6QVVfeXFMTjlXWWtsTVdSaktQWlpiLVR0Rzc0c0EtcGtldXpndjBKZWd3YjA3R2E2ME9NNHpIcVNwN09iNVdVZEJ0TjZFRnhURjlVRjh5MGd5VjJpOVlJSWJxVU96S1ZkamRSeEtBS3RVQlhMTjM2RFBqeUZmeEM5bFE?oc=5",
-     "published": "2026-10-26T20:37:55+00:00",
-     "outlet": "CNBC",
-     "coverage": 1,
-     "related": [],
-     "direct": "https://www.cnbc.com/2026/10/26/jetblue-jblu-3q-2026-earnings.html"
-    },
-    {
-     "title": "Exclusive | DoorDash Is in Advanced Talks to Acquire Delivery Rival Instacart",
+     "title": "Federal Reserve expected to hold interest rates steady in last decision before midterm elections",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM3ZvRlVFSjNDTHZIeTlnUWhXdjdyTkVZQk1rV0xtTmdjT3VBN05YeVI3cUpGLUlBRC1KaTdKVzMtekd4emZ5TU1nclhrajVLV0VlbmhfRGVOVHpCRG83RmdkOElvOHhyUkRKVkd6VU1LajNUa1JvcUdjdnlVLXBreF9nV3dhOHYzWnJLSm5XVVhmVnlHS0dJRmpxMWpEY2hBMl9Fd1pCNFpiZzBRaWRwcHlEZ1I1Zw?oc=5",
-     "published": "2026-10-26T19:52:00+00:00",
-     "outlet": "WSJ",
-     "coverage": 4,
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSVIydWFYR0ZrclVBdXVnc1J0MkhqNHl1Z29oMkFPVkF4T2tzUndiR0UxX3hqblBsRFdQQkdGdUJkcnFncTFTanBIbThDM19DdGdSWDltQW9McFprYU1MYVhxM20wU1lDRG9QdURQcm44UU9DOXhOdF91b3pVNGphOHduaVFXWl9ESzlGaHRNQ3QtS2o4VW5hS1lNVEpEUmFSTl9XTWotU043QUt0VmR3NHFRZ2VPQdIBuwFBVV95cUxONHJ0LWVOekZ2amM5T1E5bTBYZDdvSGFJUHRHR3JjT0x5YUN1b19SMjFtYW1SZmJZOFpKTlJJYkdTMVNaNEVqRE9yYmQ1RF9Sckt1eXBJN1dpeDlxT2phZ21zY09BRktfbzZqY3h6T1FYU3NwemZEQm5MSDQySWpmbDJyM21nY05OanlTeEVLWEFHOEZsWjBMa3FMVEl2c0dQT3BTemFpOXllUnpVVEhyMXJxcVU5RjY2YlVN?oc=5",
+     "published": "2026-10-27T17:46:38+00:00",
+     "outlet": "Fox Business",
+     "coverage": 5,
      "related": [
       {
-       "outlet": "Bloomberg.com",
-       "title": "Instacart to Wind Down Smart Cart Business Amid Sale Talks",
-       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPM2dRMG5YU29oS3JpYTQ0OTVWVlI4YnVlUWNBZTNRT2pLY3p6c0hmWHo5Y2h3MEJUWmw3cW0zREp4X3NORG15SVN5dmhURVVkTU4zb1JHSGlQbzEybG5Bd1BPeGtjUWNRZ1QxbWdQT05ZeDM1NkNWLUtJTXhIWEFpcTIzZEFBQTFzZGdPQ2haNkNHMU5NZk1hREo5VkYzZDlLQ09FWWhaa1EwUWwwMXc?oc=5"
+       "outlet": "The New York Times",
+       "title": "The Fed Is Expected to Hold Rates Steady. Warsh Will Have to Explain Why.",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hWEhpWkMzUnJhcHVQUXN6M1dXeGxTZjU2Rmd0cURJSTZXVmhKV1hLQ2JXX0RVYzZzenJUR3FHZzdPVnNrM3hSZzloMmxvMGlOUlBfLWltQllRcEZkeDM5MVRoMFh6UVBPLTR5N2xVdWJ3R2pSY2RnOW9Pb3VNQQ?oc=5"
       },
       {
-       "outlet": "Reuters",
-       "title": "Instacart in talks with DoorDash and Uber for sale, The Information reports",
-       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUFhIZ0lVMTlGNkdkWGFJRTVKSVhYUDhYZXBJWGRRSVFOeU5IYWdzbEdDblloYk1pUUhVTXFkZUVnR2lzLXNZelNxc25PRVNocDZiODV5LXBGYVVCNzBtb2JHNHBwc1BCREdUSE9PcUQxNjVXRkl4T2ZIYXVDVTBqeGNVTmM2ejN1Y3cxbUF3?oc=5"
+       "outlet": "Bloomberg.com",
+       "title": "Fed’s Rate Decision Lands Days Before Midterm Elections",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUlI3SHJwYTFtNE1fLThJc2UtVTNQRGRfWFBaSFBaVDB6NzNJekFHUkduWU02OXNDaFhibks1bzJ1NGpDQTN3SFg5T2FXbGo2R1dSS0FQT01OZUpDWWl0Q2cwWkE3eFdieE5xa3BIT2w2SmJ1R3VpbWk5dXRwczV2cVFnUnlhYXpmNEJabUtKNnJySWJaa2V2NjQ5c0lBUElkdEFJMXo1RnY0NFVrVHBUZkFtbGlZQ1k?oc=5"
       }
      ]
     },
     {
-     "title": "Why the Fed may hold off on another rate hike despite high inflation",
+     "title": "Honda warns 50% Canada auto tariffs would be catastrophic for industry",
+     "summary": "President Donald Trump has threatened to double tariffs on Canadian vehicles and parts from 25% to 50% if a trade deal is not reached between the two countries.",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQTDVKNHJCemJmeWhwdU90TEp4d25ST2xFWk00MmNlanhyMGVBQlMtbUc4aGlydFlIVEplN3JUdV9TZEQ4bnQwelladTVoOE5RbURubUpHa0JhcUw2Q2k2TzNUMjF0UURQRHBzZ2hzT0JQY3BCVldDdXdmc0tDMGEwWmZGNFlQaU5iYWVOV09lc1pNZEc0WjIzenBhVTY4T3pTZlHSAacBQVVfeXFMTWhvLS10MTdQZ3V5VjJVRnFsUjFKVXo0QktxWkxkMGVRNU9KdmY0NXh4eTZma2pfaHVtSnBWNGhlTkJvYTc2ZmRicVZBbmlCRW9hX1dWTnRtWlhhS3NuZ0l5Z2tWNWtNQzN3MGhVYnVfMFhoRGpMbmJDby1XeVJRNl9jRjlvenAwVHhqYzJXUzBRVTkzMnVtS2xyYjlfWDBVMk1sUzkyVzg?oc=5",
+     "published": "2026-10-27T15:45:57+00:00",
+     "outlet": "CNBC",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "Reuters",
+       "title": "Higher tariffs on Canadian imports would be 'catastrophic,' Honda exec says",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTldtRFI4Ni1TRHVGb3dzY1BvblpOVG0zMUNrSndrLUJBSHdnZWQtekdoSmM3cjRPN3N5UHRtQ0E2a0Z0M3NzOFRFTjliZW1XR3VoQjNIYTRMMktsaHZZVGFZdW41RUp2TnVhRFNzYS1RZmEzRERBVWhrTkRfQTF5YmxXTGRITVRfZlp3ZmtvLW5QblgyM3l1ZXhCVGd0Y1ROb0doaDN2WWI0Q25jNUlRS2xST2NlY1doVTRIdnZqUzg4UHpJZ21lS1BkdU5Xa2Q1?oc=5"
+      },
+      {
+       "outlet": "Detroit Free Press",
+       "title": "Why sales of vehicles made in the U.S. have hit a new low in Canada",
+       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNNnhMSDZFOU4tWVZvSlV0NmszNE1yM0NQN1k1SkQwQ09STmRRb3lkZlNkeUFJd0libzBEOUJ6YmU5SC0xY3JGWWtiY3hBbE1ockhidThtTGl1ZU05NWxKWV9TUlBiMjdITVVUeEFTLWdCNDA2MkpSMThqcDVWbGNFaDJtcXVsUkJiRy0xREJQcHdoZmc5QUlVa1BUUWhLSU1mcWs3NEhJRHFYQ010Mk9JbHpha2gwcnQzb0lQc19kaDJ1RzJvSXAwcjFfMTE0NFU?oc=5"
+      }
+     ],
+     "direct": "https://www.cnbc.com/2026/10/27/honda-warns-50percent-canada-auto-tariffs-would-be-catastrophic.html"
+    },
+    {
+     "title": "Microsoft’s buyout offer to employees shows which tech jobs matter",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRmpIemZMampsNnRvQ2l0MzhWa3huOWk5SGNOSkdMZTN2Sk9lY01fN1NNdW5aS1ZSUG9ZTXRtdHU1MjRlTnlOT1JiQUp5c2NaS2NsUFM0Tm9Jem9yLTdqVThEVTVxUk5CWEtaZTduZTVCMEluakJxblNvcG1iMngxVVBrTGlDMHNGUndoR2R1NkRnemEwcEhVU3RwWGhTTUxpNk9yNUNkSms0T2l6dVpYZHFubGdwZllZbkdhZjNtbkFqSFNOWlNv?oc=5",
-     "published": "2026-10-26T13:00:00+00:00",
-     "outlet": "USA Today",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYlpLVElmV1RTMUUzOW8wV1kxbFNjdVI1X0tiMGc1NVluZWYzU1AtMzYwYU1Yb2JLM3hsOGhDZXNIaGpMN2RjLTZsUkhIOTRHMUFGdS1mR090YUhlaWxYd3ZzaU1hTlMzTlgzRVhobTlQWkRiejEwV1oteHhUemszRVBmMTVQbDBOLUpqN1NQdFZEVUl2dUF4VGE2VFdJdWVpVmd2NlYydW5vMmJl?oc=5",
+     "published": "2026-10-27T13:55:00+00:00",
+     "outlet": "Semafor",
      "coverage": 5,
      "related": [
       {
        "outlet": "WSJ",
-       "title": "Why the Fed Is Expected to Hold Rates Steady Despite a Case for Raising Them",
-       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcXF0NUI3czJhVkNQQWc2Tk5GNWxTeHFIdng3S3ljT0JLWXVrVGtJUVpCcndjYU1JMnRNNGo2UjI3UlN4LTBZMnZHTUljV1RwMDZ4THRqZ0E5ZTdiVkRFMWNFLXVBVjVDcUxLZnV5LWNIcDNBN1R4b0dxdGxIMnFiX2pZQS1Qb1Etc2VBN1lEQzNSbUN6QUNyem5IYkxwR2FEWDNIT1FuWERQeWlOc0x6ODhnQmJjb0FQdDVCTFA3Vjh0ZW1zQW41Mg?oc=5"
+       "title": "Microsoft Is Trying to Shed a Lot of Workers. Just Don’t Call It a Layoff.",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1Ka1YxUHpyMmNta2REaXEwOFpyMzFuRWlCeEJOWEE0dnlSNEZKelBwTHFJeXVPODgxNHV2MGF1cW85R1A0RXFCRnBHcVhYSGlsRHc0WHJvN0JvVTBsTk5HblItb28wZjZrejhpUjd1azJuV2MzYlZEdW93?oc=5"
       },
       {
-       "outlet": "CBS News",
-       "title": "Federal Reserve to announce its latest interest rate move this week. Here's what economists expect.",
-       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTjc3SWhXX3BBd29iUjJQRC1HZ1k2M1ZzU3RORWEySTQ4TGdaSjdaMjIwNTVUWFJpZW5OZmU4X2JPYlNSOWEzRW1BNHJVRTk3azhSRExhRTRlNG8tNzhsMHhIcUpIZGdScG5jWnNGR1A1VVdpWTVNcDhMYm5kZjFWSzJn?oc=5"
+       "outlet": "Yahoo Finance",
+       "title": "Microsoft and Skydance announced buyouts. What does it mean for workers in a 'low-hire' market?",
+       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTnJfUHJXdDh1LVFMQmQ2eGg3VTNWYk04bHp3dVM3ZDc3d2ZRdzZ2T2pMa3I0U0wzd2hyRFRiSWtVNzNOMmFPWG5sd0QzZWx3OVlobTdyMURUa3Q0cXIxOFkwUTRsSjB0YVNYeWNZb0ZWSU1keGt1WW9Odmc5Si1HZDlXNm1nTExoSGpYWkhvMVM5S0ZCOVVRM3oyYVRhdFdWcUJIZzNvaVJXc3lScjVZUEo1LVc4djY1bHAtS3FfMXo4NzdxNkQ1UGxPV19LSXdBYzhnNTBxcWFMQzd3VXI1bWFR?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "A 'never-ending' cruise has halted operations and told residents to disembark in Cambodia after fuel costs rose over 300%",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNamN6NGVnUEFIOFJqWnNDNndxTnFhZFp1NVZzQzhDWFdmUUdKU2dQem9EYnhBdllWQXNjM2NFd0lkVTZTbEFINlNRMXZieUVveGlpUnhXNmVrZHp2bm5FbXBiQ09LSEV4OVM2aWlvYkpyZWVicW5Ua05pdTRnLVdUQkpfcUlrVW9MOTU1V3czYlJucGM5MHFr?oc=5",
+     "published": "2026-10-27T15:23:00+00:00",
+     "outlet": "Business Insider",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "PR Newswire",
+       "title": "Villa Vie Residences Suspends Operations in Cambodia as It Pursues Restructuring and Recapitalization",
+       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNME5RZ3ViRlJhSnEwTTE0c3c1ZHhRZTY2WlREbWNJVFZUZkZ3MERERndXTHJJaWxqNnpBR2NfX2VmSEdxQnViZk1fczNZSkNkbDR0WnpHM0J5c2k3Wk9pUXdhdy1lS01uUWtNTnAtOENWampES2trUjRCNkJUSW9ScWZKVDU5U1laY2hGZlpCYmZOblJlanNUb0Jka0RfUzgxVldEWERQMHpFdjItcXpjcUdVM3k3T19uQjF3TWxSMTVVTDlGaExmTmhoZ3VzN09WSEd1MnB3bkdxblJaMUtPVnZOTjlXcTRBY2RSNFpB?oc=5"
+      },
+      {
+       "outlet": "Bloomberg.com",
+       "title": "Cruise Ship Strands Passengers in Cambodia After Fuel Surge",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWE5SdGtvdFF0Nnp1NE1FbEJtei1xNWxfYjMzMGhMN3VDRUlETGFlcDdNYTBuSGJHYlZFbWNVaDREb3lQNlBTdmprdDE1cVIyYlF5UkR6di1kLWxQOGljbm0xRmhOLVNSUGhsTzFJZTM2Ym5WLW9PSFd2Z0Z5Yno5WXdIbnBYbjM5ZVFtRWJyVVhNWDhZTkd3T1lWc0ZvY0lPU0xqWDM3SVcyYmI5OENKWEIyYXZRdw?oc=5"
       }
      ]
     }
@@ -159,82 +180,122 @@
    "source": "Google News",
    "items": [
     {
-     "title": "Xi Jinping’s corruption crackdown in the spotlight as China prepares for meeting of top leaders",
+     "title": "Watch: The Mbappé-Chairman Mao controversy explained",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeDRFc3AxTEo4WkdsTmE5RzVMcEhkOWlsUGoxVDJBVlNCaVJIeWRSN0tjMDdHOVV1MVlGLUhJX3ViNFhjYnZQQVlveUM3S1ZleFBWWkpJRTdtUjJNZ2hmR0h4NHhKN21vbVN0VjluV2JSUkNCcHgwNHN3aVdtTXcyMXFSd1VwNThlTHVRMnF0SUF1bGNYUHRZM0V3ZHQ?oc=5",
-     "published": "2026-10-26T17:20:00+00:00",
-     "outlet": "The Guardian",
+     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ZQjNLZ21iZExaOENTRjQ1ajRhWXVQMjM5dF8xUVhkeFlTYy0wWUltbENLS2E5Mm5UN011RTVTNjlGMk1qaU52YldkVXdOX2xNLTVnT2p1c2U?oc=5",
+     "published": "2026-10-27T17:11:27+00:00",
+     "outlet": "BBC",
      "coverage": 5,
      "related": [
       {
-       "outlet": "BBC",
-       "title": "China's big political meeting could see Xi 'tighten discipline' in party",
-       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ORWEtVFN0Uk5VXzYwLTN5SVJyQkJDbWs2N0JDTV9WdHhXWGh1cnRpejIzaHF2OGFCb0ppeTBLMVhJRFktRjFmemFDQjlLdVpTZ2tqbV9KVmdNVTQ?oc=5"
+       "outlet": "ESPN",
+       "title": "Kylian Mbappé dropped by Chinese brands after alleged dictator comment",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSjYtcDdIQzMyNkRLcy1XOUdzc3B1RDF4eVZPQVRaUXVKMTNpX3FTbU02R1VYNjRaS0N6S090UjY5ZWpoempMeFo0VTRIZnQyeEJsRjhjZ0VzVXA4amxhdUFRYm1pQW5hY0FOQ255Q0FLX3ZWUGlhNERBR1R5SnFUcjR6b0pMQW1kbV9ZeG9DSHBjTUEzaC1PZF9OTDQzQkNxRXVrNzFiejE?oc=5"
       },
+      {
+       "outlet": "WSJ",
+       "title": "Global Soccer Star Kylian Mbappé Just Apologized to China—for a Mao Zedong Meme",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lYWZ3WTVEQkNMSDNTbndQYlRpVTFXUUN1aVhGc0pTa25heUtzbWZ1MHZORi1YWm1TSlJYTUN1dXJyOEtLQVBJa3pUMXJvQ2hsOGJqVXFveVdETHNZY09IeFl3am4wRXdWVXlZa2d1NA?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "Flávio Bolsonaro reportedly flees Brazil for US after travel ban",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbjBVVWp5amQyRTg2eGRhZEszYWRpX1JvWmxRN3lFaHBhQ2s0LTViRnJ1OTUwYkJYaXl0T0hBRERaTkRKZUJMRUdNbVNTOXNfcTBXRkp1QjdIQzlvNEdrMEtsN3JyY3Y5MGxvTFNmWFJzRGlZYkxFajJuSHplOVNSUHdOakY1MlJoUkdlcTdOQk5LVHl3WGdZNldaMkc?oc=5",
+     "published": "2026-10-27T18:28:34+00:00",
+     "outlet": "Courthouse News",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "The New York Times",
+       "title": "Flávio Bolsonaro Leaves Brazil for the U.S. After Election Defeat",
+       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbVlya2tfVjRPTU0wMC1zOEtGTkY1Q3dtVWI0U0dVbHlQUWJybVNNaFBLOTN5cVpUVVJXS2ZPMVB3cUZ6ZXNZTXVzTWp0WWFJbF9HcGlYUVZERFFkV015dDJ2OFdHeWU3UllwTmM2d0JDdlUzbi1XMTdxMTVWQnlsWDl0amxYZEtaQUYzbTdWVkdzczZXV2xiaQ?oc=5"
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "Flávio Bolsonaro flees Brazil after presidential election loss, reports say",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOc1d5Y2x0MGFEQmNfNDJsaGNsX2ZYN0RJZVIwY2JDSWozeXk2ZXdMV0xwM0pMcnZZOU5OY1BNRzZ0R1J0eGNoUld4T0tKMXp6WV9qak9XTVhQZG1sUndMQUZfS0RXbUpKSTRtb0FWQVBNR09hT2FHWEFkcFV5dFFrMTlHRUt5MDJMbmNiRA?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "What to know about China's plenum as Xi seeks stronger party discipline",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd21tTnM4QnRYZGZxbFYtUXk4aUNyMTVpRVRrcmYxYWE5YnZMTFZtSTlTZkc0bzNvM3QzbGdPZTdGTTR4VlFIUW5UWUNQNkVSZUxyYXFiY0NIWUpVZy1leUFWT1JpSzJmNndIMzhRWkNreVBqalpaSk1yUERLeTJKT2ZDLTRZZHpET3FXUnhWeFlRbWxXSG4wbDJ2Vmppek9yYXgzQWVZZFVIbmhqWFZGV2ZISQ?oc=5",
+     "published": "2026-10-26T13:20:38+00:00",
+     "outlet": "NPR",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "AP News",
+       "title": "What to know about China’s plenum as Xi seeks stronger Communist Party discipline",
+       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWE9NbzRMSEY4YkVVMHhZWkVVTWJ5a3RESm1IdUZfelkyNDF4TVBkWjl3eTlPcWh2Y3JWdnZzMk13cTIta01EWGg4VXlmX0NuRE1peE1iSnJqQnAwdlNodHByYk9yclR6QTFfNThwdXVIbGRvalBaMFpVYUtkMV93WVJobV9Za2NGRl85dzlyU1RLTlc2NHhkcHU0MnBOcWJl?oc=5"
+      },
+      {
+       "outlet": "The Guardian",
+       "title": "Xi Jinping’s corruption crackdown in the spotlight as China prepares for meeting of top leaders",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeDRFc3AxTEo4WkdsTmE5RzVMcEhkOWlsUGoxVDJBVlNCaVJIeWRSN0tjMDdHOVV1MVlGLUhJX3ViNFhjYnZQQVlveUM3S1ZleFBWWkpJRTdtUjJNZ2hmR0h4NHhKN21vbVN0VjluV2JSUkNCcHgwNHN3aVdtTXcyMXFSd1VwNThlTHVRMnF0SUF1bGNYUHRZM0V3ZHQ?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "Trump's son spent two days hunting in Mongolia with a Russian oligarch",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1EWTIxbWlteFR2b0toemFab0hMRmtlRXNWOFVyNXFXR3hObEdqNmhzTDlPVFN4eDllaVpGVEs5bHFYNjkwTFdYZlhnOEt5d0l2c0xjbk9DMFdmNExRVEQwWUswbGrSAXBBVV95cUxQeVM4TF9PdlRYcTVDZzZrYUFDaG9QbnBLdlhtNTZROEF2TGRRdHlPMlhtckh2dVFROE9BVE9rMkRGTXkzdHBHVGdGbzNJU290a3BJWDM5MHJiOEtGNXZSMDM1UUZ1NTRaaWc2TERITGVM?oc=5",
+     "published": "2026-10-27T09:31:00+00:00",
+     "outlet": "Українська правда",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "Forbes",
+       "title": "Donald Trump Jr. Hunted In Mongolia With Russian Oligarch Umar Kremlev Who Bankrolled His Wedding, Report Says",
+       "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQbUJiSGVKYnF4WS1BNHRabFM2MW1zcUdrOUF2N3EySmFTbmNoZnNzS3hJMzdyZjVIS0dDZ2JEVFlJNlhOVEtNSHBYQmlmOUEzVVpfZ2QwZEtEd2dJZ0FJbENPSi05aWIwb1YzOHpXLW5fdllWakNiNzlDYWR5Njh1X2tJbzNkRC1raHp0RGJkZ3VZdjZFcVUydjctUnhCTnNhMUY5Q2hYMG9BZG1ySDlULWcxN2hUNHlzeGd1R1gxdWV6TGt5Ny1fSUk0ZW1UdklvNE9FQVVRanNIQnhDT2lCRjdtWjBtVmo3RjFMMkNPOXFsVVRiNkJCTmFrMV9aYVBUWVZWUDlB?oc=5"
+      },
+      {
+       "outlet": "Financial Times",
+       "title": "Inside Donald Trump Jr’s Mongolian hunting trip with a Kremlin-linked businessman",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTEVJcmZmVUN5Ukg4MWhHZlhiVU9wa1FiT3pvdFM5Q3VXQW5KRFNwc1ZKb0J6X2hJYTFFbWJsVlRSQkMyWVhWUktHaWowa3BNbTRoSHc4cDhUaFM2MTZtdjhVcHp5VzhBUWxnQlhkSWZidllOdmVDejk2Q0FvNWtDT2tJQmM?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "Actor Imran Khan Gets Interim Relief In His Challenge To 'Leave India' Notice",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTks3Q1hPaVRiSHZiYmVSd0xZckEzUkdqU0RVUTh6TVQ1T3YycnN6cVBWSjVTSlFKd21fcHRGT3JOakVvd0R5RDNxNFlDTlBxZWhZSFdhZDdwQVczMThqUUlVMExRU2lsM2RVS1k0Z1l0cjVZeXVzYjA5WXVaLWZiSXJySXRmRjJFRmtpdzltcWVSMGxxYWlzNGw1bnJBYkpzbUJ1SnBQeUctNUM1ZmVmS2FHaGc?oc=5",
+     "published": "2026-10-27T10:17:00+00:00",
+     "outlet": "NDTV",
+     "coverage": 5,
+     "related": [
       {
        "outlet": "Reuters",
-       "title": "China's Xi opens Communist Party plenum, aims for firm governance measures",
-       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdkd0OE5rNWV6aVVmTDhZbDZKMm8xLTFHaVdNUzZfV2VYVEU5V2dnSGV6Z0lEQjRQV1Z1OGh6cEc5TVV2ZWZTTTY2c2F2LTI3Y1Vaem5XTEt1RkRuaHFCamNSUkhCNlNWQVVRaWtyZUs2cWp1aFg5ZktyWDZoV19vX0pCZGpfZDRrd0tUSE03T1dIMU0?oc=5"
+       "title": "Indian court allows actor Imran Khan to stay until November 2, media report",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYmJuRlp4NUlra3VmeURnelJmRjBEeFpTRkZ1emN0UGZMQ3k1aUhfZk9tX2JHTVRsQzhleGlJdldFTHNTMHNIZGZfbXkyOHBLTko1WThXQVpwX0tNbUFCcFZyNVNham9kYWVmZldWN1NuYlktZ21CZUR4X0RqWXBkMUFpbnFwLWlxblJRSkJfYXdiY3hraXMxaFJ5Wk5WQXNleTUtUzRpZndXVUg0N0htQnRXcnQwaUtoQzZfMEdqRW52Ulh5YUNydVd3?oc=5"
+      },
+      {
+       "outlet": "The Times of India",
+       "title": "Imran Khan gets big relief as Bombay high court to hear plea against 'leave India' notice on November 2",
+       "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQTTNQSWlmWDJEei1abmRlLWdEMUFoUUU1Um8wSmtLNGVUR2RQb3AwbGdvMnlxREFCbFNRb0lpZl96aTh0Wjg5TkprRXdqU0lBS3M0ekVseDhKaHpWWUVzd3BaX1JCb3ExeWhrZ1lNTnNzYV93b2ZNS2EzR2ZoSkJsS3pOYmN2MmtPRVgxVmQ5NXItaXh3bmUxWFNMUU1tWHRXSi0ya1BjQjlIeXZLcE9LcnRIdTg3UEVRR3FUSjdZeVlPQXJELTllOUNrVzBGVnJsWl9uV2VYcF85b1dCaXRfUG55QUotYVF0RTZSQ004VEhLNHVqWGpobXRoS0dQR3NlcFpBNmpTNXJGRHBRbEE?oc=5"
       }
      ]
     },
     {
-     "title": "Venezuela’s Regime Says Machado Must Repent and Avoid Spectacle",
+     "title": "US told Venezuelan authorities that opposition leader Machado should be allowed to return",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOLXRVVlJXQXNpeW42UE9UcWlrelBzSmEyeWtTZE0yV3FIVnZaZlN1bURRN3RZSmluNHRlbjhEb0JUQ0NWcVZIUlB6enlnS3kwcDhLRGJzWTV0TGNkOEFzaXc2UktJcmhDSHUyUG9ieWY5cDJyUHI3SkxfRkdfMTBXaXlSRFE2NExGR1dycUJ1a0psRHI1Ty12NG5ETk1YMW5ibl9ibHdBdVpNWDdOUGRWeXNHeTQ?oc=5",
-     "published": "2026-10-26T19:21:04+00:00",
-     "outlet": "Bloomberg.com",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSzJuODh3SUc4VjA0VFlqR01NSXBRdUpJNTk5LW55Y2hVVGZ2dVYyQkM5cXp1eUh1RVFaQktvbTBIUjFqMkNCUkhxQWFERmw3ekl6NFRGWnBFQ2JmaGZaOXpCd0MtdDZSY05IdGlYdW5WYWIyMmprdVc1YXpSZGJlbm53aE1DU1BDdXZYclJjWnluUURVRVo4N3YyTUNOV1BNLWUyVVZ3?oc=5",
+     "published": "2026-10-26T20:54:00+00:00",
+     "outlet": "AP News",
      "coverage": 5,
      "related": [
       {
-       "outlet": "CNN",
-       "title": "Machado finally made it back to Venezuela. Her challenge now is to pressure Rodríguez without upsetting the US",
-       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPeExWeS02NjVLbTlFOTB4WWFHUnRpX2J1LU5KNGtrejYyeFZ0bF9Ga0hYNFdibVlBUnV6LXh2VXBTNGY2TnNmbXF5OHNEVXpZdktLYnNXZUFPS0dfWWxJMlF3RGRlaUVoazF2a25ZTjNsdkM0SzJQQWZGZFZTc21TWHdrRTNSSC1GQ05zQQ?oc=5"
+       "outlet": "The New York Times",
+       "title": "Venezuela’s Moment of Truth",
+       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdUlROV9MUW9Bb0FyRXg5bDFRVTIydmNTamx4ZDFVSDlycUtaUlpyVzhkRUZGcklqc0tXeXRzZndtVUR1QW5SZzQwT21oZTd2WTJkeG5ydFBBb3dIVjVuRVl1MFBqaDhQQ09RVHg4Z1pwaWRqeGdleEtORC1CMzJzVzZwRzA1WEU?oc=5"
       },
       {
-       "outlet": "Reuters",
-       "title": "After return of opposition leader, Venezuela's acting president says hopes dialogue will offer space for all voices",
-       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU1g3YTlSaFRicDVEa0pZYjgxRF92T0VBal9FSVNFQ21uTDZId0hJNjdHVjcxb2I0SlB6YklnaUpUcGhySklwdnJQSUQ5TnBPekpEdUk5b0hyMlBTcWQwY0tzNnY1aGFfTUpHQm5yVS1zYVhwUHZ2eVJMb1h1OG9OTFpveVV6eGljZ3V0Y2d6Vmx4LUtjWTJrdkFlT1ZjVDFuWVlMWjJnTnYwZ041NDJwUWV1bEstLXprYldjejE5Wi0yT3VQVUZlVA?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "Raskin warns oil industry against Trump's Russian diesel deal",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWjl1ZzBLSEF4OG16dll4WGZUcVFIZFl3Y05sUmZSaXpJcmxRdG1XUUphYmliQmJTeVdBMXA5bWIyMVE3ODVnUG93YU9tSG9OWTYzUjc0a3F3Q1FXb09ZQjlScUpVbWh0MXdQd3E1ZllRdWpHOXByOW8tNUhTX1luWld0RDc3dVh0dHJucjF3TUprLWQtb00zN0gwZkpaczZzUGRJaQ?oc=5",
-     "published": "2026-10-26T19:00:00+00:00",
-     "outlet": "Politico",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "Axios",
-       "title": "Exclusive: Democrats lay groundwork to probe Trump's diesel deal",
-       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaZW1xaGhDaldQV25rME52dFVuWm4zNldMdEU5S2k4RU5hQ0gwZmxWRWlFQS1RZFllUTVKak9sVU9GU29oRUVtaDcwa2ZXaHdRQWstcjg3eW5Qd1h3TENqT3V1NlZ0dm00Q0R5aw?oc=5"
-      },
-      {
-       "outlet": "Українська правда",
-       "title": "US Democrats prepare investigation into Trump-Putin diesel deal",
-       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9VM0xrNXFpa2o3YmZiekpUcm96T0REZFV2M3hidWtKRkRxMHpscVRkRHR3dVF5dTF3M083T2owU0xYQVZMWDctR3JWZTh0Q1lnMXRGTlI4VFRDNHlFZi1KWkYwVHDSAXBBVV95cUxPNi12dUt2VjRTSTNfQi1wSzZCNldqbFAyQ0FuYUJRU3N6VkEtQjFoVy1uN3I0eWdBOXZPWDItbzlPcG01MFBrMzVqSkNrbGN5RzZUbmVFbHE5alQ3emlvcGNjMVRyOTlqRXQ1VExjU0JG?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "Fueling Europe’s fiery protests, a young generation’s angry malaise",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOZTBMYUJsV3hVbHI4MTl0aW4ybzFSUE94YkxLRlh5dmdVMk8wWVM1WVIxNUhKTDRId19UUC1kRURMSnlrbjYxQzJTTU9WZTRUVHc3ajdQanpWTW96S2ZPbWxNbldxcEpEa25GWXpvaGs1ZEtKb1FWUzhxelJTV0JHU2xvbUVuRWRUSkFHbVJNRHNSa19EQmQ2bGRfMEYtTU9waGxVRFdsMEZ0dnJJN2RNRl8tUDVBaEJGN1RyLTFiVDFYcGRBQ1Z3?oc=5",
-     "published": "2026-10-26T19:13:05+00:00",
-     "outlet": "The Washington Post",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "CNN",
-       "title": "Gen Z are leading the European protests. Here’s why they’re angry",
-       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mdEFPdXFWeGdHUDFPNGZtZVBYbHJLWExRakxtNGNuTjhJN3JGSFJ3QVptMDRUVmd0d2wxRGdFczZXZ0VXRnpxNURsaUxiZXkwZE9waEhZMnBFbHZxaVNGVTdlVVEwX0xZNHR0TFZmSGNKanprWnctZHZ0MzJxcHM?oc=5"
-      },
-      {
-       "outlet": "Fox News",
-       "title": "From arrests to crackdowns, how Europe’s leaders are responding as protests rock the continent",
-       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT1h1NzE1SGNGYW1zbW55YlB0TmY0Q0pmVnFnMjNVbzlSemZYN3ZLTHcwUkkxRy1aUE00SlJlUUxzUXJWWmR3UEg4OXJrMlpqSmpfLTJDd2trQ1lvMGJaenhBR3pRSkJKN0gwc29qWUpzcXN5SjU3RnpOSFpmQ0tXLWRFYnMwZ2dqclpQQVBQUzlEZ25lWFFIVFB6OFFQbEttU1l1NG5R0gGrAUFVX3lxTE53N3A1SjJSVzJLM3VlQnZwRmNPd01qLWE5Y2JfX2gwMnhlQ2pYYW5WX1FHV1h5MkJRUWZhd0NvN2xVTk1Xd1ZoVXVUTFhUWWduRWdLWGlrTmVyVVE2Sy1hTGtfMkhLZWFHcXl4OVhnRDIwcVFreXdEZ0gxRDQxT2FHaTROR1JrcUpCbXJTbEVMNC1QN0IzWGF1b2JyRVhFaUhyQm5JYl8zbmdCVQ?oc=5"
+       "outlet": "WSJ",
+       "title": "What María Corina Machado’s Return Means for Venezuela",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNbUZXbU9PTE8ya3haWno4ZWVWTjBIVU1iVnFnQ1ktSVUxbUk3UXpSTjNCM0lOUGFoOWhZNG1RbC16VHJPMUZlRG1IWi10TEgtZHZTWlJLTExPc3NQNUFoNlBTSHJ1dkNJUGdLR3hLNVNQdkVKMmZhRDZfXzhmOXZPbEZrMnl5REJWOTBnU0QxTl91eWxQOFpCelVMdmtsZw?oc=5"
       }
      ]
     },
@@ -248,64 +309,35 @@
      "related": [
       {
        "outlet": "AP News",
-       "title": "France pledges new university admissions to quell student anger. But only after Macron leaves office",
+       "title": "France promises to replace its university admissions after riots and thousands of arrests",
        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaTRQMlQwek5XUXRNMzFGM0JJOTJxSEYyZzduREpKelFhYk1oZFRXaHR4TTRad0NzZlZWSEtDZHYzVkJMRUhsbVNCSFA4cmZLRExrbllDQTFWbnFOaENHRVlpa0dNVXFGWGgwNlZaNlBZNDQ0bU51ZXBLSGZTRmVvT1lEaGdhWHJmeFlXdkd3LUpha2E2eWM0YjZnaw?oc=5"
       },
       {
-       "outlet": "The Guardian",
-       "title": "Protest leaders urge French pupils to keep barricading their schools",
-       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOU3dOTnBUcnlMMTNjMFN3LXIxMlYwRFcxajdKQ2hieHM3RE5QMXpmZVVEWjlEUkk4VnJoNFpuazRIUTc0bzlZOFdyVUZmdlFfVFdCdVU4YmhKWFNnWUMzb1NrVFlZQ0NSZ21teVpETEJ3S0NTMGtJd1FucDhyNTV3bTZySVBFR21wWHVPZWdwbXNyemtxMjRwQ1FVYVQwakpaMDl5Z0xncmVGUUNsYjFaanFScXZnNUU?oc=5"
+       "outlet": "Le Monde.fr",
+       "title": "French government announces measures to address student protests",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTVVGYnVMRlg2VHJBSEhTZl9fMDZrN3lSNXBEMUxVTERERHhyRnhDbnRLYml1TmhkeGVkYzdLZXJRdW9HT1lZRmdxOFJ4dG03aEkyUkc3NExTM2R5em9KVVZzMlZTWXdFMTMtT0dqNU50ZzNJUVQwNHg3eGwwOXJJTlk0bXFjUml2YTBESUhzdnpDT0ZLSXp6ellqTHBQNjlQMWJrZHI3dENsOWpHUkU4dEs0c3dRcFh6ZFZ5S1ZJTmN2ZkUtQlE2cGdwMA?oc=5"
       }
      ]
     },
     {
-     "title": "Hegseth eyes Senate seat amid fears Trump could fire him: report",
+     "title": "Key Senate Democrats set high bar for permitting bill support",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPclZoZlEyWHE3Q2lFanZKUk1tVFdkc01LX1JCVXJtcDE0Rk12aHV3bXBNaHZxTWRBMnlFQm5zYk1odHQ4LWYtOVFQU0dlVlVKeENtbzB2UVI2RHMzWXU1UVRncWtnSUZmNGRVajl3QmkxOTNVWDdocjMzYVY1ZTkzVkhKVTl4VXgtbjN4WEhicUVQczd2VlFj?oc=5",
-     "published": "2026-10-26T16:33:00+00:00",
-     "outlet": "The Independent",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBLc3Jha0JtZlhYa2IxaVBDVDdtLXFVQlBTOV9fWExvSEZUQUN2bmdmbTl4Qi1TZGVXNGJQVlYzSmQ0SWVkMm02YXltMlFIdkdTRDRQR3dCRV94cVdtY0J4MmZWMGFWZmJSY0JoRm1heVRjMk0?oc=5",
+     "published": "2026-10-27T12:47:36+00:00",
+     "outlet": "Axios",
      "coverage": 5,
      "related": [
       {
-       "outlet": "The Telegraph",
-       "title": "Pentagon officials ready to ‘spill their guts’ to impeach Hegseth",
-       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNTWk3X3JxMzVFRXdYZ1pzLTlBN0o2c0FkRmdkS3MxUEpiOVgyY29XMExNSmo1RUx3Yk5lNEx1VGpaVTBFOWFXUWJqQnJyNmF4bURfc1RjZ1FGVXdyaTNxY2h4TTRsWXNxTWpPRTNtQ3ZKRWc1ZjM0TlFnSjJTUTNKZ1o2VzRQTG82R1pOdmNTOWVBNE9KNGVYc2Eydw?oc=5"
+       "outlet": "5 Calls",
+       "title": "Oppose Harmful Provisions in the Bipartisan Affordability and Jobs Act",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nMjFDa0dBTngwUGIwS3RTd0lsQ2tXUUFiZFVOZERtQTJva0ZWM0lYV2FzMDh1NVIxY1RTNnVzOGhpcGZ1ZVNwR3RURGdGbHYzY0oxdFFrYURiU1BUWEdSU0E4MExST1BOdGZKSXlodUY?oc=5"
       },
       {
-       "outlet": "KOMO",
-       "title": "Massie says he will reintroduce impeachment articles against Hegseth after midterms",
-       "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOc3JmZE95SjZIWFE1TUxETE03S2pab0hoQnVqbV9SOFphcF80NVJuejVDTnBEaksxMlA5NmdLMlhYS1p2RjNveVlVeWlRakQwNFRjTkd4ZXdRSU5BcDFScG9hXzh0ZGxtbm03MThNdUZzeldiMDYtVzVScFJ5WjBheU9aLURuY1dxQjNuYkJKLU1mazA5akVfenA1ejVkazNZaUhuUUw0bl84bFBhMW5vZURoTWp1UGNDenpZUFZWai1yaWZ6THNJVGp5QjhBMDI5VEREWERSZjZkem90S3RuREVEeEw3MmhXTzZVcUw0T2tzTDMtcEZRS3plU2VBV3NjbktHby1oZlhpR3R1MGxLRXFlRTlxeDFObUtDdFRGS1U5Tkwz?oc=5"
+       "outlet": "Roll Call",
+       "title": "Permitting bill writers seek industry aid ahead of Senate vote",
+       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPekI2V2RNc1VOUG8wNGZlbHhrbm5oNloxTlV1aGdhTkFCWmk3U0NKQnViRm5GR2J4dHJ4ejR6SUk3N296aml4S2tqeGZVaEYtRlIzSVFNYlBnX0RFcEJjMEpQUFROV1Q4SXRweEJsQ2Q1ckJTM3NXWXBodHVzellleGtzYmxsNzlOc1NIM2Z0czZQdF93MzUta1NFOA?oc=5"
       }
      ]
-    },
-    {
-     "title": "Thousands protest in Prague against public media funding reforms",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd18xS3lEb2J6c2RxNXhsTzUwYVZEcVVKcTRrd0JmX3J4eVc4dEVpaVdlaUVMc0QyOTJKUl9RbFhadl9SZWRkOHVkSFdTT3pYbGVpQ1l2RTlXVm91NVNKRnI5cVpLSUdXbzNweF9nbnhjZEFDc2tvVGd6UGE5aUFKYXpoSWdQbm9DOFd4eHE0SFdiVmo2TF8wWlVCcFZNVWdnT0h4eXRpYWg1UdIBrwFBVV95cUxOOFdFdHlHbG9Yc1Qxdmt4T1VrN2I1cldBbFJyZjVLQmRzU0VNLUJCNVdnSUtIR3JLdmtOWTNpWlREU0pkSlpHVklNd3FVbS1hdjFDYmp4aDRXWVhKeHpiMzg4T3dJWDk1S1cwUXdfeXJmUGN1SWRlQkdvVFBQUzZYMXNqZ3dWcExJdlZ4WjUwTmtqZldDdTZXclN1MDdRU3FTamRtTnp5T3VaeXFVZGFR?oc=5",
-     "published": "2026-10-25T23:52:38+00:00",
-     "outlet": "Al Jazeera",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "Reuters",
-       "title": "Thousands protest Czech government's public media overhaul after rushed vote",
-       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU3NtVE4za2c1ckhEX0F1Vm5FTExqYnIwRExMVkJvT2owY21CZFlLWFh5bGF1eWlaX0w2RUVua0hrVHcwQnRXTXh5NFlNbF9pektuU1Bzc2hrV1VuYWJpOEZLSlVId3Q4dmZicnlNX2t4M3RPdFA0NHNlQ2tRY2JibzZRaFAtQmF5LVNKbEhuYXdLcHZUcjIxRl9reWdpZlJUX2Vkd2M3aXlsMUwyQ1ljZnlWMFdycEpoTjJzLUoyUFJfWlkwZGZvX2hjOGVpRlE?oc=5"
-      },
-      {
-       "outlet": "AP News",
-       "title": "Thousands protest in Prague as government advances public media funding overhaul",
-       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTFp3czlHMlpkaW04Y3FJX1RkbGh6aFBpTExBZDRDT2VHeHdRTDRwdVZfcU00ZGNwcHhFeFFTTmxSYThoMm11S3VCME4taHRpdE9DSFpidWt4Mzc4b1BpWEhXZ2V6WUJ5U1FnbmYwSGlNVk1Jek9xb1dqcnpDejBVcFBjaWZTWl92aUkzWDBiZk1ZeG1iUEZwTWwxRFdsZnZ4RGhaRw?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "Keir Starmer's government discussed moving out of 10 Downing Street",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wQTdROG5JSEJ6V0M4OGUtVWlGbVVvUTdhaVBpZzJrVGZUOGtzQ1o2MFJRRUJYazZlMmJCZ1pSUnAyS29mUFB5WWd4eU9aal9FUVVoM29vMFVNTk0?oc=5",
-     "published": "2026-10-26T18:33:31+00:00",
-     "outlet": "BBC",
-     "coverage": 1,
-     "related": []
     }
    ]
   },
@@ -317,141 +349,151 @@
    "source": "Google News",
    "items": [
     {
-     "title": "睿远基金管理有限公司旗下全部基金 2026年第三季度报告提示性公告",
+     "title": "博通为Anthropic敲定630亿美元融资交易，AI基建融资愈发依赖债务市场",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aWDNBUzlKekp5bklXQWNsMlNEQzRVcTlmSUh4MmRoRDlJZDhBNF9lWWJpYVB2ZS01VTlSZDVfNG01bnVoV2dGak92U3FvdGFDVmNqRWF3c3JwSWF4Zk04b2c5Um5sNE43ek5lSDd3?oc=5",
-     "published": "2026-10-26T18:27:46+00:00",
-     "outlet": "上海证券报电子版",
-     "coverage": 3,
-     "related": [
-      {
-       "outlet": "finance.sina.com.cn",
-       "title": "兴合基金管理有限公司旗下基金2026年第3季度报告提示性公告",
-       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kczZHU0JLeXZhUmFzeGt3eXdTZVFCWjcxZlRMSEpQN0IxemE5enEwdUZpNGd2bWVtakV4WW1LMFFrWlhOMWtEVEpQUXJFcnhFTWNVZnZVN2pyLVN4aVE2UDhtOG5QWXhuZHZxS3lPaHMyVmJ6TGVHNA?oc=5"
-      },
-      {
-       "outlet": "新浪财经",
-       "title": "鹏扬基金管理有限公司旗下基金2026年3季度报告提示性公告",
-       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DcjBzR2JfcnRDTDVlMnZQbjAxMGNCRmJiS0IwVTNOUkh3NlBXalZINkVFMTNGc3BtOE1HUnZpTHl1Q3RIUUo4bnpfYUgzaGMwVmpTT2VqQ3dmMlVwTmlGc3NESHVXM1RUUUw1UER2S3NNS2szZlh0NQ?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "单日再涨7.69%！宇树科技股价反弹后的估值拷问",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFAyNzR2aDdhQ210cXAxNTVxS1RkZUJzeUhRS3dOWExTZXU1cmdEMXROZndDSW83M1NOU1MtN1F1UE5od3ZaUUhQVw?oc=5",
-     "published": "2026-10-26T12:33:00+00:00",
-     "outlet": "财联社",
+     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBFUnA5NXJFajZFelk4OGdodHZvS2Q2REdrNjVuWWF0QThvMWMzemhyMkFJcUNxYWFvdHRBM01nRkdvcU4wUXg2cXFBQWgzME91eFN0aUhTdFNmZE5KMnl6MQ?oc=5",
+     "published": "2026-10-27T09:12:00+00:00",
+     "outlet": "ThePaper.cn",
      "coverage": 5,
      "related": [
       {
-       "outlet": "finance.sina.com.cn",
-       "title": "七个交易日累计涨幅超65%，宇树科技提示风险",
-       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0tZGtqMm4zUE5sZ2lQVGZ5UTg1dnhya1pCRW5LUDZaa1UzVTVuMVhmZHRSZElVSkF6OEk3cE1fNS1JdnZocGxWZGdzQy1SbDRTN1BzcDhLN0FSWUJWZ3NTY1pDX205OFNpblBLdjFreWxXSk1SeV9hM2xoMVM?oc=5"
+       "outlet": "新浪财经",
+       "title": "Anthropic递交纳斯达克IPO申请，四大巨头联合提供630亿美元SPV融资",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGZ3djdzVuU1RKYXJwUGVaMUV1Q2FXa0I0MnlEVUFPbk9HWWE5QVcwcjQ2TnZ2TlRWNjNnMG5fWjZiSnVsclp4V1lJWEJUQWx5LWJZOVBzaHhKRDBROURhQ0tpdmxpZjFwbklZUEx3?oc=5"
       },
       {
-       "outlet": "凤凰网财经",
-       "title": "人形机器人暴涨，688585，20cm涨停",
-       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9uUnd6bVd2djVIZzJjcDBjdUl4aVZrb21ZYy1HZ1piOGxLMXdEM3lLdDZzNEprR3k4Z2dsZEptTi1FMzdyOS1fZTMyeE1SWWxV?oc=5"
+       "outlet": "华尔街日报中文网",
+       "title": "博通CEO亲自出面促成630亿美元的Anthropic债务融资交易",
+       "url": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOX2RCVWYzY0VCd3JNYUhOdk5ZMTNfNmRSQ1JmMURxbkxZNnAxM3preERMbVMxcEQ2VzEzYlNSTGJfXzBXVi0zV1lpT2NUX1A5aWhWTDRkaDVzWHdEcFIxMUZLRzNOM3lUei1ZM3Jnb0J6ajFjYWNreWx5Wm1mSExIQzhkQ3hXSU1XU196NG5tMGN1bEU4a1RNdW9kWF8xVmp2QUlRcndKeDN3VjNrTFNGOWJOSmp4N09ualUzRjZSMEFnMVZpcmEydk5hX2F3U0NnVVlVMWUtWTRrakF1TFhTZE1oV095TUgxMXJSZ3VYS2gtSjdMeTRnMmtKSlJvWTd5VFB5VU5hT1JDaXNXeTNaRTRWLVBlS2VUQkNlOHFVaVlhTFMwaDhENXdNMVI3SmNnamxId0tJRzJWUQ?oc=5"
       }
      ]
     },
     {
-     "title": "国际油价26日下跌",
+     "title": "苹果折叠屏手机被投诉内屏开裂！品牌称极少出现，可联系换机",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRTRqNE52Z3pfc0VyZ1NEaWotSUZ4dTRvRnkyNkVLcFdyZ1RSanEzZ24zZk1QTmM4MmxkODd1TkwxTEYxd3dMb2Y3aUNmQTF4QzJDQXhNeWU3cmhFbjh6VG1vc1QxSHpaYnNVMGhkZTc5VXNCYVJVX3FKQkJ1STA2ZXVxMFNYOUxD?oc=5",
-     "published": "2026-10-26T20:01:10+00:00",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBtdE9vc0MtcjFJUm1vQk5mb0lhdm01cWpUNFZ0bHlGTVdRMG11LVptOG1kbEVJc0NUNHdTdklubUJ6UmJib19CdFFaYVdkRWY1cW5kWTR6akxPcDdNSU9WUVJzMA?oc=5",
+     "published": "2026-10-27T15:26:47+00:00",
+     "outlet": "东方财富",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "凤凰网",
+       "title": "富士康员工爆料：苹果为保折叠屏供应降低过质检标准",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9zMFVMN0hMWkdjN255QUM4OTNFczktdG5aUi0taGdBNHh6azhjWGNEOFEzMjZxN3A2QzhNRlVsYjktVUtfY0U0Sy13MkU?oc=5"
+      },
+      {
+       "outlet": "手机新浪网",
+       "title": "iPhone Duo开盖拉拽感怪异，传感器误判动画割裂",
+       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05NW5hMEdGcDlKRHlHN0JiTm1uSFgtNndnYlZaeVgtbUtvZGhNMjNfTU9XRmVJdGx2MmxNLU8wR01XNTV2WnBjVm1wOFdkcDFzQlBLYkxEQ1FuRjZ4eUpVbDFWUVFISV80b3M2ZDBfcE93bWdmQ2hCLV93?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "国际油价27日下跌",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON1dQNER6MU5SNjlrY1BLR0hyVWo3MnVVUEU1MHlKdzBnQi0ydWEzWEJoRnFFd2xkamQ2ZWJtZVp2bzdoVGphUUZFQ3Z4ZUhSRlBIUndOcXBnX0lHYTZzNmQtenNoZXpGdXZkbXp6eEQ4RWlCT0dtY1RVR2pPM0VGaG03Y0k2VWpN?oc=5",
+     "published": "2026-10-27T19:27:18+00:00",
      "outlet": "新华网",
      "coverage": 5,
      "related": [
       {
-       "outlet": "手机新浪网",
-       "title": "原油期权释放中东供应风险上升信号",
-       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAyV29vNjdzcFR2bk9ILTJWSkJEb0dIWWp4Y3RPNTMtdnlzZ3U4cjhady1uWHpNUzFxSTZlT1piaEJya2RFNFZ3VUs2RQ?oc=5"
+       "outlet": "China Daily",
+       "title": "油价高企扰动全球央行降息节奏- 中国日报网",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdUFuR3J0VGl1MS1PWUt2alhUNHpsbXBKc1JDU0hzZVhuYV83UzVlazRUaXVyMWY5MEFhRHB0R1pudFlYRXZMTVpEamdwQVdJeUtKNmNqZjUtc1NoYk5UWkw3Q2FFNzZGVkVRMXh6aTlDLWd6UGlGaWd2emw1d2Y1RFJYTQ?oc=5"
       },
       {
-       "outlet": "中国青年网",
-       "title": "油价高企扰动全球央行降息节奏",
-       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1GYmRzbWtsdkUxMWNBbGp2RW5ZNDNlNXR6d0RsUWlfU1phSEJ0eFJsWE52QVBLM25aYkVhcDVUSTE5ZEtudG1FcXpwRk41dlJrZmFnZkVQWm9fdHZMaFFxbTE0d0Zfd1cybWkxX0dCV25Qc1dLX1E?oc=5"
+       "outlet": "搜狐网",
+       "title": "国际油价下挫，布油跌破110美元，柴油跌近3%，加密货币近7万人爆仓，美官员称美军已准备好再次大规模打击伊朗",
+       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcllLekh6YW4zNnVNS3lWYTFBVXp1Q3VCX1haZUZsV0g3M0xKdHdLaTJPZEg2WFBFclRPUDZKY1FXVWdtZ1NQOUlVNTNJc0lZYmVGdHBrMEUzVEwtcTN0bE5rUy1XcUotNWtKYW5uR09sN2F2dEdoZUlHNHIxZWMwU1ZqQ3I4LU1HXzNONA?oc=5"
       }
      ]
     },
     {
-     "title": "鲜果、机床、医疗器械 进博会首批展品进馆",
+     "title": "AI设计、3D打印助力中国陶瓷开拓国际市场",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPX2xiNlNsZkNGT0U3SkpkZWZGX2x3d19MLWtpYW5pZTBqRVEtbXd2blNmbDlPN1dJWnFNQ2hsSV9ZTHp5bVBONXJoSm5zemQ4OUZMS0RxbXRodl9sS0dkY1NONlNIaEUxWUE3QzRvZ0R4b1NDRnI4MUdtQmtoMjUzVkhMc1J1Zw?oc=5",
-     "published": "2026-10-26T13:02:00+00:00",
-     "outlet": "中国江苏网",
+     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5aYjg4X25BVmU5NUZ5dkdLR2xTTkZjYndlT1JSVzVkajRhT19IVjE1aFNUS0lnODlkeWs2WFZ3NTlHOEo1Yl9VNW9hS3NQcC00SzdGNzNSOUpxRE85Tlp3R1BsLXpvQ0ZD?oc=5",
+     "published": "2026-10-27T13:33:57+00:00",
+     "outlet": "中国新闻网",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "新华网",
+       "title": "财经聚焦丨广交会：智能新品解锁消费新体验",
+       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaVpKQ19TNHlzLTYzcktTNkJmWE5tZm5PT2dzdTV6QU1xZTNkTk9qVzFpTXhZSTNodWE0bDRVX2FDRzVWMjFOSHFaZ0tudmtuSzZGTnRpVHJ3dTNmRjU0NERVZ21Sb0tWWkpjZF93N0pqSmIzbF9rUzlzRnNIQ3ZPQVFR?oc=5"
+      },
+      {
+       "outlet": "光明网",
+       "title": "东方美学融入轻工产品 非遗新品闯海外",
+       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94dVF2NlRZQ1lhdmRxU2x2Q1VHbjljaVBmZjliaFA0YjF2bUk2MzJNR0lRYTVwcG5xNVVhYjRHdGVvdWN6Z2tFdHlKazg2eEtqNGZTMFVLTGY5Q2dGaUR6bGZUUkVLZw?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "美联储决议临近，黄金多空争夺4000美元关口",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE82cUNNMm13YkNYWHRaQnViRDJpOEZEMEJEVW5tYVcxU1dsXzlXRjg0Q1RBRDRMUlA2ZFFmb09SU19aQ3JzR0VKLWVB?oc=5",
+     "published": "2026-10-27T12:13:02+00:00",
+     "outlet": "上海有色金属网",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "新浪财经",
+       "title": "光大期货1027黄金点评：金价小幅反弹，高利率压制仍未解除",
+       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdWpLVkpmWWpzU0h5a0xWbEhBREIySkp0Y1NINjZpX3g3Q0w5M29Dd1ZBeWVvTFpYN3M1Y2JweHR0blpaVGx4WXBnS3BRa256UTFCZVRqRmhlaTYzUjc5aDFzTDZNdzg3M2Z5dnJBTGw4SERZekZqT05RSkRvS0tBM0FtRmRQOXBpUC1HSE5xUWY?oc=5"
+      },
+      {
+       "outlet": "凤凰网",
+       "title": "金饰克价较年内高点跌去超400元",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9XZDNfQ183Q01FZGNoYmpzVzNncklWUkhfNWVkQzgxLWZHSHBiNF84dVZmaWxvYzdaV0s3Q0FTZkdRZU5JUkN3aHpLMm0?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "关于大成红利智选主动管理交易型开放式股票证券投资基金提前结束募集暨进行比例配售的公告",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaHJTeWZOSHA2YW9zM3BYdExaOWFYb01fTnFEMnlTMEF2NGEzdVRiQ2JSaGxTdzZqQUluNjdKQ3RaWllsRkVUN0Q3SXd1LVEwc2NvWFM5TDdVMjc0MTVtMWJTNmxzeTBfdzJSSXc4akxLa1hKdHJxdHVKc09NUHpCMkRRSEdxbWFXV251eXlXdw?oc=5",
+     "published": "2026-10-27T17:33:36+00:00",
+     "outlet": "搜狐网",
+     "coverage": 4,
+     "related": [
+      {
+       "outlet": "finance.sina.com.cn",
+       "title": "主动ETF科普问答",
+       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtWEkwdmQ1UFBFNFl1X0RnNFN0d2hPTFpDcW9OdGVsMEM5azg1WGNJLWUyRWhxY0twNWVMMGlNYkVxYktZVUlJV1ZNZUZSMy1mX0pSRkttckVtZ1Z6dFp1YnJjcGRVVFQ0ejNVeVlB?oc=5"
+      },
+      {
+       "outlet": "凤凰网",
+       "title": "7只主动ETF触顶20亿，两天募集253亿，最快本周入市建仓",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE16V1R2R0ZGNzF6b0VqcTRzcVNrdExNSFJaVGVWOXNWcGN1eTFiQlV4cjhuQ0hfRWdIVjZmNG1qbnlJazJjWjRYOHEweHF2UHNR?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "AI概念股有望延续反弹 红利龙头业绩强劲 | 今夜看点",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1sd3FScjNpT0tDS01Bb05tMllQc2VEUUhfV1Rab09WeXJpb2F1cnFkcERSeWhSQkw1cno3RHk5NWNIclFoZ1U1Rg?oc=5",
+     "published": "2026-10-27T10:29:00+00:00",
+     "outlet": "财联社",
      "coverage": 1,
      "related": []
     },
     {
-     "title": "2026中国国际农业机械展览会天津开幕 首次全馆室内办展",
-     "summary": "2026中国国际农业机械展览会26日在国家会展中心(天津)开幕。本届展会首次实现全馆室内展出，预计吸引海内外专业观众超20万人次，集中展示农业机械化、智能化、绿色化发展新装备、新技术。",
-     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMV3pCRGFELTd5empDRHQ3OXRZOGZOUWtpdUJOOGl5UVJLOF9ZV1U1UFJEbU9HMFA1cjh6N21CWFJlUW5UUnI2THNOZXVRUC1ZWTdPY1lCRksydlFseVJOcy1iNmF5akVE?oc=5",
-     "published": "2026-10-26T13:58:30+00:00",
-     "outlet": "中国新闻网",
-     "coverage": 1,
-     "related": [],
-     "direct": "https://www.chinanews.com.cn/cj/2026/10-26/10721388.shtml"
-    },
-    {
-     "title": "和黄医药赛沃替尼全球Ⅲ期研究告捷，肺癌耐药患者中位生存期延长近5个月",
+     "title": "前9月规上工业企业利润较快增长 持续两位数增长",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tblYxU0djRkU3aEdTRWhiN0lmZmdiQWl5SjZsN21rN1NzMTRjZ1dzNVJWRE55TUR3MF9ydi1tYktMT3pxMUYzR3B6dmFublZ2bzN3?oc=5",
-     "published": "2026-10-26T15:43:29+00:00",
-     "outlet": "华尔街见闻",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5YVDlKU3J4Yjk1LWVyRkN6d2JwR0tkcFdsUkVrWkpzY2VtT0tON3ZESG9RaEVDZzc3WEZZVDNGcFBJN196UGNfSmEtQ0gwLTVubzY5WHRxMGlybVdtNzhnYUpKNWNqQWZudXQtS1poaUI?oc=5",
+     "published": "2026-10-27T13:19:28+00:00",
+     "outlet": "中华网",
      "coverage": 5,
      "related": [
       {
-       "outlet": "搜狐网",
-       "title": "和黄医药肺癌靶向药耐药临床研究取得突破，耐药患者死亡风险降低32%",
-       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWmpBbktwSzQ0YjlIeEQtWmFqOFBYSjBEbVdhTFVRT2VQZjhIc0lpRkhkTVhQVHg2ZXdRbEw0Xy1od05HS0pHYWJ2dElkMkxxNURVSlZTbFd0QVZqU2VVN09fOGNudW1pVHVvUTdaNTQweng3YXl4TGNsMU91QU92YnU4NGtmT3YtU1FWaA?oc=5"
+       "outlet": "finance.sina.com.cn",
+       "title": "前9个月全国规模以上工业企业利润增长15.5%",
+       "url": "https://news.google.com/rss/articles/CBMi4gNBVV95cUxPcklJX0NRR2NyczlOYWhZWEMwVmNwRGp0VlVFWGNqV2xGMjMxYU1ZUmROQ1NrNFZGTThSOUthTl91bTNUblBidkV3YnBOT0JYZTdHYkdZTjRKSnJmZDc3ZXAxaHgwV0tlVU5xaC1TUVZ5TkF4UDVqQ25fU1JhLVhCb1pUTUNiandyVmxka1ZJY2RVaDdNd1ZiY29mbkRjVXRwLUl2ZXZVQ09BUmFNdHhIeTB6WWRrTkIxeVpPZ1lfZ2R0SlZFSmRpY291UHVxSTE1ckNkaUtGWkViVHZNV21rZ0VvWW44eWx5YnhWazBYWVdhbmFmVkFLaFJrV0QyN3oxTEc1QWZOZXdCQnA1ZEFLSFBrZmxubGNqUHZwMlJVUUpYb3BkZmpZWVZSNTVzc0xiV1VIRk5JSk5nd21iZ2lNa0VUc0VLRjA2NlprRlFCdmtuSGV3eUcwN21ublo2U2djN2RrYVgxQzVoWnVwcFBhenMwaXVDd29kTEVyZzA0OTZhZ1J3QzZqbXM1OUVIb1lJREFteWs3WkVmZ2hRSXlmUXRaY3p6TEg1TDFxR0djVjhvLVdDaHJLM2hkeTNncExDWXN4VTBlMTcwdGdEXzdMazhWWEhBMDNNamlPZ0Q1QlNEUQ?oc=5"
       },
       {
-       "outlet": "肿瘤资讯",
-       "title": "精准双靶联合治疗闪耀ESMO | 陆舜教授领衔SAFFRON登陆NEJM",
-       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFB0QnExWERkNGd2bXRwLXZldllDUHVDUmJveEVYMzg5S2RXZ3RXRUFSRUhvXzZiejJrT09NVDVDUGlkeDJXaHFMMVRWQjI?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "Anthropic CEO阿莫代伊2025年薪酬总额约1796万美元",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE02aHlnelk2akdCSFF2dmJ2MENwZ3hYNHZFakhHdXIxTEhhQWM5NUNSTGEtb1BKTVZNNUdLRzhESDQ0bVIyZG1hSkl1aG93U3oySTJTa0dJM0plZkRNamc?oc=5",
-     "published": "2026-10-26T13:52:30+00:00",
-     "outlet": "同花顺财经",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "华尔街见闻",
-       "title": "Anthropic正式提交IPO申请！上半年净亏损807亿美元，公司称未来可能无法实现盈利，警示人类“生存危机”",
-       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9uVEJ5VUZxT1hRa3BRNDIwczZTZUtRaFBOSTZPMU1DTU9Ka2pkUTh2Q3MyWERoV1RJUDk2RFU5VTR1ajRyc1lPeVB4cEJiN3d1Uk80?oc=5"
-      },
-      {
-       "outlet": "手机新浪网",
-       "title": "别人 AI 上市要1000 亿美元弹药，咱们怎么办？|Anthropic|纳斯达克|财联社_新浪新闻",
-       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBnT2xwRGtfRTQtN0wtVHM3UEdNeHlBd1Q5YkdNN1NqNlVJWnlPNkt2a2ZkeTlNeS02N25mWGFLd1RDUThHeE92Z1dSV2ZoUFNMRGtXcmtVbXRtTlFoYjBsaWppbw?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "从广交会看“超级卖家”中国的“惠邻效应”",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOaWVfRjl3dXZPVlEwVnRwckhDS3lWTkhCdEV5SGtFRTczMHF3TVBIb1BRRTFCRHJtYUw3ZnZVTjdkUDJha3RWSzFHQUQ4cmJHdjVhSDJVVk5SY2hNU0Y1UkR2S3VMc1JVeUFEQmpZM0MzVTU0RDI1SFhPYmNCc0xoaENB?oc=5",
-     "published": "2026-10-26T12:12:54+00:00",
-     "outlet": "新华网",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "光明网",
-       "title": "从“卖出去”到“扎下去” 贸投融合助推中企产业出海",
-       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE83XzVDSEVzRlI4SUI1dlpiYU00RHJxQzlLdVBsYmFJNTBhcW1KTmZrd3RYa2pkRUpSYnczUS1ZelpzNlR1Q2FfTjBfZnh6SWxvNTc1ZVEtc3pMeEMwWTNMS296ZWR3QQ?oc=5"
-      },
-      {
-       "outlet": "中国日报网",
-       "title": "视频丨非遗好物出海 广交会海外客商组团寻商机",
-       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5kV0l1REpRNzFabTN2TjAwd291eXJZX09pN3FFbUxKaUFuUDBhOWFVS3BuV3BtWmM0SWNZejVjYmVXREVQRmNGNWMzVHNnZTBSNHR3U0NJVzhXbEtrdzRKamFtSkY2NlBxZ3UxWDN2TnVVUVg4T18tOXZQd2U?oc=5"
+       "outlet": "Jiemian.com",
+       "title": "后续经济修复的持续性取决于消费与房地产的企稳节奏｜宏观晚6点",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBjM09DcnJwQm04cEpWUHp6Q29YU09CU3c1MWpPaHVMZUlncE9kTC1fM245QWRMaE00UGdJcktZT1IxVGlrbEtyZXBGb0F3a2tkeGp2bkZkd3E?oc=5"
       }
      ]
     }
@@ -465,142 +507,155 @@
    "source": "Google News",
    "items": [
     {
-     "title": "国际纵横 - 专访王军涛谈中共二十届五中全会的几大看点",
+     "title": "习近平在5中全会上强调“忠诚·纪律”…明年党代会前启动领导班子世代交替",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxNd0lXeDRQcWEtOWhIZ1RzZFMxWU10OGNjeGRCdUVFaGlfV3hsS21ZaV9LcmJjX3dGaVlNUUxjSk5aZnRpYngxWFNoSXZ1TnJ5UVJiTkVXQU9fNVZsUU1XcUl4a3FHTzdNdWt5MldXMENRb0VzXzdfdmtOVmpDT1BCUmxjel8tbk02VFpMNmh4Q0NIdXhBR0s2Q2NhRm1PcjFSZkoyZ0c5LUtvSk5WVjgwNldBU0tEWHl3SWludG00cjB3NDcxWmlnMVVVWU1HaklEQkhfdElsQndlRVdNWmdiQ1RXZ0ZlUkJvWjFzRUd2dTNUVFVvalM4SDVrNG5XTEZkaDFPNk9PZ05xTXhSa3dmRVJCX3lTVlRDcW5tTWhQZE9NNERIU2V1TW1ZcW5qX0pQVkxKNEl2cVo5VS1jNm1NRTkyUzdzNER5RDhzZlFaaVpMQkdSNTZoc3p5Y0F3TE9tRGdHQnJXRG5ibWlNS0djcURYMjljS04taEZ0MDZYdjZmNFpJZVFSS1ZKMFVoRXdDSGR5b3pvQ24?oc=5",
-     "published": "2026-10-26T16:31:22+00:00",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0ZRWGdqTENUVjgzVjBoeExlODA4QkFoaE9iVTZCRlRLYlVjck03eUdfSUhTc05ZWklwVlF2cUUyVk8walpyQzJOdWxTRkd2UE1uVGxqZmlzZjFMZFQwUGJ4UGk4R0g0T3hJbVV1ZVliXzhZUVVrYXBEREZtbjFDXzBQQ0RYQXpkUy1hbmRiaWhMZw?oc=5",
+     "published": "2026-10-27T18:19:21+00:00",
+     "outlet": "朝鮮日報中文版",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "央视网",
+       "title": "一见·读懂“恒”字里的深意",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB2NkJINjNWT2hpODViQ241ekR3a2lNQzFQOWhFRjdJZWUzbmxOSmF1R0ZjdkFlODlVN3NLcDBHS1I4dDRrNWpxMVdaUlVRd2dmaUd3X1J0X01ySU8zZEhVaVE4VWtNMDA0NVA5QzhINm5kOTZiLXNDeA?oc=5"
+      },
+      {
+       "outlet": "人民日报",
+       "title": "思想如炬，照亮新的赶考路",
+       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbVM0ck9WOUdnNm15bDN0b2JFYzlBeHdyRlZIU01ZV3U5NGhvZHFxU3YtWnk0R3NJMGpNWTVZZzlncUtUWGJQT0wyZUJwTE9nT3ZfQ2xISnljNFZnb0xPa0F0V05UNjBOQWVsVXFDejNPSlZtQThwZ1VVam83bjlsYQ?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "日外相指就高市出席11月APEC深圳峰会进行协调 习近平向福田康夫遗属致唁电",
+     "summary": "新华社北京10月27日电 10月27日，国家主席习近平向日本前首相福田康夫遗属致唁电，对福田康夫逝世表示哀悼，向其遗属表示慰问。",
+     "url": "https://news.google.com/rss/articles/CBMi3ANBVV95cUxOTGk5V0cyam5RbHllbXoxR1JoSEVsZkw3RExWQkpHM0doZUR5Y2hBOE9EZUhKZktJeWZhcnVVSHlvdEZyRnlfN1hVOUhhdzBEVnN5bnpQeFltUlpwdVRfOFJteFYwWUhvSHpBZlhZeXluU0Q4b1ktZXZzbzJkT2ZqXzAySXVZNmdxMWRiaGQybzNZbEFWZUpZV1lvNzlZNlNUZjhqOV81akxEemNsSUlacWNoSktjLWZpTWVXYzlmQnVHUGdQeEp3UjhvRTNfSGtxcEJhN1BEQUIzNWpzaW5vOXNjNkFBOGthVHBUVTkzakxRbS04TXRIZkdPUXhCWEQ5TV91QXBXOXdtZlU4Y3FlU011VkdoMVczeVpnNXdwMTM5VjI0bEVQcUhDNGVWN21TSE00YTVHbXBZaTdkV3ZmWGJsVzBqTFJNRk1TY0JjT3Z5RE5aWEdQN2laWVFPVUhaaXg2dGVjTGtTaDRqMTNxbTRkaTBBc3hycDN0a3QybmFPV1poV3cxcDUyVVNLbUdDTUhSLVY2RUlaenlDZXE5N0dTdkNEMTFtRklSRG02OWVHYU1hOUM2d2hXRWZFbHoyNUpVeTBycXpsNGRjSnNDdHQwdHI3cEVKY1JDTA?oc=5",
+     "published": "2026-10-27T12:25:01+00:00",
      "outlet": "RFI",
      "coverage": 5,
      "related": [
       {
-       "outlet": "人民网",
-       "title": "中国共产党第二十届中央委员会第五次全体会议在北京开始举行",
-       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16dk9RTG1kajlnMUtLMGpNaE5XVVktM05sN3ZmOVRvb1RBYjRiU18yM1lqSmtKX2M3U2N1OG5NQ2JDdFhSZ0dKY1VPX3c3blR6aERSWlZWaXFKSnJZQWl6VmhVYTJ2by1SbjdVMjNJUQ?oc=5"
-      },
-      {
        "outlet": "光明网",
-       "title": "重磅纪录片｜旗帜",
-       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WZTlpNGQ0d1JoVHhCdVdVNGxiV3J2UDRCMXdkUl9vSVF3RkVhWGkyNHVMOXVfQnJ3bldfOW1tdlNpVTJBaGduaWxGajdIeXR3MXppNzY5ODNiUEpYWnh2UmViSkQ3dw?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "福田康夫逝世享年90岁 长期亲华的“短暂”日本首相",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzdDdhcFFONlpZWnpwMHphay16WTFOVlBGYWxHanpqQUNwaXNvOS05Vk5XaldXVk8wZXlPNUVEOHRlSHJvWTZuc2h1dU1ldllqZDNtS1pVM1ZNSUFOcXdSOVk3Y3M5eUHSAWxBVV95cUxQMzUzRXZDdENqSHUtTnRYd3Vab3kydDUxbjhZWldFYTRGUUdDeDBWREtITFA2ZHFwNDJ4QmhMT0ZZWFMzSTR5cXhVUEdZcWJzVWUwR080c1IzMkdhZnFvemZlOGFMZ3lGY01zWXQ?oc=5",
-     "published": "2026-10-26T15:11:40+00:00",
-     "outlet": "BBC",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "新浪财经",
-       "title": "“有信义和担当”的日本老一辈政治家福田康夫逝世，中方再敲打日本当政者",
-       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5qVVlaMGplUGhGd1FqZ29KbEdibnJxSW1QaTNrX3dXM04zZl9EYzU1MGI1eDlvX01EbU5sTjRZcDZWU2FfcjJrZ2U4MlR2bWtsZklydlFrQVZiZXBVOXJvMjNJTFFpRnpEWkNSckxKY2lWZlJ0Z0w2Mw?oc=5"
+       "title": "主播说联播丨“不能走回头路”，日本当政者应当自省",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1fSUwyNXRmV05iVWlQRTN0WVFMbWk3UEJSWUNhX2dpNTBWV3RDenNzY2ZOV3pCMDJ1dTluaFlzQ1RaakdQaENVQkJheTFTNHhUQmhUWld1MnJOUUpvV2twVnpB?oc=5"
       },
       {
        "outlet": "凤凰网",
-       "title": "日本前首相福田康夫逝世，外交部：沉痛哀悼",
-       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9GNEdvYTdzSkNxMWp3Um1QaExlQ2hQNTUtUC10LWhPNDBrZXhuQVdPOVZXSm1LbUJPQnNhcnZNWWZKMkk3U3hVdE1fZG0?oc=5"
+       "title": "这位“中国人民的老朋友”逝世后，美国一句话让高市支持者破大防",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBWZVh6bVZ6THRueXNVT0NOTkxFLTZRN183bkpnbzJEeUpjTEF5Rmx4ZFZaM2MxcUVid0RlWkd1ejg2a3c0QUo2bEkxRlQ?oc=5"
       }
-     ]
+     ],
+     "direct": "https://www.chinanews.com.cn/gn/2026/10-27/10721788.shtml"
     },
     {
-     "title": "外交部回应武契奇败选",
+     "title": "中央巡视组已进驻北大、清华、人大、复旦、武大等31所高校",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBPSGkwSHAxTGQxUXlyMEN5aEN0QkVsSGtqcmQ0WURlYm03b1VFem81YTBlclRCRHlsQTFIclotNWpmYXRaSDk4VFJVOVg?oc=5",
-     "published": "2026-10-26T10:45:53+00:00",
-     "outlet": "凤凰网",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "人民网",
-       "title": "武契奇承认前进党在塞尔维亚议会选举中败选--国际",
-       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EdW9vdlotYXB2bGsxTDZSWjZMdkppWl82TkZ2MXVGS0JOVWF4N1RuOWtRaWtzb3VmT1pmS3QwM2l5bUFlTzhFMS1lVU9kYXY2dXlCbnVZM0U0Q1BfN1pGVUxCbVpick5ZMnNUcA?oc=5"
-      },
-      {
-       "outlet": "finance.sina.com.cn",
-       "title": "小杭夜聊买房你有不能买的楼层吗",
-       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBsT2ZaVUhnaDBQR2s5UGlzOWo3ZEFkWFBKZ1hXYlpOclZhZ3NMbEFHUEdqVTZ6YW9fZ29ySEFldVg1elVudnR6Z2VacHR1MEJyZFZFNFhrWFExc2ZJRlI0YThpNWR5UU5XU3phQUM1T3AyT29hZWxWTFVWT0M?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "五中全會維穩 北京阻訪民爬樹喊冤 畫面曝光（多視頻）",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0yc1VwRTRiZURPaGZqV0g5ZmJvb0ttMXh6WHFmRkxpdzR5RVZ3WkY2eHZMTWxLWmFBRDNrR1Z5QU05M3FQZERXdkxVWEV1aDlTV0ZBa3AxVTlBYUloakhJedIBZkFVX3lxTFB0RWR2aXcxanpDOGtJM1hoMU9BZHhYblFjTHZyUVFVaW5UcUp3VEllZkZPNTlRdTdMZ19UM0xjZl9MOFZmX3Y1QnFQcWNLQnp4V2k1Rm45ZlZTN2tpUHhlMzRYTkJ6QQ?oc=5",
-     "published": "2026-10-26T10:26:50+00:00",
-     "outlet": "新唐人電視台",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "Radio Free Asia",
-       "title": "五中全会前北京戒备民兵守桥武警巡街– 普通话主页",
-       "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxON0NwbXFodFcyWWhiMHR4Q3BlbzdJendHVXpNWWlvdlZYdU91V3I3c0RjdXFERXo0cGgzYlJzTXkxdGo3TGZRQ003LXRZc2owNFdfYVpValBQQXlFajUxeTFOMlVWenh2Ni1lU0x1aF80aTc3UGVNQUF3LXNfc0VmLW5WeG5FUkNkWEdxeXA3TjZ5TWtLc2lBZ0NLeldkZkpLQmExWmdxYXRSTWIxcHhfTzdudjB5NUxUMWVsZlh0SEtwM0xGa1MzWm05VUhrSjM2aTF5UlRYUmxDM3VxazVVdXhTZlE5YzJVX09NenFxczkxMXVwZDRsVjYydG0?oc=5"
-      },
-      {
-       "outlet": "加拿大新闻网",
-       "title": "五中全会登场 北京地铁站安检升级至月底",
-       "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTE92dE5wVFd0VVhJZm93UUQyNjB3Tl84YjZOY1pUVklKcW1zWFVYWXJKSXlEVHRaSUNfYWFWZXhhQXh6OXNI?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "人事观察｜57岁北大法学博士赵辰昕代理河北省长",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9sZUVJMFRBS1RTZFBRaGM1TUtLa3pDVjU3bUwyZFhvV2JpMkF6NVkwOFN1S2NOcFZwTmpfS3ZfX3hZekY4NVYtaHdxTDloY0otUDFSWE82MVc4Sk5pRXd3?oc=5",
-     "published": "2026-10-26T02:26:00+00:00",
-     "outlet": "财新",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Ka2lyMUxsdUlwbUF3UGVvQjk1MWhNai1yempaMVFGeGxGTS1wbmxhendCS2xMRUZVczRmeHJCR3lJYXpRTGQ5bmxyNjFXcTFMVVFiemJnbk5GWDczX19MVzU5bHl1dw?oc=5",
+     "published": "2026-10-27T02:29:00+00:00",
+     "outlet": "观察者网",
      "coverage": 5,
      "related": [
       {
        "outlet": "ThePaper.cn",
-       "title": "赵辰昕任河北省代省长（附简历）",
-       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1URDF4RVdOZW50cXhGWngwdVprOG13QW4wLVJUZGdlcGN6SE8wS1ZlYzhYVGFrd2VMdndvc1RoUzE0R29CTEFPTEZCTzBpWFN5ZEVPVENWSkNzdmwwS3c?oc=5"
+       "title": "4.98亿平方米供热面积准备就绪 全力保障今冬供暖丨中央第九巡视组进驻西安交大、西工大、西北农林科技大学 联络方式公布",
+       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81U1AtS1pWbUdoYmxaMzZBUURpX3A1OWhxUWdnYXdPZUlRVHZ2SDhIVDlQNUtsZjdaZGVVZXA1MEVuMmxxQ0FYV041MFI0TUZCQ09GRWJwbFlCblRVdnc?oc=5"
       },
       {
-       "outlet": "中华网",
-       "title": "赵辰昕任河北省代省长 接棒省政府领导职务",
-       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9IdDZWRDZlemNscE9sNUNzc0ppdDBiMHpRQVZwMXR1YXhKMWt0bXNkLTJRcmxMc0JXeXp4blh1QlB0bXdnLTZOcExtTUFVSGZxVEJLR0FsdGsyejlNQ2gxMTRTRmVYX3ZHYzZHM0VZY3Q?oc=5"
+       "outlet": "中央纪委国家监委网站",
+       "title": "中央第九巡视组巡视西北农林科技大学党委工作动员会召开————要闻",
+       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1PTldsa0h0b2dtbHhORTNpbFBzWmVVdWZiWVVNOW5yaUF5ZGlYY1F4VnRFR0dScm9yeGpEc3hjR2U1LVpjdXhVSGJBdnZBMkFxSVJLQW5GSE5kTmpjMDBkczVBOVhOUU9GN3I3dA?oc=5"
       }
      ]
     },
     {
-     "title": "美以筹划新打击的敏感时刻，沙特、土耳其、巴基斯坦三国官员将访问伊朗",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBENHpCLU9pN0NFcWpOZGJ1cnloZWFKYm14N0NLdmxNMXAtNmlOZDFEemZtRDhsb04tV3hRR3VITUpETkRyN2xOV21GX2NhQ0JVU3hn?oc=5",
-     "published": "2026-10-26T06:29:19+00:00",
-     "outlet": "华尔街见闻",
+     "title": "中央纪委国家监委通报2026年1至9月全国纪检监察机关监督检查审查调查情况————头条",
+     "summary": "图1：全国纪检监察机关处分人员按职级划分图 图2：全国纪检监察机关运用“四种形态”占比图 本报讯 2026年1至9月，全国纪检监察机关共接收信访举报350.6万件次，其中检举控告类信访举报84.7万件次。处置问题线索214.9万件。立案80…",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBULWM5T1BUY2FLMUM1T3VDMlFQY0tFMUVSMFJYN3BGQVQzdFFMbzl0VUR1cWZEM0UzYkFfdG5veVBRcFE1Rm9kWWFPN3Y1N3pYbW1YSTA0b3pJOWt3VTJ2VXNReWRIZzRyRWRxTWJR?oc=5",
+     "published": "2026-10-26T23:30:00+00:00",
+     "outlet": "中央纪委国家监委网站",
      "coverage": 5,
      "related": [
       {
-       "outlet": "美国之音",
-       "title": "特朗普称美方正考虑对伊朗下一步行动后，地区大国在德黑兰会晤",
-       "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNTnptLTdMUXpfcXhQOUs5UTh6M3ZNS3ZFTER5NVZqMWVkZVQ2eEctM3NNckxwcF80Q0dBMHdjWTRzT2MzcDJ6QlpsNFBRUFJNSXZXeUF4Y2xvT1Q1cXlScVU1bmVuMFdvOFlKZzVyN1dKY3lQWGdoX1ZtU2oweEJGY003S2lfeFNwUzI4Zk1LWkJBajNudllUZ3RScnUzMHZTbzc3UmxocnQzTk9qb2FEQzhGSHBCeTZzaVdpeEFMbHRZeDd6WmJLbUxuNHlPcHdjVHZ6em96ZHFhWWPSAd4BQVVfeXFMT0M3UXBaeEhzX2FBSmRHQnQzZldsUjJVZ2FjNVBUT1NYTDNLV1FBRUpBQ3BCSmhkcF9DbWFXbXN4VDBPci10NHBWVVl6QnpEMjRlQm1iN01yTXg4NGJzRndHMjgwQ3EyWWZWM2puLUlCbzE3MEMtV0Vjd1dqbjNZNUs0M1dySmhJUUN0QUJEZURESk01WXpYQ2wxNU11d1hRQ3JTTUQ1b2sxakpjYlJaQVR4cVFPeXdwb284eXVfeUVJRkZ5ZVZZRS1iV2J0eHE5SFJveUhHa1pYVnVqaDJ3?oc=5"
+       "outlet": "央视网",
+       "title": "【8点见】4070元冰柜被仅退款 商家千里维权",
+       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5KTWhQeTZma1FxX0N0NFM3aFM4SkhvbU9sTmNFaXBLMmZMM1B3Y3Voa2QzSmlPYkJhc2lmQ01UNlZuRExhWnB3ZW9LTE1kcUVNcHRGdWZIeFBEc3pJd1UtTGxTQ2tqZWJjQ3g0V2hwRVV1cndRY3FyWg?oc=5"
       },
       {
-       "outlet": "手机新浪网",
-       "title": "伊朗与沙特、土耳其、巴基斯坦同意未来继续举行会谈",
-       "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAyZkN2U3hpTXpfeGt6NHBpLTNZb1ctNldMT2Q4TzlSLTVpUWZFcW1OaV9ZRjZrSXFSWFpoMmxnbEFXUlZZRDFLcllHVQ?oc=5"
+       "outlet": "凤凰网",
+       "title": "中纪委通报：1至9月，73名省部级及以上干部被立案",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAwajlsb212SnFpRklOaW1aNXZBcDlyX2VkVFlFSkotc01FZnNmVEFIQkZyVGNhdFlkM2haZ05EaFNyeU5LMFEwTXJHY3o?oc=5"
+      }
+     ],
+     "direct": "https://www.chinanews.com.cn/gn/2026/10-27/10721440.shtml"
+    },
+    {
+     "title": "刚果(金)现总统出击前总统造反",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQMFhyb2ZGU081dlBCMVFHWmhfbVR0aTJJUC1RUUlVckpDM3hZTGh3MEV0Q2Q4WUt1WC1Nc3ZBMTc4Vm9iMXlZZFZUS0tLUnRaaWhtbFlCVmhFYUxqVmh3bk1ZS3lNbjkzLWpsWndXX3gyNmhQVHdhVlJRcVZtNkNlZUlwME9ZRmV1SXRSVWlNSUpkUnk0dTc0X0wwaVJNdEREak5jYWF5UndmWmhHZlBKVHVwNnQ3YkpTMnNBZW0zbmc4ejhGS2x0NEQxclFPV1phTzVOVUR3N25YVl9MRWpoOEFvVXVIR0F0NzRWU0Zya1p4NnFZVGx1ZHdTeS02UQ?oc=5",
+     "published": "2026-10-25T22:08:01+00:00",
+     "outlet": "RFI",
+     "coverage": 1,
+     "related": []
+    },
+    {
+     "title": "塞尔维亚“变天”： 武契奇输给一场没有领袖的学生运动",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5XTlQydVZxbG1YTUtFYjM1aFZ5bWF3M3REbEdEdlZFOFlmcWFBWmp2X0ZHeFc3SjhSdXB0ZmktaExRcHU3bkpMSXVkRGJuOGxKbVJsakV0UUs2MGEtclR1c01Idw?oc=5",
+     "published": "2026-10-26T13:28:37+00:00",
+     "outlet": "BBC",
+     "coverage": 4,
+     "related": [
+      {
+       "outlet": "新浪财经",
+       "title": "塞尔维亚公布议会选举初步结果",
+       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Ua210T09VTU12d2pDQWUxUDNMSWd5MjV4WTVHcDQ5blA1WlNwb29oUGpYNXRXN3lzellBLVhOb2tKWnZGdXVPc1A2bTZ6THI3WXUtTkNuRk5TUG9ZMFMxaktBMElYdXZ3U3dhdWkxTHpEbUF2WDJtY3BCZjU5dw?oc=5"
+      },
+      {
+       "outlet": "中华网",
+       "title": "武契奇败选，克宫回应 俄塞关系前景受关注",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QTlFzUDU4Um85LWd6MEdBZG1Kak1CaGg0Rk5CNnFNaTNaSGdxNldPeU1xeE12YjBwcEJCakUxZU9GRzhrWFo5ZUlwN0FSZXh1ME14V2VYWGh4SlRnOTdzbmVYZkJTU19oQWJhbWd6YkM?oc=5"
       }
      ]
     },
     {
-     "title": "天天学习｜总书记为何讲“四知拒金”的故事？",
+     "title": "前中联部部长刘建超据报被断崖式贬官",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE40VC1rQlRwUTJZNmFwQnN4TjFtVEtUVEZYSjBjRmpvVEVkM2JLV0Y4SGNuY3g2djdvRXBoY0x0cTZRUk52ZmtZNnJKZ05HS3cyUVVtVGdUNlBYZlRHV1N6TFVFaXpkOV8zUUdLMmcwSXhyQjFQSFE?oc=5",
-     "published": "2026-10-26T01:19:42+00:00",
-     "outlet": "央广网",
-     "coverage": 1,
-     "related": []
+     "url": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxQWEdUQlVBOUZ5bldCVmhiUlpWMWZVWHE4Q0c4TVNfYWNJMWpmZHc5aHB0ckM0dVZjSFkyeXRRa25KcUlHcXhwMGFIMWhfc05WZEFFQXFKOVM3cmVQRFV5NFNXaXlKNFVsRTM3eWtMcW1kcnl4MjZpYkZXWmtSb2FET1pXTVk2S3RieXR2UkFIWExhZTlkQlhZcURrekh2clFjZnlmRVl3Z3BTNERDeXBjNmszUk8teElic0d4eXplM2pieUI1VTZMZkFJOWg5WWNyamk3b29CZVVWRWVaLUtib19uZnRtSUJlMEZkWGlCbVkwc0FoZzUtMmlPRzlhZmo1MUN3OVVxZjJBTkNJTktIRV9EUDduVnBzRTdqenpNTzdWUzRhYmF3WGdxWQ?oc=5",
+     "published": "2026-10-27T11:58:07+00:00",
+     "outlet": "RFI",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "新唐人電視台",
+       "title": "消息：劉建超問題比秦剛更嚴重 從正部級降為處級",
+       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tZFVVTDdyUDlHdE9KUDQxM1JFcHpfcFQ5U2x2Q1VlMkRqeWZhcU1HWkg5MmI2ZnZ4QlpJRUlNd1BjNzBEZHp1d2FKYnpUOWhTNjlicjlKNEl6UXBGSE9LU9IBZkFVX3lxTE5DWURYcU4yeHFXd0lySmVzNkpLTE5zaWZyeFZSTm55UjJ3NjFfMzJ5SzNfbFBOWVNKR0VIUmNGNGZKQUQzcjc0NElyaGNJTjN6OUFWeTJPbG1zdm4zRHp1TmZCREpqdw?oc=5"
+      },
+      {
+       "outlet": "大紀元",
+       "title": "五中全會料大整肅 傳劉建超遭斷崖式貶官",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5kR2lfVTVZQ05QUDFWZ3Z4UjlqenR4UVVZYUFUYXJmcHFwMUk5Z1BRS2tmbEpBQVhfWFBMRGQ3RmxqdmVHYkRVblBXLWh0TW11MTlKdUlLUWRXWXFDUGUtT0N30gFnQVVfeXFMTVhjSVZ4R0h3Z3JkNFhaOUxHODZpbUkwZWR5aWhHd1dIMHkyb0wxMk5Zb0NKUjNJaG1rVFVhWl9FaUd1U2tyX0ZKdTFFOHF2MzgzQTI4d1IwYnpnSVZFR1VFbktkdmtFdw?oc=5"
+      }
+     ]
     },
     {
-     "title": "人事观察｜两任省长落马后 江西省政府党组书记调整到位",
+     "title": "阿里巴巴诉美国涉军黑名单：法院叫停游说相关禁令",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5IaHVieFVtV184eVFFNk9weW9DYl9iZHRIRHIySkdZVFVsLVNKWDE2elBwRnFoRUJsdDRZdC1iSlFudVdyX2plN2U1TEFUSGd3QlNIb3JialRHbC1qSmFF?oc=5",
-     "published": "2026-10-26T09:14:00+00:00",
-     "outlet": "财新",
-     "coverage": 1,
-     "related": []
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWI5ZjlDb0VCTnc4ekE4OEM0dWxLRDduQm9WcURaWDBHVW9BelVqejVTQ2xxbGh4RTltQXdSU0VDc0FzOUhDSUhNVGxNVDNBRmJaMWJqeU45dExKcVRBREVMWTFVUlVuXzRjVGFCLWllWFRDeXBLLWR6Rk1fMTV2WmpHR3RoZTlRU0RXMGtVdGpwUGhRd0JFRk40RGxyUF9t?oc=5",
+     "published": "2026-10-27T07:33:00+00:00",
+     "outlet": "华尔街日报中文网",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "凤凰网",
+       "title": "阿里巴巴胜诉：美法官叫停特朗普政府针对国防部黑名单的禁令",
+       "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBhNXVrU0xiZUlqYzd5RnpsTG44WDNuY3FuOEN0SjVnd3Z2UHlwbHJuUnZ3eTBxQU9YZE9rSFBQcFVfbzM1Q2plVmNwTEY?oc=5"
+      },
+      {
+       "outlet": "金融界",
+       "title": "阿里巴巴起诉美国国防部取得初步胜利，法院叫停相关禁令",
+       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1lZXFZMVplcEp6aDdEUG42aWh5WUc2Q3Z6SkctdnJnZ2xkdFZHam1UdnQ4VWlyTVBjS1hzZHFHeXJpMmFKZXU3Mm45N2RGclVSdmJhajJLSHloSUNNbzkxaGZLN3kycjlGN3pNcGYyYTJkYjBI?oc=5"
+      }
+     ]
     }
    ]
   },
@@ -612,154 +667,163 @@
    "source": "Google News",
    "items": [
     {
-     "title": "앤트로픽 IPO 기대감에 뉴욕증시 들썩…나스닥 0.8%↑",
-     "summary": "26일(현지시간) 미국 뉴욕 증시 3대 지수가 일제히 상승했다.",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44WlhWdWVPYl9NbDc4OFprQmE5QzBxejZxdFhMRWFMMlZnektFQ1dCS2c1ODBUTWNycXRzOTEzUGVnV21ycjQwYUtYRWQzS3RQQXNkdjdmVzBkc0HSAWBBVV95cUxQT0NWNmNwUUtPYmw4cUNDWTUyb0NDbzdVbTNsT2o5TWd3bXVJRC1uNTJGT19uVFdDQzVuZ0FScUpIdnlVRnhzU3JHU3RTMGxwVVdkTkg5ZXNmMnBWOFU3SkU?oc=5",
-     "published": "2026-10-26T20:22:53+00:00",
-     "outlet": "연합뉴스",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "경향신문",
-       "title": "[속보]스페이스X 제치고 판 흔들까···미 AI기업 앤트로픽, 나스닥 상장 위한 IPO 신청",
-       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlVFZDOVprc0w3UlhBMTZZZ0QwRUVsclZtTlU5aU1Oazg0UE0xeGNPdTFmY0xGVTJaQW1sWlNLaGhrSHVjcEw2VWwzdC1aRmI3b3F0M3RyS3NwQdIBX0FVX3lxTE95VF8zWnBLSWhYQ09zY2RTVjczWm5pN211OGZGQXhlelUyTlR6b3hVN0VVTlM2dGZNbzBmRlRsNVN2ajZNOHlJR0dMREZIZnQ0Qm9wWnZJTVZ3ejhxcmk4?oc=5"
-      },
-      {
-       "outlet": "Investing.com 한국어",
-       "title": "Evercore “Anthropic S-1 공시, 클라우드 협력사에 긍정적”",
-       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRVFZiWTR2Zm42UEF5bVREd1lJSWpBbzMxVXltbUZxYnRwSmJyNlNnOHdOcXNEcnR2M0ZCR0RVWmtkWkdBa0t2Y19hbkdKaTE5eUdKRFZLdXo0R2JuMHNyemhWQ0Z1Tnl5eFdfWTZxcnk0UkdU?oc=5"
-      }
-     ],
-     "direct": "https://www.yna.co.kr/view/AKR20261027006600072"
-    },
-    {
-     "title": "트럼프 2기 휘발유·경유 평균가격, 바이든 집권기 넘어",
-     "summary": "도널드 트럼프 미국 대통령의 집권 2기 들어 미국 내 휘발유와 경유 가격이 전임 조 바이든 대통령 재임 기...",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kUzgzVDRSQlpIS280OEdpamhMRklaZWtjV1F6Y2lYN2FWZ2VjV3FXVExra0dFaGE3bjBhWS1zaXFNWlQySTlSTFFMUzFQb0pVekM0V0taeklZTE0?oc=5",
-     "published": "2026-10-26T19:59:00+00:00",
-     "outlet": "KBS 뉴스",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "매일경제 마켓",
-       "title": "치솟는 美기름값…트럼프 2기 평균가격, 바이든 집권기 넘어",
-       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB6aEpRcG43QUFjbWJ0cXBoMUM0OHJWUXVPb01zeTdscGxMUzBSbkU3cXlWZmg5VTMtNVdIU1RYS1JoTjdmdDF6Y1FzM0lDa0UwZEE?oc=5"
-      },
-      {
-       "outlet": "뉴스1",
-       "title": "트럼프 이란전쟁 중 석유주로 474억 벌어…美가구는 기름값 113만 더 내",
-       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WTGJYMUN0STR0Z3J1TTA5Tmk5Vkhfb1JqNElzSVdib195Ry1rRVV1Z3NuVDJlenlxUGZZbDRzNFhhSmFscjJxU1Jic1BVUkwzM3pqZWp2UjA?oc=5"
-      }
-     ],
-     "direct": "https://www.yna.co.kr/view/AKR20261027004700071"
-    },
-    {
-     "title": "골드만삭스, 코스피 목표치 9,000으로 하향",
+     "title": "3분기 GDP 1% '깜짝 증가'",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1FWGQtYzBJZkYwTHdZM1NVRkhveUhUV2tnYzRDcTdfQkh4YTBPbzNPcTY5a1pON3FGTXdNemJjNWVjMDJkX0h0cEktNTltRHZ4eWd5NnY4cGhOVFdfamtwRF9BbXU5T2VrNkxkOFlvWWQ?oc=5",
-     "published": "2026-10-26T01:44:01+00:00",
-     "outlet": "연합인포맥스",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "YTN",
-       "title": "\"코스피 1만2천 간다더니\" 돌변…전망치 낮춘 골드만삭스 [지금이뉴스]",
-       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HUXVkTmxhdGo5NWY2RGlKemFpbGU4NVEyQmpKa3pnV0lHTkRwR25LVXJOaGlRck5sV1FxRnBBLWdlTHpvSDN2UGFiTVhxS2dQa3UtNThmT1V6SkdxWUE?oc=5"
-      },
-      {
-       "outlet": "아시아경제",
-       "title": "골드만삭스 \"헤지펀드 기술주 매도 2년 만에 최대\"",
-       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01d05hNDZxMEY2Wl9RbW9mVl9EVDVQNlE4Q2xrOWU1cHJ4RS1GaTRPNVhUcmRQTDdoUGZXUnJtVHhiTC1oc1NMc0lvN2pYUEZ2b2taMDA4aHQ0UWVhVUNhdg?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "SK하이닉스, 16조원 특별배당 검토…반도체 호황의 과실, 주주에게 돌아가나",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE80T3JIeng2MUxRZjBMeGkxaEo1SGFYQ2N0c0lpbGxJb1RteF85bXNtWlh0Z1lBUVFIY195YUtsZG9Nb2FvTy1felE4MHV6ZVlwQWo4RmxQZEJGemZaZWE1NDB2VkpNVEU?oc=5",
-     "published": "2026-10-26T19:32:08+00:00",
-     "outlet": "지이코노미",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "서울경제",
-       "title": "SK하닉, 최대 60조원 주주환원 카드 꺼낸다",
-       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rak5hLWVjZXJjZ1RObDF6dVM5TWNIa1JQTTZ1NFh6MEtWWlJ3MVdsNFV4NDlCRlJFOE94S0NuMC1KTXFKTFVlV1Q1c240TUFxWnfSAVNBVV95cUxPczRNVUQweS12ckQ3TVlBWjVtOVE4RUIyUVN6a245bEZWb3RNVng2b21NcHBUMEVZNWlkS1Qta2JzTXk2dzJqTEZ0ZzdIdGxsMUdUQQ?oc=5"
-      },
-      {
-       "outlet": "연합뉴스",
-       "title": "SK하이닉스 내일 3분기 실적공개…주주환원 카드 나오나",
-       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE85Q3ZTMG0zSE0yUDhGVGVGb3JFU0k0LUM0SlRmcDVvTDZNWWJJbTFRdkx2clg5NmVfMkRjc2xKZklnSlczYlJLVV9TWjlBTi1DZlFTZlVuY1lEY0HSAWBBVV95cUxQeGZHY0gzSjNSRkJ0TlRqTThiN1I1d1Nta2NXV3FiYjB4U0l0V1I2bXNXbkNqR0dKcmNheTRyR3pLc1pkV3l0UUJZWHVtak8tUzEyNno3eko0dEZkc2plVzg?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "[사설] 경상수지 흑자 세계 2위, 반도체 이후 지역산업 준비해야",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1za0dGel9nekNlVmtIYXQ0c2g3M0ZNbEo1emg1Z1VrS0tiNHRKSUpSUDlCTm4wZ0lJTnFzM2pjUUtuSWVWeUNta1NzWm9ub1J2Z24wekJ4Mlk4czItX0hzdDZOaw?oc=5",
-     "published": "2026-10-26T21:00:00+00:00",
-     "outlet": "영남일보",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "YTN 사이언스",
-       "title": "한국 경상흑자 규모, '독일·일본' 합계보다 많아",
-       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOM3lJZXExSGRfZ2ZHUFh2Z2xWSlBfQ0tpNWk2Znh1SEhZTHdJbDFhR1UxemZMQkk4T2xCemtlTktVSTVrS3RCcjVUMWJWc2RKUnZKQTJlRXJ2QTB3TlVHbWlqWWtWWHJFX3NQOUVTbWhHOFNocWc1LWFLQi10eGxycnJUb25qTGt4QUtjXw?oc=5"
-      },
-      {
-       "outlet": "전자신문",
-       "title": "李대통령, 연일 '경제 성적표' 강조…“성장의 결실을 국민 모두에게”",
-       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBZTzNnUENzV0xnd0k3NmNfYzg0aFZaUHBibk9XV0d1WTlyMlNleVdCZXN3dDV1clhUcnlaRVpiU2M4Z2NXejdYUkI5MkIzUQ?oc=5"
-      }
-     ]
-    },
-    {
-     "title": "3분기 공적자금 696억 회수…누적 회수율 73.1%",
-     "summary": "금융위원회는 올 3분기 중 공적자금 696억원을 회수했다고 27일 밝혔다.",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51RDZBcGJBNmJSMHRqeml2bThjUFNuZEVrUVktcG1nS19GOE9uOHBxZnBZY1FMNnotMTgxa2t3TmF5UjZkRG1fX2thU1lZY3pVOHhHSDVpODFiSWc?oc=5",
-     "published": "2026-10-26T21:04:14+00:00",
-     "outlet": "KBS 뉴스",
-     "coverage": 1,
-     "related": [],
-     "direct": "https://www.yna.co.kr/view/AKR20261026149800002"
-    },
-    {
-     "title": "\"외인들이 또\"…7000억 매도 폭탄에 코스피 5500 깨졌다",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kZVdGRDRKeUF2TDNqY1pOZFltOXhMekhYRmg0TTI0X1BweXZ2STlnNDBiUWNPUUtFUzRlZVVwVVB0b3JnOUFnRmVxbVR2TW1qNEx1a2NmUFBmZw?oc=5",
-     "published": "2026-10-26T07:02:23+00:00",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tSGRBOVNFTV81R3U0Z3QwNUVzQnhCTDNHNXFEX2RaLXRPUThBaDRlaUVuWFZRaDhIZ1o2MUVrQUlWZ2pHSDlYU1k0TktfN1h1aVdJU2VHWDN5dw?oc=5",
+     "published": "2026-10-27T09:04:28+00:00",
      "outlet": "한국경제",
      "coverage": 5,
      "related": [
       {
-       "outlet": "네이버페이 머니스토리",
-       "title": "코스피 5500선 붕괴와 실적 슈퍼위크 앞둔 관망세",
-       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE50bDRnSmtCTTNrSWNEbzhrNkFxaUlWdUx4QVJqdjM0NENkMk1KcEtJS0k4Uml0VU9pZTRlQ3hpUjhuRVJIZk1aMm1SQjNUYVlGdmdmN1FYWTVCQQ?oc=5"
+       "outlet": "대한민국 정책브리핑",
+       "title": "3분기 경제성장률 1.0%…올해 3% 중반 성장 가능성 높아져",
+       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQOUY1NVJUaTBXZWpST3hIbjFmdS1rVWd6ZVVybTJHWFBZekx2T1NvdkJWX0JMYXh3dEs1ckJaMVdKUGhqR3BRSDN5cl8zcl9SLUc1UGhyZV9TdW4wSnVVa3lYdEZtMV96ZG5HaEMtTlk0OWhBQWVuVkw3Mkl1WHVia2tGQUhFTGZyS1E?oc=5"
       },
       {
        "outlet": "동아일보",
-       "title": "코스피, 외국인 매도에 약보합…빅테크 실적 앞두고 숨 고르기",
-       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1DcnBocURKZ1BsSWU5UXlGTzIxMk5Ca1pVb3VXYVJOei14WDR3UFl6dTZPSnVseEo5RWJWM1lESnZUeGNnRWxuU2hIOTRodGlob1MyS1lxYm1paXc0Smp6YnVNbFQ1SGYtUkZZcE9fc2Y5UDEwelHSAWZBVV95cUxOclZ3bTBab1gtSE8wRm8tcUJsbVdmTmRDQm5qOWZRQXFLc1lRUkJrZHA3YzMzdEdQTUhKeTdHV19KdEsxV0Ffekt1bm9hVGNpUExZcWZoYVVnLXpLTElHQ1VJcmI0SlE?oc=5"
+       "title": "실질소득 49년만에 최대폭 늘었는데, 소비자는 지갑 더 닫아",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10Z2tCTUphMjBuNGtrUnRLVlBxdFBlMk5vWUwzTS1jV2dJYmQtTmh3RUZ6S1VHM1QwTWoyVXpLRzhVajdnb2QwYkhycHc0QUFYNnVRWC1vZEg4RE5idU5pMHFISllWRDVxQ1RZRVVoVFc0MWlwdFHSAWZBVV95cUxOQlRzQkk3TkRtLTFhOGpYRUlwaDJhMDVhc2RKbDhoQzlXRnFFZ1ZYQ0JPOUE3SWpQSGNXV0VOVWR6cW9ldllTQ2UxWGI0dG1tc3FnWjBSRVZONVhhZUtsTzNxVDZ3QVE?oc=5"
       }
      ]
     },
     {
-     "title": "메타, ‘뮤즈’ 기능 확대 속도…실시간 음성 대화에 아바타 공유도 준비",
+     "title": "[정책 인사이트] 국회·정부, 전기차 완성차 세액공제 포함 추진… “중국산에 대응할 필요”",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE55WTJKSWJnOHZhNkZGUkE1bEZMU1Q0ZVRiUzBVSk9MbERaZTlsY3k5YUlrQ1pkNlczNTB2YnRnZS1NUko4dGlmNW9OeTJCVmdySHA2M3lCRnJQWk9KNXBUVDI1Um93OWI4YkE?oc=5",
-     "published": "2026-10-26T08:55:07+00:00",
-     "outlet": "AI타임스",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaHBId2h1czc2cjJRYTl4Vm1QajA3LTRhNThGeXhiZXV6YWo0SmFZeUlKeDR0dXVlZk53eVNxQ0NneGRSc3NEbTZpWGNzaUxxY0JsMXNkamlZTGxsRmUxUi1tQ3JxX2RIVDkwZDJVNEdXdTRNWG5lVndCRDRuQkcyMmJhTC0td9IBmgFBVV95cUxNYV9qZFN5MHNoVkxUZENXaDBxUjhHZi0zcDJjMmw4Vm5ER3NsdlY2QUJULXBXTXp6M2ZXd2Y2alhjbF9xdkVneE5lV0ZpaVR2cWhqcC1OUWJjeWpSWldfT0xkZFJHdnFBSkNDSTdSbUZRSnZGME1IY1hDM3ZyemNDVjBPbERNQ0RrQm9ZVkg0Zll3OEpybVNkUVpR?oc=5",
+     "published": "2026-10-27T03:59:00+00:00",
+     "outlet": "Chosunbiz",
      "coverage": 5,
      "related": [
       {
-       "outlet": "동아일보",
-       "title": "메타, 126조원 규모 초대형 증자…AI 인프라 확충 승부수",
-       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1WYlprNDZtUFlldlZDRDBUa1hHLVRHZ3hFLUs5aFg0RUhHdnE5aFIxeHM5Vkd3VmNjNG9jcVNRZ1dONnMxY1JGY3l0d0ZXazZjYWNpci0tMTlHNFdPUW9fUVRhX1V3OThGWjJkMWwzRDIxVHfSAWZBVV95cUxNS3NFT05fRmFQaWgzUk5RQWpjMGpjU25UUWFFZGVTckVFamh1YURlU0N5dnZyWHN4WEZtOF9oMmc4TkpTQnpHWnNmZG9DVDltamRjdjN5elVfX05DdjRUY2ZibXMtZHc?oc=5"
+       "outlet": "서울경제",
+       "title": "블룸버그 “BYD가 현대차·기아 안방까지 위협”…현대차 임원 “절망감 느꼈다”",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ZaHJ6aG80YWxvU292NFRSVllvWGkwZ0liMzh1dWp4aVhmeVFrdW1JOFpfNFAydnl2NWwwRVNPdEdCM0tBZ21MOUtlMUN3T0VFNlHSAVNBVV95cUxNcjVyLU1haXBwSnZ1a0taLTRSM01Ucjd4Ykt0Qkp4d1c3V0RLNWFhNGpmOWZRUjkzbVRfZlZKMHFjbkkwLWtZd2R5c1RYVmluZk5CQQ?oc=5"
       },
       {
-       "outlet": "서울경제",
-       "title": "뮤즈 왜 한국에선 못 쓰나...저커버그 “데이터센터 부족해서”[김창영의 실리콘밸리 룩]",
-       "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9OS0tneGVyN0x5am9GQTdqRDJVbzBnX251Wm42UnV6a1dlLThQM2F3dk44cnNqZTF4dC1CR3JTR1kxdGRNeV9ycS1IQTRMUTjSAVNBVV95cUxQX1VqdzY2QldWVlZaZkhybU9ianNEdC1iVjFjQnQtanpSWUpVVzJPYVJWTTNrc1dqZDM2ZE82bXFDME4zdl9lRHFNZW9JVjVlN3I1dw?oc=5"
+       "outlet": "매일경제 마켓",
+       "title": "중국 전기차 확대에…전세계 방어막 마련에 한국도 동참",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DY0tkUGF4RFlsMVFIbEdGUlBjamREWGlUZWttNEFaTmtGZjNiMGdoUlNVeHRDN1YtUmc5Nzc2b1dXMEx6cGV3UFU3MF9Qb1JEY1E?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "[뉴욕증시] 'AI 총력전' 메타 증자에 몰린 뭉칫돈…강세 마감",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lRDJfMlhFVDBUY3RlTEQxWXFLRVpPNG1xT1dua0d6akZ0VWd4YnVqMzAxSnBaMHp3RGxpbjN6ak1TTDNNMDA0VlJlQ05wYzJxS2lLNkxCRnVqZHBzb3JBNXFQaklSaGwwRWppZEQzek0?oc=5",
+     "published": "2026-10-27T20:33:31+00:00",
+     "outlet": "연합인포맥스",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "이데일리TV",
+       "title": "앤스로픽 기대감에 나스닥 1.2%↑…시선은 빅테크 실적으로[월스트리트in]",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9yQ1czQmg3Rk9UUlZyZmx3aXVTWGdZbVI4amJ6YjcxbzBRYVNuM3ZDaFZEVTdMTENVcjlBOFd3b05GUXhaN3UyaEpERWJBbEJKdm5qQ1RXREJFSUFMQWcwWGUwRWcxSk1HMThrY1RtT0xZRjA5enRpb1ZzYw?oc=5"
+      },
+      {
+       "outlet": "네이버페이 머니스토리",
+       "title": "중동 확전 우려에 미국 증시 또 하락, 이번 주 주목할 이슈는?",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9NQzVLbDdJOEdZTGtCRlUwcUdOR3VSVHhieHRyX0NLUEhKZ29sRU1NVlR0U3gzVnF2NlNkTVZtSG4wbFpOSHdPaW5VU003cXFsWnc?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "민주당, 오늘 당정 협의서 가상자산 과세 ‘유예’ 논의",
+     "summary": "더불어민주당은 28일 국회에서 당정협의회를 열고 가상자산 과세 문제를 논의한다.",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1PZy1MMXVoS0plU2JVZEtCZ3RqTVBnNElCZzd3T1FDcm9ScGFPaUhaSjNDRVR4LTNDR1FoU2FheDFjc0swWlhGcGcyUV9OSzdUNndQZFlhekw2clU?oc=5",
+     "published": "2026-10-27T16:02:00+00:00",
+     "outlet": "KBS 뉴스",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "대한민국 정책브리핑",
+       "title": "(보도설명) 디지털자산시장거래소 등 디지털자산업자에 대한 교육세 과세 여부는 전혀 검토된 바 없습니다.",
+       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYZF9UUWNZS3RjUWs3aXhmSUZJN1JmaWljUjZ4MHBUQW9vTUVmeDEwOWJ5R3FjdzNsVUdxUjNWd3FEM2ZWanlvMU9BVGpaaVlxQjdSakhPbEFIMzY2WXZmNXRGa0Q3VlZoRGpVZ3psUQ?oc=5"
+      },
+      {
+       "outlet": "연합뉴스",
+       "title": "與, 오늘 가상자산 과세 당정협의…유예 여부 논의",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81ckRRMThDTTAyVXJtbXg4RFU4eE5wUFZrTVR5NVljQ1dmTHlVUkIwdEVzeWZ1LXhnX1FkNFdCZkpNcmQtanU3MzBpRGRpSTZ3MEZtOXJnTmF0NTTSAWBBVV95cUxQNFIxOGxyVUhPTDJSb3VQVlFWU0tvWk16UlAzQXl3ZVdrUU1pTFA0Q3B2aGJZS2hrSnlSeTQtMGZfel9nSFlPSXp1VUpIOTVHTmh6QU5DQVJuUTVHdjBCREo?oc=5"
+      }
+     ],
+     "direct": "https://www.yna.co.kr/view/AKR20261027167000001"
+    },
+    {
+     "title": "코스피 4% 급등에 매수 사이드카…“앤트로픽 매출 1300% 증가”",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDSzdJOE9YU2FXcVNlVkRNNTZ0NFdZSmFBQW1NWmNhTURaZ3A0a3BuS0czcWsxbWp1VkoxNGlOU3JxWmVEZjgycEYyS21jbW1tbHh2d3hsLTY0RXFaQmh4NFVLNUJ1LVE?oc=5",
+     "published": "2026-10-27T07:10:00+00:00",
+     "outlet": "한겨레",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "네이버페이 머니스토리",
+       "title": "삼전닉스 5% 껑충, 코스피까지 끌어올린 '이 소식'은?",
+       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAxX0x0VzU1MjlHcFhvUlY5SVkySGdxbTd2X3NteUZsdC1ReUp6VWhOYjlva0hIME1hckRYZHBQMXZZelNTSlczaV8zT1E5ZjlUWE94aGg2Q1M?oc=5"
+      },
+      {
+       "outlet": "동아일보",
+       "title": "‘최대 2650조원’ 앤스로픽 상장 신청… “AI 인프라 1064조 투자”",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAwQlRyeVdqSV84MnhsaU5NNTBhYVhRS0N0RVFDTEY2R29MdXBPTW02UnZtRTQzcTE3NkpfYVFVLXk2MEF3dHpjX3VTQklfT3VuZVg1TG8wdERMaHJRUC12T0NRSWtkWEVKcXZLN2RYMGxZMVBISXfSAWZBVV95cUxPSkdLOWhXcW5ZYUcxYXAwTXhtcWlpa1pzSWJIR18ycEhvX2w2bkFHbFJZdndRMTQ4YVJROFVNMXN0YkZUTFJwbi13MmlmeUVSeHVkdFQ1Rjg4eTlaWUhwc01QQ0FsT3c?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "현대차 '아틀라스' 공급망 공개에 관련주 급등…나무가·캠시스 30% 가까이 상승",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB0bjNBT0h4eVcxRWIzcmtFVHlMcmxJM1V2bjRNZWlDa0ZhY0I1bEM3QUM5WWVCUjVWS2YwTTdxVng2SzlHU1dXcU9ZZXkwQQ?oc=5",
+     "published": "2026-10-27T06:50:40+00:00",
+     "outlet": "전자신문",
+     "coverage": 4,
+     "related": [
+      {
+       "outlet": "한국경제",
+       "title": "[단독] 보스턴다이내믹스, 아틀라스 1만대분 부품 발주…나무가·씨티알 등 참여",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43dTVFNXFnbXU5RVRubklIb0E5N19fNjFVWm5Lb2tBa0VtMHpiVzB0SlFLcV9DUndUeDJCZkRfcDVMMUZsWGZrM3VIVmFXd2Z6Xy1VcTJSRHFzdw?oc=5"
+      },
+      {
+       "outlet": "뉴스핌",
+       "title": "[리포트 브리핑]현대차, 'Physical AI의 상용화' 목표가 540,000원 - NH투자증권",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByR0JKUDJPT2t1NWdENDNUT0s0bXZmMmYzNTUzYjNEdGVLRW1ObW5oZU4tRXlBLUI1SjFmM01QdTE0bXo4WHNvWG5nZmJVdzdlVC1NcU9zTDFsdw?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "[단독] 삼전닉스, 역대급 환원 주주에 '210조+α' 푼다",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqanJCMk9waEVjd29BSzRfei1JZ0JrcTZpQVNacVRpaTZPVUNpWEVFWFl1T2JIZERHSjZnOVFoM2wtWUJaYmhEMl9wb0ZCSldBRG82V1c2Wi1fQQ?oc=5",
+     "published": "2026-10-27T09:01:22+00:00",
+     "outlet": "한국경제",
+     "coverage": 4,
+     "related": [
+      {
+       "outlet": "YTN 사이언스",
+       "title": "SK하이닉스 내일 3분기 실적 발표...주주환원 관심",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMnRuT3JaaFItQXIwQ09sQWlQUjZBU3NTV05SQ2RCQTBYXzNaVGtCOTZ3VkpZVGIyZFhRWk4xS05xQ1QwNkpPUzlDNHBPUllfMF9qQzJZLW94UmNHUXFjZU42T2xXU2ZReEZvX2wwZnJTUXBZQTgzVXdaZTV0eUdGTDJJX0s?oc=5"
+      },
+      {
+       "outlet": "뉴시스",
+       "title": "삼전·닉스 120조 역대급 주주환원 온다…증시 반등 계기될까",
+       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05eGlJWG9iekhOaTBvR1hDZlNld2RpN2lIXzFkR2F5eVZTNlpocTZxQWtaamhnbWQxN0lHNDFhdFJpaEpaWWJndy1QanZMQ011ZmdHMXlHRG5rMno1dHVnYTV4QTHSAXhBVV95cUxOd2tSZnFYWUE0c2NvOGlYZGtyMEFGQzQtRGZTU1ZtOFpwN2wxZWNnQnZwOVMzRW11MVhFSlRObXk2UlQwdi1Fa2xVRnFQX3VXb1VhQ1BKM0FfM0JhZGJsSFozVFZHdWpqSkVJZFdaVFZfSHlKa1E5aWM?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "애플 첫 폴더블폰 ‘아이폰 듀오’ 화면 파손 논란…애플, 일부 제품 교체",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9mQUVNbEpCc243Mnl1OHhNTlNET3lQUWZ3bHhOSlZuMUpHcXVjaDdIUEFmNHhhbC1xWGxUWVlVbHltR1VGN1h1TGs5dUdNeDJOTTd4T0Z1Yw?oc=5",
+     "published": "2026-10-27T07:50:00+00:00",
+     "outlet": "부산경남대표방송 KNN 뉴스",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "IT조선",
+       "title": "아이폰 듀오 화면 파손 논란에 韓 부품사 ‘긴장’",
+       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mQXEzZktLT0RsQnR6REE1ejNLeWpSNnFSYUpqSGJHeGZHUnJyLVVSdGk2dWk3Q1ZmQVdZZVRIZVNRZ2FDd1VUVWdmSEJKdnRJcEhMNjdtVGVIODdOa2IxUXlkRzRpZXgya1dJSHJpel_SAXRBVV95cUxOVnBiSEF6Yk9zUW82VG5iSzNsbklwcVZNMFBmXy1rQmRoNHRlUmE2dTljLXBWZHJFQWJURUlSZXFDS2s1VVFsOVBDT3doWHV3RXdZSTJXRFM2N3Rkczl5RU5ybGd1M0JOWDRlRmxKYXdLeGJfTA?oc=5"
+      },
+      {
+       "outlet": "연합뉴스",
+       "title": "화면 결함에 중국서 아이폰 듀오 재판매 시장 '웃돈' 급감",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5pQ3haYndEbHRuXzFoTnVjOFVsSTJYQ21zT09aVHkwb21MbXFuNU1ORU5WaDJkV19idzhpcFNvakF3N3ZoYzZBODhzOEFvT3RsUVBlbmpJU3lyN0HSAWBBVV95cUxOZmpURU1RbnJlQk1CQzF1eS0zQWdzZ245NF9sODBVYkRuSFdoN3lSck1rNkRjZlQ2d0Z5WUV1MlhhRmpJWXdUYlJQMFpJXzR1aXBQMmhQLU53Qm9pa3VOaVY?oc=5"
       }
      ]
     }
@@ -773,42 +837,112 @@
    "source": "Google News",
    "items": [
     {
-     "title": "탄핵과 특검 무한반복하는 민주당",
+     "title": "민주당, 헌정사 첫 대법원장 국정조사 결정",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYlpYeVhaYndDSFlXdnU0UjJOLTRWb1NtMHJVaTVIZ28zSjYtVFpFemU3dXpkYzl2a2loUUZOM25uNVlJUURmdjV6WmNqakFDWWVYVFYxd1R0OUk5TTRTb1Znd2hfUWxGS3NOMUhnanE3eHFLaV9idU5YcGxIWXRFY01jZWVhUQ?oc=5",
-     "published": "2026-10-26T15:56:00+00:00",
-     "outlet": "조선일보",
+     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1meExVZ0VKb0JzNzZRV0U2NkFIQ0RyM1I3czhWMmZtaFRxNDktNlFSajUxVFY5ZzdYeDZqUW1SUUZ6b0Y4b0IwajdVRTJCN096eVFIazA3TXlRVmFnR2E1ek1Db3BveDQ1UEl0Y2ttNmI5SVJa?oc=5",
+     "published": "2026-10-27T12:11:00+00:00",
+     "outlet": "한겨레",
      "coverage": 5,
      "related": [
       {
-       "outlet": "동아일보",
-       "title": "與강경파 “조희대 탄핵이 답” 국힘 “제정신이냐”… ‘吳무죄’ 충돌",
-       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBxMWlENDRFTVBGR0p2ZThnSE5HaVFKazRlT0VTOTRsaC1pTVgyY1IzckFOZVZWaVk4WmNFc0RScTF5eGl0MXlJemgzTEFrWnkzRTFLM2VBOHBMaGcwSko2VDNLU1o0QmVPSE1IWjdGcFdIZVFOZDVn0gFmQVVfeXFMTUNqRG1aSHBVTW9VbTZYejhHeDdyUHBQN3B4V1ZMdUZ0UVlodElqUUxwNU9QbEI2QXFuc0VfaVA0SnRvS1B0ellIOUxxZmstQ3hxaThZVHllcC1sa1BMSi1tbzNoanl3?oc=5"
+       "outlet": "조선일보",
+       "title": "초유의 대법원장 국조… 민주당, 내달 강행 예고",
+       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUVJoeUp0X09MUVJhSGRXS1MwV0h6eHM3SHdfT0tURmlZNTBPUG1hQ1BMWXRhZFZSQ2Q0U2tUVUZDM0pXVHpqb0FoMExnZnhnNVNJbXpwSVM2WlF6QkNKUUQteFBMbHh4UlRIYTI3UUhvbER1dzNkbG45ZE8wbzNSZjhxeDNIQQ?oc=5"
       },
       {
-       "outlet": "경향신문",
-       "title": "[사설]법원 판결을 문제 삼은 대법원장 탄핵 주장 우려한다",
-       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tM1hBYi1XdnFrUlZMaE1vUFBhamtYZ3I4RTZXQXphOXdNRTJwMjJobUdvUXkwRjNaTkZRbzhOa3IyS1FiU1drc1Ria21PS3ZDU19iSDQ4QWY3Z9IBX0FVX3lxTFBESC1xMHdDQ1R2TzFZTTV3M0lWUkUyMGFGM25wV0JManRGTUJTY0RpT0F3M25YeDVVWnF0dHVQcllyMnF6bnFCMnhaeWMzTklDbURBYy03c0w0dmdXalZn?oc=5"
+       "outlet": "동아일보",
+       "title": "曺 겨눈 與, 대법관 재제청 거부 경위-계엄당시 회의 조사 거론",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BcllLcjUyTzlscUl3Y2Jib2NCdllnSmJjNkxYclF2eDRkcURvalpNRENIQzU0bEwzZ0dqQ240T08ybE1oVkNmZVdmMmNYREp5ZmE5MHRzTWh5a1B2WnJnbXpPbnJGMktfZkRpNy15UXJURDJyTjdN0gFmQVVfeXFMUFk0SVVYSzdBMUVxWjBGaWlDUXozY2xHb2pnOVJSeElfb05XY3NMX0xZYW1OdlFGYzd1VlhtNi1tX2I5ekVHTzU1WktSaERaTjhYekYxZk1sY0J3eWEtV2NvdXRzRm9B?oc=5"
       }
      ]
     },
     {
-     "title": "[사설]대통령 ‘사법 리스크’ 방어한 박균택·양부남, 법무장관 적임자인가",
+     "title": "국가수사본부장 “우물 안 개구리 되는 것보다 국정상황 공유 장점” 국무회의 참석 옹호",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBPejg5VkRJY2RfeF9fbXFsNF96emNnQnVPbG13T0J3alZhcGpiN2hkM0NZcnMxOV80VGtIelhTWE5ZTEhoN3lrSkxpdl9wWGZmNThGSFplb2lhd9IBX0FVX3lxTE1mRWxWZ0VyUjI4aUZ3c09mMWJ1YWY4WG9fcDA4cWFucnJGYi0ySHdSVjNtR1FYOUl4RlJkR3NIVXRaa0VfZUw0VEEtc1g1VU9uVmNEclF6YWljM3JMeS1N?oc=5",
-     "published": "2026-10-25T09:18:00+00:00",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIS05lU0VDNnQxdE11Mm9NU0xTYkRuMjRuWHp3ZHRHWElnSnhxc2tKSmozdU0yMzNWRmhPLWdiVm5zN3c0eXRWUGo4OUFfVGhoXzBXNmtLd2FyQdIBX0FVX3lxTE1aVFJ6dlY5RXo2aUdWUi12YVpIZDlreVlQc1YxMDBOczhpZlFISDR3UEpiWFVrUm9YQUlLQWs3MkJzOTFQN1FZZmx1UEVqeFRSZm94WDVFTGxqa0hNUVRV?oc=5",
+     "published": "2026-10-27T04:27:00+00:00",
      "outlet": "경향신문",
      "coverage": 4,
      "related": [
       {
+       "outlet": "YTN",
+       "title": "이 대통령 \"중수청장 국무회의 참석, 비정상의 정상화\"",
+       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4aFRDYzJCbzh4VmJiSUNDTy0wZkRRemUtZ2xfQkY4U1JPQXhOLUt0YTk2UzJtb3hDbFB6ekZwa2wwRVNGZGdUXy1IbmVXLS1qaU1FU250STFsaHM4Qkg2XzZrckxvZ2htRUVUUWFjR3RjY1BDbWc?oc=5"
+      },
+      {
+       "outlet": "동아일보",
+       "title": "李, 중수청장 배석 논란에 “비정상의 정상화… 한달에 한번쯤 오라”",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBkTHBtbVVGQi03NnR3Tm1lcWR2aWJ1YVFXVHZXdDFCMVE3TnRhb3RaY0VGWDR0WDN2amd2R0RpX2FpVVBQX3NPSVJnMmdDc3FCUVNYODNDRXMzMG1QVWlKcnYxX3JjSmZGN3FvWFdWNHdBcjdnMHBJ0gFmQVVfeXFMTVFMcE4xTlNJT1VZNUU3U2cyalZrRXdCeVd6ODJwUlFpTmNJLVY0aXJQZW1rb0dTaGJiTm9UT1Q4bVlkS3pISU1uS3hCSm9jellzMjFmSGNiNXJNZjVvckdNVFp0ZDhR?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "조현 \"美대사 불러 주한미군 사령관 발언에 항의\"",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRENLc0RwaXJEV3pfNU5ZUndWZlYycnV3WnFfM2h2ZFB0c3duWUNxaXZzd3duZHNzUlJNZ005eEx3X3dlY3FXVG1TRENCNnhPNzktNHZXbHVEVjdiVWpHT3d1cVdYVVM3M19aV0FrWnkzTGkzckl5Um00VkV0Znhrbk85dWoxbTFwMGF5NjRFQXE1QQ?oc=5",
+     "published": "2026-10-27T05:24:01+00:00",
+     "outlet": "조선일보",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "문화일보",
+       "title": "강신철 “북한과 전쟁 시 미군 믿을 수 있느냐” 발언 논란 …전작권 전환 시기·방식 두고 韓美, 與野 갈등",
+       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1sdnQwWTJPdEVrX0RCcUxQd3paUTluSmNTc1BzTVh1ZjZsVjVWTGE2cUhGZGNSSTVZMUZxalk1eFFlQTdKZGtXSHl1Tm8wWnlr?oc=5"
+      },
+      {
        "outlet": "KBS 뉴스",
-       "title": "법무부 장관 하마평에 ‘공소취소파’ 논란…차관도 사의",
-       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBEbEdMVy1NY2ZkUWxkb0gxdmszZ2JjOFM5anJBTlBMU2p4N0RZNWV2MkNRd3dFUXVXTDg5ZGhydjYwQV9qdGZ2LUlwWWl1cHE0b1BMMktJVGpJekk?oc=5"
+       "title": "미 당국자 “전작권 전환 전 필요 조건 충족되도록 보장해야”",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uaVVfQ2h2ZTBmdjlBaUtRZ1lWM1Z4ZjZsRmdGSGx3N2dMb2pzLVZZM0dfSU5DU3VaOFU1MDNJVUpsT0Q4RzRybGV1cWlyanR2NEhCWFlzOHY4bWs?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "조희대 대법원장, '여당 국정조사 실시' 질문에 묵묵부답",
+     "summary": "(",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5YWJnNmNLcThINEp6SVlLQ1BFT3k2Vlo1LXJMZExpdk9kOWh1YzBRM21Ia0c5Q09qZXFSMjJMZ0UwTWpiTWw3QzE2MVZCVWFzRjhLbVYwTHFQbW90by1fVkU4aEZhaUdmMUl2SW1fV1pqbVdXTnpj0gF3QVVfeXFMT0NnVFhDYWxKNjNRc0l4Ul9ISUJucWdVSWI5N1ZHUTVub1pUUE9UZTNrLURzeFJjakFvSmFYZVRBRV94b1FBdzRFd2x1NlI3dXo4bFVzVHVacGk0TDFBQUtGLWFzemRfMjhwalJXRUdxNlFRNGRLSFU?oc=5",
+     "published": "2026-10-27T10:24:25+00:00",
+     "outlet": "MBC 뉴스",
+     "coverage": 1,
+     "related": [],
+     "direct": "https://www.yna.co.kr/view/AKR20261027128400001"
+    },
+    {
+     "title": "‘사후 계엄선포문 작성’ 강의구 전 부속실장, 징역 1년6개월 확정",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ETmVFZTNscURSR0Q0bUFUSXJacUFaLTlxbUNfSkRuSDNlMXJHZXFwMnA3bDlsTUZyY29ZOEtkSGc2Z3N4eFlaR0cwRzctNm9zYUcyUUl4SEpqN2U2SnEtbndkTUhwVGhjcVcwanAzTXFyQQ?oc=5",
+     "published": "2026-10-27T10:52:00+00:00",
+     "outlet": "한겨레",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "MBC 뉴스",
+       "title": "[속보] '사후 계엄선포문' 강의구 전 대통령실 부속실장, 징역 1년 6개월 확정",
+       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE42MzRqVFlHdnhzVzNYNHBYbmZURFMtZEJTYTgyVlJONUt5bC1CMGY1Z3ZWNEdlejVmNUszYUVMRzVWcVl4WVNqMXFvSDlTaXhDN0NuX0MxVUl1TkhTRnFpY1kzSkNoenZEd1g5dzhHLW90X3NuMTFn0gF3QVVfeXFMTlVJRjFNemkzczFsUXB1aVpOZVpLYmNjOE95aXVlN1ZTXzdkQW5Cek5mVEUwVS1la2JjelRjeU1RdmRZVjlOLTdUMU5ZdEtMTkY3OV9kVzBFeDRIXzFJWEY0WTNkT1duX09XNVd6Q1k2Y3ZJeXpHWEU?oc=5"
+      },
+      {
+       "outlet": "JTBC",
+       "title": "‘사후 계엄선포문 작성’ 강의구 전 부속실장 징역 1년 6개월 확정",
+       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzRXo5MmpVM294NkRRLVpidnhjRURiNU9vM1FuUHo1a0puSHpKSUQ3bVRCWkM3NDdlVllEWkppSjJTQlhNX09XeUVQZWphNmpvY19SZA?oc=5"
+      }
+     ]
+    },
+    {
+     "title": "박정희 47주기 추모식 국힘 지도부 총출동‥장동혁·오세훈 악수",
+     "summary": "",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94WXZXRG1KR1Q5bTZzTk9jcmlQb1FPUGN2SFhndFVaLXZIdTdnMVpQYnZGbkI5M1RHekFSRHF3dTNkQlBjN09YSDZpNnVqQWcwdGE5VFE5S01qVGlKUWxrSlp2QmJpTUhrS3dqS0hlUXVKQXJxNnFQONIBeEFVX3lxTFAyWEVKU2tONUIxSkwtZnY5Yno3bVZvOG91MmlqRHE0TWtpbUJtdjl3WGZvYTFpOTljaGE4Ql9PNVd0UVRjczU3aWROTXFXT3ZKTkRDNDBxMkR6eGl3YTBtWk5YZHFKQXFDbkR6MnM5c25ZQ0ZJMzlVWg?oc=5",
+     "published": "2026-10-26T05:34:52+00:00",
+     "outlet": "MBC 뉴스",
+     "coverage": 5,
+     "related": [
+      {
+       "outlet": "경향신문",
+       "title": "운영비만 해마다 수십억원인데···자료관 더 짓고 재단도 세운다는 ‘구미시’",
+       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rZEN6OVM3dG50aUk2eFFBTHdvcFJlcjVmek1ua0NFMTVpY0p4ZXFoQVFVXzdEcUNnMnRFdzRQSndfLURvQTNSZkhOaVJsSU1jTW9mZFdCd2hzQdIBX0FVX3lxTE15OGRDVkl3RExBSEdEa0oyZlF0Rm1iTlBvc1g3WWdOXzRfV1M1eVYwMVZ1a0xDbjZzUVNicF9wbnJZb3ZJOFRtUzdDNkNoMGs4WWg2MVZxZGpUQ0NNdjZv?oc=5"
       },
       {
        "outlet": "노컷뉴스",
-       "title": "'檢출신' 양부남·박균택 법무장관 카드…與엔 양날의 칼?",
-       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8yck80d2J2T19BcVZ5VE83YWhVZmRyZldleE1EbV9JYUc4NUlXOVE0RmRXcDhrZ2NSYnF5X3pNY3htX0NwYnh1YW9oMHlkTG14ZEE?oc=5"
+       "title": "[속보] 구룡마을 화재로 강남 인근 연기 다량 발생…\"인명피해 파악중\"",
+       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XY3dQWk5yNVY3bmxVMXBNYUxpVnAzR21QNlIzSXp0VUQ3OUV4c3ZOYmVHcDVzMnc4Vl9SRHloRXlZcVZoNzRaQ0ROeEdXUGVOSlE?oc=5"
       }
      ]
     },
@@ -822,84 +956,24 @@
      "related": []
     },
     {
-     "title": "‘YS 오른팔’ 최형우 전 내무부 장관 별세…김민석·장동혁 공동장례위원장 맡아",
+     "title": "[이슈분석] 민주당 ‘신천지 12만 명단 대조’ 파장… “신도 명단 무단수집·보관은 형사처벌감”",
      "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBWTFJWRlFhemNuYVJWbjc4QlRNOWxIYW1vWm1TMjBjU3RoMVg1NlUxNTRKWWo1QjdZLXdhODUyM2ZKM3VZLUtPMDJzX0dpQTR3a2RuLWVrSkZSZ9IBX0FVX3lxTE8tcC1EaHZqRi1TZHJuTjFQa25QS3ljY09SaFBYbXVVMVpHVkdLVlZaV3d4UERvQXpXeXItVzFYTFp3OHJWeWNFWDlkTjVEc1h5TExQVURvSmtORlNiSlhj?oc=5",
-     "published": "2026-10-25T08:03:00+00:00",
-     "outlet": "경향신문",
-     "coverage": 4,
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41cWlRN2xUVU12bDNVS2lWOVc0U012WUw1bng5MEU3LXRhM0NZVlJCZkRjd3dFS0N5UkQzOEtpYzY5dnJGbEdaNXNuTDliNElTQmVSVzFEWFRRbWozVUt2RHFXT2Zqd1plLXc?oc=5",
+     "published": "2026-10-26T05:33:39+00:00",
+     "outlet": "천지일보",
+     "coverage": 5,
      "related": [
       {
-       "outlet": "연합뉴스",
-       "title": "故최형우 장례 사흘째 MB·권노갑 등 발길…\"하늘나라서 편안히\"(종합)",
-       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wWGJRQ0hXaGpVMkxVeW0wMjFCaXg5Rkl1dTNvRnQ3NC1SeHBaMm1LTUhXQzJIdjBsMHY2TU5HUE9HRmsyb19uVXFPeVpxakEySHpTTGVTNjhOT2vSAWBBVV95cUxPbEMxcTd2VWRDOGVhOGpLUzRLc3R5ZV9penppVHdaMUxPb1pMcmx6cVExeUxwT0l2MjBSeENXR2JJQ1phUWhGSUZfN3dGQTE4OWljYzVvMl9vcGZjNjhpTkY?oc=5"
+       "outlet": "경향신문",
+       "title": "\"정청래는 억울한 거 참을 줄 아는 사람\" 김갑수가 전하는 진심 조언은?(261027 화요일 클립) 김갑수 박순봉 김윤형 전수미",
+       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12X0RNVVdQTVdQU2NKcHBLQXBZZnEtdTRYbDVSSVBlSVlYVlJscHJIUjlsdHpmUDVjZDRtNGpnaF80UWwtdXBFcHZJcXg3Z09hZENQMDdpV1pIYWhETFZCanBn?oc=5"
       },
       {
-       "outlet": "조선일보",
-       "title": "\"자리 탐하지 마라, 돈은 흘려 보내라… 충고하던 모습이 아직도 아른거려\"",
-       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMV9rOGJseFFFNG5IdGFMTjk4cUZJRmRpRlZ2WVFzYXNDLWs2OGtOQ0lCd25CLXVQRVN3bU5FZHJLaDRfWVlqMTk0bEZJdzJLYm4xTzFJZ1ZyUmtwenFNODc2X1NHbEQzS3lnZk15dVVKbWRVYk5vRmYtMzVuZUJEejFnMWhha0hWTWNNb18zNU0?oc=5"
+       "outlet": "KBS 뉴스",
+       "title": "민주당, 오늘 의원총회…내년도 예산안, ‘신천지 의혹’ 등 논의",
+       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92ZS1NNm1DTDc3T1NIdXNWc3RGVjZsYXBtYzFKLWd3RDNSWlM3Umc2c01CMFBBVTUtc0pZN2RiOTUwdkR0SjZWbUxiWGVWOVVZNklWRHdDeTF6OG8?oc=5"
       }
      ]
-    },
-    {
-     "title": "박정희 47주기 추모식 국힘 지도부 총출동‥장동혁·오세훈 악수",
-     "summary": "박정희 전 대통령의 47주기 추모식이 26일 오전 동작구 국립서울현충원의 박 전 대통령 묘역에서 열렸다...",
-     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE94WXZXRG1KR1Q5bTZzTk9jcmlQb1FPUGN2SFhndFVaLXZIdTdnMVpQYnZGbkI5M1RHekFSRHF3dTNkQlBjN09YSDZpNnVqQWcwdGE5VFE5S01qVGlKUWxrSlp2QmJpTUhrS3dqS0hlUXVKQXJxNnFQONIBeEFVX3lxTFAyWEVKU2tONUIxSkwtZnY5Yno3bVZvOG91MmlqRHE0TWtpbUJtdjl3WGZvYTFpOTljaGE4Ql9PNVd0UVRjczU3aWROTXFXT3ZKTkRDNDBxMkR6eGl3YTBtWk5YZHFKQXFDbkR6MnM5c25ZQ0ZJMzlVWg?oc=5",
-     "published": "2026-10-26T05:34:52+00:00",
-     "outlet": "MBC 뉴스",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "연합뉴스",
-       "title": "박정희 47주기 추모식 열려…유족 \"암살자(들) 믿어선 안 돼\"(종합2보)",
-       "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKWUpVRGhraW5CX0pxV1RmU0FQYmhLZGV6aWVtVnF6M1I1aVloemU5MFBuXzJEVVVSTUQ5NFJNN1RyM2N2MzduYjU1cDR2SGhyUHloQ2lpaGFKbzDSAWBBVV95cUxPRTJEMGV4blpxTF8tNFZ6blU2ZnAxOWdWSUR1NHItZ2xtdnhpWTc5eXZUUDNjcEYyZ3Vya1h4WHFOSFF4ZDA3QUhqNnpGRWR1X3VJc0ZLSkNwUlFWemtyTVE?oc=5"
-      },
-      {
-       "outlet": "국제신문",
-       "title": "[속보] 오세훈, 법원 찾은 野의원들과 공관 만찬…“보수 통합해야”",
-       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdVNLYzBSU0VwY3dxVDFnNGFtNjRJMWV2YUo3a2NMRjJMdWRhaTQ5Nm9tRmxPZmdWUGotNEZDd1JYVXlqVzFmbmhXN1o2TE1mc0F3YVAzZks0bHJmbkcxcU5Uak1nOE1WR01ScUxYLTdXMVN0M0xXUFRNdmcza1l0ZFBLQnp4c3VtSmViS3JR?oc=5"
-      }
-     ],
-     "direct": "https://www.yna.co.kr/view/AKR20261026083100001"
-    },
-    {
-     "title": "[만물상] 정치인의 ‘센터 경쟁’",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPS0t2bjhJbGZTN1N2Mm1jdGUyOGN1VzVuSDFrYTAwd3R6Ul9vYUpuLURfMWhReDRJQkRmdzVIdjVadUt3ckUyeHpHN25HQjVRVEM0dkU0c3puclBqTVJmcGpNdjRSUFpQRmNEUzY5NlV3SVlIb3FyeDdPazREZjM3Y0V0cjRLZTA?oc=5",
-     "published": "2026-10-25T11:00:43+00:00",
-     "outlet": "조선일보",
-     "coverage": 1,
-     "related": []
-    },
-    {
-     "title": "드라마 ‘조희대 탄핵’ [아침햇발]",
-     "summary": "",
-     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9MWFdrRU81QzdiWHdRNF85Z3ZvV1ppNnFjc3B1VVp1X1FMczQyLXE5X3Y1UGhXTXZCOFdra3gxR2tKcF84amVjQ2JGbU1qUGxlU3c2V1B1WjZPakVTblQxdlZGRk5tQQ?oc=5",
-     "published": "2026-10-26T19:04:00+00:00",
-     "outlet": "한겨레",
-     "coverage": 1,
-     "related": []
-    },
-    {
-     "title": "윤석열 부부 영치금 21억원…법무장관 대행 \"운영개선 필요\"",
-     "summary": "이진수 법무부 장관 직무대행(법무부 차관)이 영치금의 기간별 한도를 정하는 방식의 법안이 필요하다는 입장을 밝...",
-     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92ZHhrdFp3NDRJLU9rdzh2NkJTSV92SnNaZHhqMHFjUEZ4VDNPSGhMeGg2QVVuVXJBaEwyMmI5eUctQmlfNGhJN0RIeVhPb2l4eWhCeC0zMUhpdlXSAWBBVV95cUxOcGg2MzN3Uk1UVUxfb3B2YWF4UFZKTTk4anNucTBvYjVocHpwc0p6NjNzaDZZNUQybTBrMS16WkdTcmo2N0hpT2M1MFRZVnlLemp5NndpYWo3SjRZYmluTXc?oc=5",
-     "published": "2026-10-26T07:57:10+00:00",
-     "outlet": "연합뉴스",
-     "coverage": 5,
-     "related": [
-      {
-       "outlet": "주간조선",
-       "title": "윤석열·김건희 영치금 21억9000만원…법무부, ‘무제한 입금’ 손보나",
-       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9JQ0NDN09LaUozRDdxVXREWWZrOTdac1FLeTRybkhkOVRzcjJaTUFhWHBvaGpoT1NzZ3FCUkhMbnozV09sMnBUWTF2TWRBcFE5RDgwQ1g5QXZMXzJNQ0ppU2FlUjAtbjFHbWfSAW5BVV95cUxObllBSUJZbDlJc2pfMXlKREY2cVE3dDJJaTRJWGVDZ2RvR2FUNGdrcmNTcHpKbmM2c1dQNTZQZEx0bFBDalhhLXFjWjRCUDNhSjBmZmc4QzhoZk1yZVZYR1U0RTZLMV9UUDF6b3Zrdw?oc=5"
-      },
-      {
-       "outlet": "MBC 뉴스",
-       "title": "尹 부부 영치금 21억 원‥법무장관 대행 \"개선 필요\"",
-       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ITmM4R1E2SXV2cjJJRUdldmdDOXhmekdsaUxqT0FJeTVBYWlVMk81YkRnSjNweDVKa0NtSXBIYVVfRjgzbVN6ZHgzYm14R0laWm1lT1dyQlNyQ3ROaFN6bzFkZDQwYmp4SHNuaUZHSXZhZG5hSlRZ0gF3QVVfeXFMUFdaUldRWVU1aVNUTlYtT08yd1lOVE9vUC1pTHM2aVMtd0dEbmd2cVRUamktNDhicU1pclhqczZ2VVVpNE5kM1V0NnYzckIyNkZyVWhzQmx2Z3FSVTVORklrbW5mNVkyUG9TbE9YQktxSkJUYnAyNkU?oc=5"
-      }
-     ],
-     "direct": "https://www.yna.co.kr/view/AKR20261026145000004"
     }
    ]
   }
